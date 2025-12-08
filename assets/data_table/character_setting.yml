@@ -1,0 +1,60 @@
+table:
+  - jobCode: 2000 # 아란
+    level: 1
+    startMap: 993218101
+    skillPoint: [0, 0]
+    stat: {str: 4, dex: 4, int: 4, luk: 4, mhp: 50, mmp: 50, speed: 160, jump: 580, recoveryHp: 10, recoveryMp: 10}
+    equips:
+      - { id: 1054187, count: 1 }
+      - { id: 1073949, count: 1 }
+      - { id: 1442079, count: 1 }
+      - { id: 55166, count: 1 }
+      - { id: 63780, count: 1 }
+    skills:
+      - { id: 0001099, level: 1 }
+      - { id: 0001090, level: 1 }
+      - { id: 20001295, level: 1 }
+      - { id: 21001010, level: 1 }
+      - { id: 21000006, level: 1 }
+      - { id: 21000007, level: 1 }
+    quest:
+      - 21010
+  - jobCode: 2001 # 에반
+    level: 1
+    startMap: 900010000
+    skillPoint: [0, 0]
+    stat: { str: 4, dex: 4, int: 20, luk: 4, mhp: 50, mmp: 50, speed: 160, jump: 580, recoveryHp: 10, recoveryMp: 10 }
+    equips:
+      - { id: 1042180, count: 1 }
+      - { id: 1060138, count: 1 }
+      - { id: 1072418, count: 1 }
+      - { id: 1372043, count: 1 }
+    skills:
+      - { id: 0001099, level: 1 }
+      - { id: 0001091, level: 1 }
+    quest:
+      - 22000
+  - jobCode: 2002 # 메르세데스
+    level: 1
+    startMap: 900010000
+    skillPoint: [ 0, 0 ]
+    stat: { str: 4, dex: 4, int: 4, luk: 4, mhp: 50, mmp: 50, speed: 160, jump: 660 }
+    equips:
+      - { id: 20557, count: 1 }
+      - { id: 33453, count: 1 }
+      - { id: 1050192, count: 1 }
+      - { id: 1072383, count: 1 }
+      - { id: 1522000, count: 1 }
+    skills:
+      - { id: 0001099, level: 1 }
+    quest:
+      - 22000
+  - jobCode: 12100 # 탄지로
+    level: 1
+    startMap: 993257020
+    skillPoint: [ 0, 0 ]
+    stat: { str: 999, dex: 999, int: 999, luk: 999, pad: 10, mhp: 1000000, mmp: 99999, speed: 160, jump: 580, recoveryHp: 0, recoveryMp: 10 }
+    equips:
+    skills:
+      - { id: 80001431, level: 1 }
+

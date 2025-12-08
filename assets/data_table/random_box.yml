@@ -1,0 +1,29 @@
+# prob: 1.0 = 100%
+#
+# itemList: 항목 별 드랍율 = 항목.weight / (weight 총합)
+#  * id: 보상 id
+#  * amount: 개수. 기본값 = 1
+#  * weight: 가중치. 기본값 = 1
+
+table:
+  - id: 1
+    prob: 0.9
+    list:
+      - { id: 4032498, amount: 1 }
+  - id: 2
+    prob: 0.9
+    list:
+      - { id: 4001339, amount: 1 }
+  - id: 3
+    prob: 0.9
+    list:
+      - { id: 4000021, amount: 1, weight: 7}
+      - { id: 4032453, amount: 1, weight: 3}
+  - id: 4
+    prob: 0.9
+    list:
+      - { id: 4000002, amount: 1 }
+  - id: 5
+    prob: 0.9
+    list:
+      - { id: 4000001, amount: 1 }

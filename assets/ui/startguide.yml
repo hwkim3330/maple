@@ -1,0 +1,22 @@
+root:
+  children:
+    - type: 'Image'
+      name: '0'
+      pos: [ 0, 0 ]
+      imagePath: 'ui/2024_collabo/start_guide_jp.png'
+    - type: 'Image'
+      name: '1'
+      pos: [ 0, 0 ]
+      imagePath: 'ui/2024_collabo/start_guide_jp_1.png'
+    - type: 'Image'
+      name: '2'
+      pos: [ 0, 0 ]
+      imagePath: 'ui/2024_collabo/start_guide_jp_2.png'
+    - type: 'Image'
+      name: '3'
+      pos: [ 0, 0 ]
+      imagePath: 'ui/2024_collabo/start_guide_jp_3.png'
+    - type: 'Image'
+      name: '4'
+      pos: [ 0, 0 ]
+      imagePath: 'ui/2024_collabo/start_guide_jp.png'

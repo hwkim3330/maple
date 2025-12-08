@@ -1,0 +1,42 @@
+# navigation
+#
+
+table:
+  - id: 22000
+    availableComplete: { npc: 1013101, map: 100030102 }
+  - id: 22001
+    availableComplete: { npc: 1013102, map: 100030102 }
+  - id: 22002
+    availableComplete: { npc: 1013100, map: 100030101 }
+  - id: 22003
+    availableComplete: { npc: 1013103, map: 100030300 }
+  - id: 22005
+    progress: { npc: 0, map: 900020100 }
+    availableComplete: { npc: 1013103, map: 100030300 }
+  - id: 22006
+    availableComplete: { npc: 1013100, map: 100030101 }
+  - id: 22007
+    progress: { npc: 1013104, map: 100030102 }
+    availableComplete: { npc: 1013101, map: 100030102 }
+  - id: 22008
+    progress: { npc: 0, map: 100030103 }
+    availableComplete: { npc: 1013101, map: 100030102 }
+  - id: 22009
+    availableComplete: { npc: 1013103, map: 100030300 }
+  - id: 22010
+    progress: { npc: 0, map: 100030310 }
+    availableComplete: { npc: 1013103, map: 100030300 }
+  - id: 22500
+    progress: { npc: 0, map: 100030310 }
+  - id: 22501
+    availableComplete: { npc: 1013103, map: 100030300 }
+  - id: 22503
+    progress: { npc: 0, map: 100030310 }
+  - id: 22504
+    availableComplete: { npc: 1013103, map: 100030300 }
+  - id: 22505
+    availableComplete: { npc: 1013105, map: 100030310 }
+  - id: 22509
+    progress: { npc: 0, map: 100030320 }
+  - id: 22510
+    availableComplete: { npc: 1012003, map: 100000000 }

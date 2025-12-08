@@ -1,0 +1,62 @@
+table:
+   - skill:
+     # 2024_collabo
+     - { id: 121001000, type: use, path: 'assets/audio/skill/121001000_use.mp3', volume: 0.3 }
+     - { id: 121001000, type: hit, path: 'assets/audio/skill/121001000_hit.mp3', volume: 0.3 }
+     - { id: 121001000, type: voice, path: 'assets/audio/skill/121001000_voice.mp3', volume: 1.0 }
+     - { id: 121001001, type: use, path: 'assets/audio/skill/121001001_use.mp3', volume: 0.3 }
+     - { id: 121001001, type: voice, path: 'assets/audio/skill/121001001_voice.mp3', volume: 1.0 }
+     - { id: 121001001, type: hit, path: 'assets/audio/skill/121001001_hit.mp3', volume: 0.3 }
+     - { id: 121001002, type: use, path: 'assets/audio/skill/121001002_use.mp3', volume: 0.3 }
+     - { id: 121001002, type: hit, path: 'assets/audio/skill/121001002_hit.mp3', volume: 0.3 }
+     - { id: 121001003, type: use, path: 'assets/audio/skill/121001003_use.mp3', volume: 0.3 }
+     - { id: 121001003, type: hit, path: 'assets/audio/skill/121001003_hit.mp3', volume: 0.3 }
+     - { id: 121001006, type: use, path: 'assets/audio/skill/121001006_use.mp3', volume: 0.3 }
+     - { id: 121001007, type: use, path: 'assets/audio/skill/121001007_use.mp3', volume: 0.3 }
+     - { id: 121001008, type: use, path: 'assets/audio/skill/121001008_use.mp3', volume: 0.3 }
+     - { id: 121001008, type: hit, path: 'assets/audio/skill/121001008_hit.mp3', volume: 0.3 }
+     - { id: 121002000, type: use, path: 'assets/audio/skill/121002000_use.mp3', volume: 0.3 }
+     - { id: 121002000, type: hit, path: 'assets/audio/skill/121002000_hit.mp3', volume: 0.3 }
+     - { id: 121002000, type: voice, path: 'assets/audio/skill/121002000_voice.mp3', volume: 1.0 }
+     - { id: 121002001, type: use, path: 'assets/audio/skill/121002001_use.mp3', volume: 0.3 }
+     - { id: 121002001, type: hit, path: 'assets/audio/skill/121002001_hit.mp3', volume: 0.3 }
+     - { id: 121002001, type: voice, path: 'assets/audio/skill/121002001_voice.mp3', volume: 1.0 }
+   - bgm:
+     - { id: 993257000, path: 'assets/audio/Sound/Bgm00/2024collabo_eventmap_loop.mp3', volume: 0.3 }
+     - { id: 993257010, path: 'assets/audio/Sound/Bgm00/2024collabo_eventmap_loop.mp3', volume: 0.3 }
+     - { id: 993257011, path: 'assets/audio/Sound/Bgm00/2024collabo_eventmap_loop.mp3', volume: 0.3 }
+     - { id: 993257012, path: 'assets/audio/Sound/Bgm00/2024collabo_eventmap_loop.mp3', volume: 0.3 }
+     - { id: 993257100, path: 'assets/audio/Sound/Bgm00/2024collabo_eventmap_loop.mp3', volume: 0.3 }
+     - { id: 993257110, path: 'assets/audio/Sound/Bgm00/2024collabo_eventmap_loop.mp3', volume: 0.3 }
+     - { id: 993257111, path: 'assets/audio/Sound/Bgm00/2024collabo_eventmap_loop.mp3', volume: 0.3 }
+     - { id: 993257112, path: 'assets/audio/Sound/Bgm00/2024collabo_eventmap_loop.mp3', volume: 0.3 }
+     - { id: 993257113, path: 'assets/audio/Sound/Bgm00/2024collabo_eventmap_loop.mp3', volume: 0.3 }
+     - { id: 993257114, path: 'assets/audio/Sound/Bgm00/2024collabo_eventmap_loop.mp3', volume: 0.3 }
+     - { id: 993257115, path: 'assets/audio/Sound/Bgm00/2024collabo_eventmap_loop.mp3', volume: 0.3 }
+     - { id: 993257116, path: 'assets/audio/Sound/Bgm00/2024collabo_eventmap_loop.mp3', volume: 0.3 }
+     - { id: 993257117, path: 'assets/audio/Sound/Bgm00/2024collabo_eventmap_loop.mp3', volume: 0.3 }
+   - npc:
+   - etc:
+     - { key: 'countDown', path: 'assets/audio/etc/count1.mp3', volume: 1 }
+     - { key: 'jump', path: 'assets/audio/etc/default_jump.mp3', volume: 1 }
+   - ui:
+     - { key: 'btMouseClick', path: 'assets/audio/Sound/Ui/BtMouseClick.mp3', volume: 1 }
+     - { key: 'btMouseOver', path: 'assets/audio/Sound/Ui/BtMouseOver.mp3', volume: 1 }
+     - { key: 'dlgNotice', path: 'assets/audio/Sound/Ui/DlgNotice.mp3', volume: 1 }
+     - { key: 'dragEnd', path: 'assets/audio/Sound/Ui/DragEnd.mp3', volume: 1 }
+     - { key: 'DragStart', path: 'assets/audio/Sound/Ui/DragStart.mp3', volume: 1 }
+     - { key: 'invite', path: 'assets/audio/Sound/Ui/Invite.mp3', volume: 0.5 }
+     - { key: 'menuDown', path: 'assets/audio/Sound/Ui/MenuDown.mp3', volume: 1 }
+     - { key: 'menuUp', path: 'assets/audio/Sound/Ui/MenuUp.mp3', volume: 1 }
+     - { key: 'tab', path: 'assets/audio/Sound/Ui/Tab.mp3', volume: 1 }
+   - game:
+     - { key: 'dropItem', path: 'assets/audio/Sound/Game/DropItem.mp3', volume: 1 }
+     - { key: 'jump', path: 'assets/audio/Sound/Game/Jump.mp3', volume: 1 }
+     - { key: 'levelUp', path: 'assets/audio/Sound/Game/LevelUp.mp3', volume: 0.3 }
+     - { key: 'pickUpItem', path: 'assets/audio/Sound/Game/PickUpItem.mp3', volume: 1 }
+     - { key: 'portal', path: 'assets/audio/Sound/Game/Portal.mp3', volume: 1 }
+     - { key: 'tombstone', path: 'assets/audio/Sound/Game/Tombstone.mp3', volume: 1 }
+     - { key: 'finish', path: 'assets/audio/Sound/Game/finish.mp3', volume: 0.3 }
+   - voice:
+   - mob:
+   - weapon:

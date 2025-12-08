@@ -1,0 +1,26 @@
+root:
+  children:
+    - type: 'Button'
+      name: 'btnHome'
+      pos: [ 0, 10 ]
+      skinMultiImages:
+        - 'ui/2024_collabo/btn_link_home_nomal.png'
+        - 'ui/2024_collabo/btn_link_home_over.png'
+        - 'ui/2024_collabo/btn_link_home_nomal.png'
+        - 'ui/2024_collabo/btn_link_home_nomal.png'
+    - type: 'Button'
+      name: 'btnYoutube'
+      pos: [ 58, 10 ]
+      skinMultiImages:
+        - 'ui/2024_collabo/btn_link_youtube_nomal.png'
+        - 'ui/2024_collabo/btn_link_youtube_over.png'
+        - 'ui/2024_collabo/btn_link_youtube_nomal.png'
+        - 'ui/2024_collabo/btn_link_youtube_nomal.png'
+    - type: 'Button'
+      name: 'btnX'
+      pos: [ 116, 10 ]
+      skinMultiImages:
+        - 'ui/2024_collabo/btn_link_instar_nomal.png'
+        - 'ui/2024_collabo/btn_link_instar_over.png'
+        - 'ui/2024_collabo/btn_link_instar_nomal.png'
+        - 'ui/2024_collabo/btn_link_instar_nomal.png'

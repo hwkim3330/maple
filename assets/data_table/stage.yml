@@ -1,0 +1,31 @@
+table:
+  - level: 1
+    timer: 60
+    mobs:
+      - { id: 5120503, hp: 20, startSpawnDelayCount: 0, spawnMaxCount: 50, stageMaxCount: 99, spawnTime: 5000 }
+      - { id: 9833843, hp: 60, startSpawnDelayCount: 40, spawnMaxCount: 1, stageMaxCount: 1, spawnTime: 7000, subBoss: true }
+    mapObjects:
+      - { id: 7130602, x: -100, y: 10 }
+      - { id: 7130602, x: -100, y: -40 }
+  - level: 2
+    timer: 60
+    mobs:
+      - { id: 5120503, hp: 20, startSpawnDelayCount: 0, spawnMaxCount: 50, stageMaxCount: 98, spawnTime: 4000 }
+      - { id: 9833843, hp: 120, startSpawnDelayCount: 20, spawnMaxCount: 1, stageMaxCount: 1, spawnTime: 7000, subBoss: true, x : 250 }
+      - { id: 9833842, hp: 160, startSpawnDelayCount: 40, spawnMaxCount: 1, stageMaxCount: 1, spawnTime: 7000, subBoss: true, x : 0 }
+    mapObjects:
+      - { id: 7130602, x: -100, y: 10 }
+      - { id: 7130602, x: -100, y: -40 }
+      - { id: 7130602, x: 310, y: 10 }
+  - level: 3
+    timer: 60
+    mobs:
+      - { id: 9833843, hp: 80, startSpawnDelayCount: 13, spawnMaxCount: 1, stageMaxCount: 1, spawnTime: 7000, subBoss: true, x : 250 }
+      - { id: 9833844, hp: 80, startSpawnDelayCount: 20, spawnMaxCount: 1, stageMaxCount: 1, spawnTime: 7000, subBoss: true, x : -250 }
+      - { id: 9833842, hp: 200, startSpawnDelayCount: 30, spawnMaxCount: 1, stageMaxCount: 1, spawnTime: 7000, boss: true, x : 0 }
+      - { id: 5120503, hp: 25, startSpawnDelayCount: 0, spawnMaxCount: 20, stageMaxCount: 67, spawnTime: 4000 }
+    mapObjects:
+      - { id: 7130602, x: -100, y: 10 }
+      - { id: 7130602, x: -100, y: -40 }
+      - { id: 7130602, x: 310, y: 10 }
+      - { id: 7130602, x: 310, y: -40 }

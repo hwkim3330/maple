@@ -1,0 +1,21 @@
+table:
+  - { level: 1, nextExp: 15, exp: 15, hp: 0, mp: 0, ap: 0, skillPoint: 0 }
+  - { level: 2, nextExp: 34, exp: 49, hp: 16, mp: 12, ap: 5, skillPoint: 1 }
+  - { level: 3, nextExp: 57, exp: 106, hp: 16, mp: 12, ap: 5, skillPoint: 1 }
+  - { level: 4, nextExp: 92, exp: 198, hp: 16, mp: 12, ap: 5, skillPoint: 1 }
+  - { level: 5, nextExp: 135, exp: 333, hp: 16, mp: 12, ap: 5, skillPoint: 1 }
+  - { level: 6, nextExp: 372, exp: 705, hp: 16, mp: 12, ap: 5, skillPoint: 1 }
+  - { level: 7, nextExp: 560, exp: 1265, hp: 16, mp: 12, ap: 5, skillPoint: 1 }
+  - { level: 8, nextExp: 840, exp: 2105, hp: 16, mp: 12, ap: 5, skillPoint: 0 }
+  - { level: 9, nextExp: 1242, exp: 3347, hp: 16, mp: 12, ap: 5, skillPoint: 0 }
+  - { level: 10, nextExp: 1242, exp: 4589, hp: 16, mp: 12, ap: 5, skillPoint: 5 }
+  - { level: 11, nextExp: 1242, exp: 5831, hp: 0, mp: 0, ap: 5, skillPoint: 3 }
+  - { level: 12, nextExp: 1242, exp: 7073, hp: 0, mp: 0, ap: 5, skillPoint: 3 }
+  - { level: 13, nextExp: 1242, exp: 8315, hp: 0, mp: 0, ap: 5, skillPoint: 3 }
+  - { level: 14, nextExp: 1242, exp: 9557, hp: 0, mp: 0, ap: 5, skillPoint: 3 }
+  - { level: 15, nextExp: 1490, exp: 11047, hp: 0, mp: 0, ap: 5, skillPoint: 3 }
+  - { level: 16, nextExp: 1788, exp: 12835	, hp: 0, mp: 0, ap: 5, skillPoint: 3 }
+  - { level: 17, nextExp: 2145, exp: 14980, hp: 0, mp: 0, ap: 5, skillPoint: 3 }
+  - { level: 18, nextExp: 2570, exp: 17554, hp: 0, mp: 0, ap: 5, skillPoint: 3 }
+  - { level: 19, nextExp: 3088, exp: 20642, hp: 0, mp: 0, ap: 5, skillPoint: 3 }
+  - { level: 20, nextExp: 3705, exp: 24347, hp: 0, mp: 0, ap: 5, skillPoint: 3 }

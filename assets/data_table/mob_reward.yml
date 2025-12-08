@@ -1,0 +1,20 @@
+# 위컴알에 없는 몹 추가 기능 구현
+# id: mob id
+# randomBoxIds: id @ random_box.yml. 다중 세팅 가능
+
+table:
+  - id: 9100045
+    meso: { min: 10, max: 15 }
+    randomBoxIds: [ 1 ]
+  - id: 9300385
+    meso: { min: 10, max: 15 }
+    randomBoxIds: [ 2 ]
+  - id: 1210100
+    meso: { min: 10, max: 15 }
+    randomBoxIds: [ 3 ]
+  - id: 1210111
+    meso: { min: 10, max: 15 }
+    randomBoxIds: [ 4 ]
+  - id: 1210102
+    meso: { min: 10, max: 15 }
+    randomBoxIds: [ 5 ]

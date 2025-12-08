@@ -1,0 +1,14 @@
+{
+    "name": "maplestory",
+    "short_name": "maplestory",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "Html5 Web MapleStory",
+    "orientation": "portrait-primary",
+    "prefer_related_applications": false,
+    "icons": [
+
+    ]
+}

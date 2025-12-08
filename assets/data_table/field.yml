@@ -1,0 +1,253 @@
+table:
+  - id: 0 # 인트로 화면
+    mainUiPath: field/1/intro2.png
+    nextFieldId: 1
+  - id: 1 # 캐릭터 선택 화면
+    mainUiPath: field/2/selectcharacterbg.png
+    nextFieldId: 2
+  - id: 2 # 캐릭터 생성 화면
+    mainUiPath: field/2/selectcharacterbg.png
+    nextFieldId: 1
+
+  # 에반
+  - id: 900010000
+    maxUserCount: 1
+  - id: 900010100
+    maxUserCount: 1
+  - id: 900010200
+    maxUserCount: 1
+  - id: 900020100
+    maxUserCount: 10
+  - id: 900020200
+    maxUserCount: 10
+  - id: 900020210
+    maxUserCount: 10
+  - id: 900020220
+    maxUserCount: 10
+  - id: 900020110
+    maxUserCount: 10
+    overridingPortals:
+      - { id: out00, targetMapId: 100030300, targetPortalId: in00 }
+  - id: 100030100
+    maxUserCount: 10
+    overridingPortals:
+      - { id: out00, targetMapId: 100030101, targetPortalId: in00 }
+  - id: 100030101
+    maxUserCount: 10
+    overridingPortals:
+      - { id: in00, targetMapId: 100030100, targetPortalId: out00 }
+  - id: 100030102
+    maxUserCount: 10
+    overridingPortals:
+      - { id: in00, targetMapId: 100030101, targetPortalId: out00 }
+  - id: 100030103
+    maxUserCount: 10
+    overridingPortals:
+      - { id: west00, targetMapId: 100030102, targetPortalId: east00 }
+  - id: 100030200
+    maxUserCount: 10
+    overridingPortals:
+      - { id: west00, targetMapId: 100030300, targetPortalId: east00 }
+      - { id: east00, targetMapId: 100030102, targetPortalId: west00 }
+  - id: 100030300
+    maxUserCount: 10
+    overridingPortals:
+      - { id: west00, targetMapId: 100030310, targetPortalId: east00 }
+      - { id: east00, targetMapId: 100030200, targetPortalId: west00 }
+  - id: 100030310
+    maxUserCount: 10
+    overridingPortals:
+      - { id: west00, targetMapId: 100030320, targetPortalId: east00 }
+      - { id: east00, targetMapId: 100030300, targetPortalId: west00 }
+  - id: 100030320
+    maxUserCount: 10
+    overridingPortals:
+      - { id: west00, targetMapId: 100030400, targetPortalId: east00 }
+      - { id: east00, targetMapId: 100030310, targetPortalId: west00 }
+  - id: 100030400
+    maxUserCount: 10
+    overridingPortals:
+      - { id: out01, targetMapId: 100010000, targetPortalId: in01 }
+      - { id: east00, targetMapId: 100030320, targetPortalId: west00 }
+  - id: 100010000
+    maxUserCount: 10
+    overridingPortals:
+      - { id: in01, targetMapId: 100030400, targetPortalId: out01 }
+      - { id: east00, targetMapId: 100000000, targetPortalId: west00 }
+  - id: 100000000
+    maxUserCount: 10
+    overridingPortals:
+      - { id: west00, targetMapId: 100010000, targetPortalId: east00 }
+      
+  # 아란
+  - id: 993218100
+    maxUserCount: 1
+  - id: 993218101
+    maxUserCount: 1
+    overridingPortals:
+      - { id: out00, targetMapId: 993218104, targetPortalId: sp }
+  - id: 993218103
+    maxUserCount: 1
+  - id: 993218104
+    maxUserCount: 1
+    overridingPortals:
+      - { id: west00, targetMapId: 993218129, targetPortalId: east00 }
+  - id: 993218129
+    maxUserCount: 1
+    overridingPortals:
+      - { id: west00, targetMapId: 993218130, targetPortalId: east00 }
+      - { id: east00, targetMapId: 993218104, targetPortalId: west00 }
+  - id: 993218130
+    maxUserCount: 10
+    overridingPortals:
+      - { id: east00, targetMapId: 993218129, targetPortalId: west00 }
+      - { id: west00, targetMapId: 914000500, targetPortalId: sp }
+  - id: 993218105
+    maxUserCount: 1
+  - id: 993218106
+    maxUserCount: 1
+  - id: 914000220
+    maxUserCount: 10
+    overridingPortals:
+      - { id: east00, targetMapId: 914000210, targetPortalId: west00 }
+      - { id: west00, targetMapId: 914000300, targetPortalId: east00 }
+  - id: 914000300
+    maxUserCount: 10
+  - id: 914000500
+    maxUserCount: 10
+    overridingPortals:
+      - { id: out00, targetMapId: 140090000, targetPortalId: in00 }
+  - id: 140090000
+    maxUserCount: 10
+  - id: 140090100
+    maxUserCount: 10
+    overridingPortals:
+      - { id: west00, targetMapId: 140090200, targetPortalId: sp }
+  - id: 140090200
+    maxUserCount: 10
+    overridingPortals:
+      - { id: west00, targetMapId: 140090300, targetPortalId: sp }
+  - id: 140090300
+    maxUserCount: 10
+    overridingPortals:
+      - { id: west00, targetMapId: 140090400, targetPortalId: sp }
+  - id: 140090400
+    maxUserCount: 10
+    overridingPortals:
+      - { id: west00, targetMapId: 140090500, targetPortalId: sp }
+  - id: 140090500
+    maxUserCount: 10
+    overridingPortals:
+      - { id: west00, targetMapId: 140010000, targetPortalId: sp }
+  - id: 140010000
+    maxUserCount: 10
+    overridingPortals:
+      - { id: east00, targetMapId: 140000000, targetPortalId: sp }
+      - { id: west00, targetMapId: 140010100, targetPortalId: east00 }
+  - id: 140000000
+    maxUserCount: 10
+    overridingPortals:
+      - { id: east00, targetMapId: 140020000, targetPortalId: west00 }
+      - { id: west00, targetMapId: 140010000, targetPortalId: east00 }
+  - id: 140020000
+    maxUserCount: 10
+    overridingPortals:
+      - { id: east00, targetMapId: 140020100, targetPortalId: west00 }
+      - { id: west00, targetMapId: 140000000, targetPortalId: east00 }
+  - id: 140020100
+    maxUserCount: 10
+    overridingPortals:
+      - { id: east00, targetMapId: 140020200, targetPortalId: west00 }
+      - { id: west00, targetMapId: 140020000, targetPortalId: east00 }
+  - id: 140020200
+    maxUserCount: 10
+    overridingPortals:
+      - { id: east00, targetMapId: 140020300, targetPortalId: west00 }
+      - { id: west00, targetMapId: 140020100, targetPortalId: sp }
+  - id: 140010100
+    maxUserCount: 10
+    overridingPortals:
+      - { id: east00, targetMapId: 140010000, targetPortalId: west00 }
+      - { id: west00, targetMapId: 140010200, targetPortalId: east00 }
+  - id: 140010200
+    maxUserCount: 10
+    overridingPortals:
+      - { id: east00, targetMapId: 140010100, targetPortalId: west00 }
+  - id: 140020300
+    maxUserCount: 10
+    overridingPortals:
+      - { id: west00, targetMapId: 140020200, targetPortalId: east00 }
+  - id: 200090070
+    maxUserCount: 10
+    overridingPortals:
+      - { id: hd00, targetMapId: 140020300, targetPortalId: st00 }
+      - { id: hd01, targetMapId: 140020300, targetPortalId: st00 }
+      - { id: hd02, targetMapId: 140020300, targetPortalId: st00 }
+      - { id: hd03, targetMapId: 140020300, targetPortalId: st00 }
+      - { id: hd04, targetMapId: 140020300, targetPortalId: st00 }
+      - { id: hd05, targetMapId: 140020300, targetPortalId: st00 }
+      - { id: hd06, targetMapId: 140020300, targetPortalId: st00 }
+      - { id: hd07, targetMapId: 140020300, targetPortalId: st00 }
+  - id: 104000000
+    maxUserCount: 30
+    overridingPortals:
+      - { id: in03, targetMapId: 104000004, targetPortalId: sp }
+  - id: 104000004
+    maxUserCount: 30
+    overridingPortals:
+      - { id: out00, targetMapId: 104000000, targetPortalId: in03 }
+  - id: 951000300
+    maxUserCount: 30
+
+
+# 탄지로
+  - id: 993257000
+    maxUserCount: 1
+    overridingPortals:
+      - { id: tanjiro_road, targetMapId: 993257010, targetPortalId: sp }
+  - id: 993257010
+    maxUserCount: 1
+    overridingPortals:
+      - { id: tanjiro_road1, targetMapId: 993257011, targetPortalId: sp }
+  - id: 993257011
+    maxUserCount: 1
+    overridingPortals:
+      - { id: tanjiro_road2, targetMapId: 993257012, targetPortalId: sp }
+  - id: 993257012
+    maxUserCount: 1
+
+# NGM-탄지로
+  - id: 993257100
+    maxUserCount: 1
+    overridingPortals:
+      - { id: tanjiro_road, targetMapId: 993257110, targetPortalId: sp }
+  - id: 993257110
+    maxUserCount: 1
+    overridingPortals:
+      - { id: tanjiro_road1, targetMapId: 993257111, targetPortalId: sp }
+  - id: 993257111
+    maxUserCount: 1
+    overridingPortals:
+      - { id: tanjiro_road2, targetMapId: 993257112, targetPortalId: sp }
+  - id: 993257112
+    maxUserCount: 1
+    overridingPortals:
+      - { id: tanjiro_ngm_road, targetMapId: 993257113, targetPortalId: sp }
+  - id: 993257113
+    maxUserCount: 1
+    overridingPortals:
+      - { id: tanjiro_ngm_road, targetMapId: 993257114, targetPortalId: sp }
+  - id: 993257114
+    maxUserCount: 1
+    overridingPortals:
+      - { id: tanjiro_ngm_road, targetMapId: 993257115, targetPortalId: sp }
+  - id: 993257115
+    maxUserCount: 1
+    overridingPortals:
+      - { id: tanjiro_ngm_road, targetMapId: 993257116, targetPortalId: sp }
+  - id: 993257116
+    maxUserCount: 1
+    overridingPortals:
+      - { id: tanjiro_ngm_road, targetMapId: 993257117, targetPortalId: sp }
+  - id: 993257117
+    maxUserCount: 1
