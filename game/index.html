@@ -310,6 +310,18 @@
             assets.character.data = await charRes.json();
         } catch(e) { console.log('No character JSON'); }
 
+        // Load head sprites and data
+        try {
+            const headRes = await fetch('data/head/00012000.json');
+            assets.character.headData = await headRes.json();
+        } catch(e) { console.log('No head JSON'); }
+
+        // Load head images
+        assets.character.sprites['head_front'] = await loadImage('data/head/front_head.png');
+        assets.character.sprites['head_back'] = await loadImage('data/head/back_head.png');
+        assets.character.sprites['ear_front'] = await loadImage('data/head/front_ear.png');
+        assets.character.sprites['humanear_front'] = await loadImage('data/head/front_humanear.png');
+
         // Load character walk sprites
         for (let i = 0; i < 4; i++) {
             assets.character.sprites[`walk1_${i}_body`] = await loadImage(`data/character/walk1_${i}_body.png`);
@@ -922,7 +934,7 @@
         }
     }
 
-    // Draw player
+    // Draw player with proper body + head + arm composition
     function drawPlayer() {
         const screenX = player.x - camera.x + GAME_WIDTH/2;
         const screenY = player.y - camera.y + GAME_HEIGHT/2;
@@ -940,10 +952,12 @@
         const frame = player.frame;
         const body = assets.character.sprites[`${player.state}_${frame}_body`];
         const arm = assets.character.sprites[`${player.state}_${frame}_arm`];
+        const head = assets.character.sprites['head_front'];
 
         if (body) {
-            // Parse origin from JSON if available
+            // Parse origin and neck from JSON
             let bodyOrigin = { x: 19, y: 32 };
+            let bodyNeck = { x: -4, y: -32 };
             let armOrigin = { x: 6, y: 8 };
 
             if (assets.character.data?.[player.state]?.[frame]) {
@@ -952,21 +966,60 @@
                     const [ox, oy] = frameData.body.origin.split(',').map(n => parseInt(n.trim()));
                     bodyOrigin = { x: ox, y: oy };
                 }
+                if (frameData.body?.map?.neck) {
+                    const [nx, ny] = frameData.body.map.neck.split(',').map(n => parseInt(n.trim()));
+                    bodyNeck = { x: nx, y: ny };
+                }
                 if (frameData.arm?.origin) {
                     const [ox, oy] = frameData.arm.origin.split(',').map(n => parseInt(n.trim()));
                     armOrigin = { x: ox, y: oy };
                 }
             }
 
-            // Draw body
+            // Head positioning from JSON
+            // Head origin: 18, 17 / Head neck: 0, 15
+            let headOrigin = { x: 18, y: 17 };
+            let headNeck = { x: 0, y: 15 };
+            if (assets.character.headData?.front?.head) {
+                const hd = assets.character.headData.front.head;
+                if (hd.origin) {
+                    const [ox, oy] = hd.origin.split(',').map(n => parseInt(n.trim()));
+                    headOrigin = { x: ox, y: oy };
+                }
+                if (hd.map?.neck) {
+                    const [nx, ny] = hd.map.neck.split(',').map(n => parseInt(n.trim()));
+                    headNeck = { x: nx, y: ny };
+                }
+            }
+
+            // Calculate head position relative to body
+            // Body neck point is at: (-bodyOrigin.x + bodyNeck.x, -bodyOrigin.y + bodyNeck.y)
+            // Head needs to align its neck point to body's neck point
+            // So head draws at: neckPoint - (headNeck - (-headOrigin))
+            //                 = neckPoint - headNeck - headOrigin
+            const bodyNeckX = bodyNeck.x;
+            const bodyNeckY = bodyNeck.y;
+            const headX = bodyNeckX - headNeck.x - headOrigin.x;
+            const headY = bodyNeckY - headNeck.y - headOrigin.y;
+
+            // Draw in z-order: body -> head -> arm (over hair)
+            // 1. Draw body
             ctx.drawImage(body, -bodyOrigin.x, -bodyOrigin.y);
 
-            // Draw arm
+            // 2. Draw head on top of body at neck position
+            if (head) {
+                ctx.drawImage(head, headX, headY);
+            }
+
+            // 3. Draw arm
             if (arm) {
-                ctx.drawImage(arm, -armOrigin.x - 5, -armOrigin.y + 5);
+                // Arm connects via navel, calculate position
+                const armX = -armOrigin.x;
+                const armY = -armOrigin.y;
+                ctx.drawImage(arm, armX, armY);
             }
         } else {
-            // Fallback: simple character
+            // Fallback: simple character with head circle
             ctx.fillStyle = '#FFD700';
             ctx.fillRect(-15, -50, 30, 45);
             ctx.fillStyle = '#FFDAB9';

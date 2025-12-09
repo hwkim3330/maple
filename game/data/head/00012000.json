@@ -1,0 +1,1516 @@
+{
+	"info": {
+		"islot" : "Hd",
+		"vslot" : "Hd",
+		"cash" : 0
+	},
+	"front": {
+		"head": {
+			"origin": "18, 17",
+			"map": {
+				"neck": "0, 15",
+				"earOverHead": "15, 10",
+				"earBelowHead": "-17, 9",
+				"brow": "-4, -5"
+			},
+			"z" : "head",
+			"group" : "skin",
+			"_outlink" : "Character/_Canvas/00012000.img/front/head"
+		},
+		"humanEar": {
+			"origin": "19, -2",
+			"map": {
+				"neck": "0, 15",
+				"earOverHead": "15, 10",
+				"earBelowHead": "-17, 9",
+				"brow": "-4, -5"
+			},
+			"z" : "hairShade",
+			"group" : "skin",
+			"_outlink" : "Character/_Canvas/00012000.img/front/humanEar"
+		},
+		"ear": {
+			"origin": "23, -1",
+			"map": {
+				"neck": "0, 15",
+				"earOverHead": "15, 10",
+				"earBelowHead": "-17, 9",
+				"brow": "-4, -5"
+			},
+			"z" : "accessoryOverHair",
+			"group" : "skin",
+			"_outlink" : "Character/_Canvas/00012000.img/front/ear"
+		},
+		"lefEar": {
+			"origin": "26, -3",
+			"map": {
+				"neck": "0, 15",
+				"earOverHead": "15, 10",
+				"earBelowHead": "-17, 9",
+				"brow": "-4, -5"
+			},
+			"z" : "accessoryOverHair",
+			"group" : "skin",
+			"_outlink" : "Character/_Canvas/00012000.img/front/lefEar"
+		},
+		"highlefEar": {
+			"origin": "24, -3",
+			"map": {
+				"neck": "0, 15",
+				"earOverHead": "15, 10",
+				"earBelowHead": "-17, 9",
+				"brow": "-4, -5"
+			},
+			"z" : "accessoryOverHair",
+			"group" : "skin",
+			"_outlink" : "Character/_Canvas/00012000.img/front/highlefEar"
+		}
+	},
+	"back": {
+		"head": {
+			"origin": "20, 17",
+			"map": {
+				"neck": "0, 15",
+				"brow": "-4, -5"
+			},
+			"z" : "backHead",
+			"group" : "skin",
+			"_outlink" : "Character/_Canvas/00012000.img/back/head"
+		},
+		"ear": {
+			"origin": "24, -1",
+			"map": {
+				"neck": "0, 15",
+				"brow": "-4, -5"
+			},
+			"z" : "backAccessoryOverHead",
+			"group" : "skin",
+			"_outlink" : "Character/_Canvas/00012000.img/back/ear"
+		},
+		"lefEar": {
+			"origin": "29, -1",
+			"map": {
+				"neck": "0, 15",
+				"brow": "-4, -5"
+			},
+			"z" : "backAccessoryOverHead",
+			"group" : "skin",
+			"_outlink" : "Character/_Canvas/00012000.img/back/lefEar"
+		},
+		"highlefEar": {
+			"origin": "27, -1",
+			"map": {
+				"neck": "0, 15",
+				"brow": "-4, -5"
+			},
+			"z" : "backAccessoryOverHead",
+			"group" : "skin",
+			"_outlink" : "Character/_Canvas/00012000.img/back/highlefEar"
+		}
+	},
+	"walk1": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"1": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"2": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"3": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"walk2": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"1": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"2": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"3": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"stand1": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"1": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"2": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"stand2": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"1": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"2": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"alert": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"1": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"2": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"swingO1": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"1": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"2": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"swingO2": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"1": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"2": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"swingO3": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"1": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"2": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"swingOF": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"1": {
+			"head": "../../back/head",
+			"ear": "../../back/ear",
+			"lefEar": "../../back/lefEar",
+			"highlefEar": "../../back/highlefEar"
+		},
+		"2": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"3": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"swingT1": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"1": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"2": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"swingT2": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"1": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"2": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"swingT3": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"1": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"2": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"swingTF": {
+		"0": {
+			"head": "../../back/head",
+			"ear": "../../back/ear",
+			"lefEar": "../../back/lefEar",
+			"highlefEar": "../../back/highlefEar"
+		},
+		"1": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"2": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"3": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"swingP1": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"1": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"2": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"swingP2": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"1": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"2": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"swingPF": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"1": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"2": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"3": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"stabO1": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"1": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"stabO2": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"1": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"stabOF": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"1": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"2": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"stabT1": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"1": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"2": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"stabT2": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"1": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"2": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"stabTF": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"1": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"2": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"3": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"shoot1": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"1": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"2": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"shoot2": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"1": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"2": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"3": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"4": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"shootF": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"1": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"2": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"proneStab": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"1": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"prone": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"heal": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"1": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"2": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"fly": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"1": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"jump": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"sit": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"ladder": {
+		"0": {
+			"head": "../../back/head",
+			"ear": "../../back/ear",
+			"lefEar": "../../back/lefEar",
+			"highlefEar": "../../back/highlefEar"
+		},
+		"1": {
+			"head": "../../back/head",
+			"ear": "../../back/ear",
+			"lefEar": "../../back/lefEar",
+			"highlefEar": "../../back/highlefEar"
+		}
+	},
+	"rope": {
+		"0": {
+			"head": "../../back/head",
+			"ear": "../../back/ear",
+			"lefEar": "../../back/lefEar",
+			"highlefEar": "../../back/highlefEar"
+		},
+		"1": {
+			"head": "../../back/head",
+			"ear": "../../back/ear",
+			"lefEar": "../../back/lefEar",
+			"highlefEar": "../../back/highlefEar"
+		}
+	},
+	"create2": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"1": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"2": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"3": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"4": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"5": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"6": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"7": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"create2_s": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"create2_f": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"create3": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"1": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"2": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"3": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"4": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"5": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"6": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"7": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"8": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"9": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"10": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"11": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"create3_s": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"create3_f": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"create4": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"1": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"2": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"3": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"4": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"5": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"6": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"7": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"8": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"9": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"10": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"11": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"12": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"13": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"create4_s": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"create4_f": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"blink": {
+		"0": {
+			"head": {
+				"origin": "19, 17",
+				"map": {
+					"neck": "0, 15",
+					"earOverHead": "15, 10",
+					"earBelowHead": "-17, 9",
+					"brow": "-4, -5"
+				},
+				"z" : "head",
+				"group" : "skin"
+			}
+		}
+	},
+	"kenjiBlink": {
+		"0": {
+			"head": {
+				"origin": "19, 17",
+				"map": {
+					"neck": "0, 15",
+					"earOverHead": "15, 10",
+					"earBelowHead": "-17, 9",
+					"brow": "-4, -5"
+				},
+				"z" : "head",
+				"group" : "skin"
+			}
+		}
+	},
+	"hide": {
+		"0": {
+			"head": {
+				"origin": "19, 17",
+				"map": {
+					"neck": "0, 15",
+					"earOverHead": "15, 10",
+					"earBelowHead": "-17, 9",
+					"brow": "-4, -5"
+				},
+				"z" : "head",
+				"group" : "skin"
+			}
+		}
+	},
+	"setitem3": {
+		"0": {
+			"head": "../../front/head"
+		},
+		"1": {
+			"head": "../../front/head"
+		},
+		"2": {
+			"head": "../../front/head"
+		},
+		"3": {
+			"head": "../../front/head"
+		},
+		"4": {
+			"head": "../../front/head"
+		},
+		"5": {
+			"head": "../../front/head"
+		},
+		"6": {
+			"head": "../../blink/0/head"
+		},
+		"7": {
+			"head": "../../blink/0/head"
+		},
+		"8": {
+			"head": "../../front/head"
+		},
+		"9": {
+			"head": "../../front/head"
+		},
+		"10": {
+			"head": "../../front/head"
+		},
+		"11": {
+			"head": "../../front/head"
+		},
+		"12": {
+			"head": "../../front/head"
+		},
+		"13": {
+			"head": "../../front/head"
+		},
+		"14": {
+			"head": "../../front/head"
+		},
+		"15": {
+			"head": "../../front/head"
+		},
+		"16": {
+			"head": "../../front/head"
+		},
+		"17": {
+			"head": "../../front/head"
+		},
+		"18": {
+			"head": "../../front/head"
+		},
+		"19": {
+			"head": "../../front/head"
+		},
+		"20": {
+			"head": "../../front/head"
+		},
+		"21": {
+			"head": "../../front/head"
+		},
+		"22": {
+			"head": "../../front/head"
+		},
+		"23": {
+			"head": "../../front/head"
+		},
+		"24": {
+			"head": "../../front/head"
+		},
+		"25": {
+			"head": "../../front/head"
+		},
+		"26": {
+			"head": "../../front/head"
+		}
+	},
+	"setitem4": {
+		"0": {
+			"head": "../../front/head"
+		},
+		"1": {
+			"head": "../../front/head"
+		},
+		"2": {
+			"head": "../../front/head"
+		},
+		"3": {
+			"head": "../../front/head"
+		},
+		"4": {
+			"head": "../../front/head"
+		},
+		"5": {
+			"head": "../../front/head"
+		},
+		"6": {
+			"head": "../../blink/0/head"
+		},
+		"7": {
+			"head": "../../blink/0/head"
+		},
+		"8": {
+			"head": "../../front/head"
+		},
+		"9": {
+			"head": "../../front/head"
+		},
+		"10": {
+			"head": "../../front/head"
+		},
+		"11": {
+			"head": "../../front/head"
+		},
+		"12": {
+			"head": "../../front/head"
+		},
+		"13": {
+			"head": "../../front/head"
+		},
+		"14": {
+			"head": "../../front/head"
+		},
+		"15": {
+			"head": "../../front/head"
+		},
+		"16": {
+			"head": "../../front/head"
+		},
+		"17": {
+			"head": "../../front/head"
+		},
+		"18": {
+			"head": "../../front/head"
+		},
+		"19": {
+			"head": "../../front/head"
+		},
+		"20": {
+			"head": "../../front/head"
+		},
+		"21": {
+			"head": "../../front/head"
+		},
+		"22": {
+			"head": "../../front/head"
+		},
+		"23": {
+			"head": "../../front/head"
+		},
+		"24": {
+			"head": "../../front/head"
+		},
+		"25": {
+			"head": "../../front/head"
+		},
+		"26": {
+			"head": "../../front/head"
+		}
+	},
+	"PVPA1_walk": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"1": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"2": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"3": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"4": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"5": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"PVPA1_stand": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"1": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"2": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"3": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"4": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"5": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"PVPA1_rope": {
+		"0": {
+			"head": "../../back/head",
+			"ear": "../../back/ear",
+			"lefEar": "../../back/lefEar",
+			"highlefEar": "../../back/highlefEar"
+		},
+		"1": {
+			"head": "../../back/head",
+			"ear": "../../back/ear",
+			"lefEar": "../../back/lefEar",
+			"highlefEar": "../../back/highlefEar"
+		}
+	},
+	"PVPA1_prone": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"PVPA1_jump": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	},
+	"PVPA1_die": {
+		"0": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"1": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"2": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"3": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"4": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"5": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		},
+		"6": {
+			"head": "../../front/head",
+			"ear": "../../front/ear",
+			"lefEar": "../../front/lefEar",
+			"highlefEar": "../../front/highlefEar",
+			"humanEar": "../../front/humanEar"
+		}
+	}
+}
