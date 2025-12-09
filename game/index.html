@@ -266,9 +266,9 @@
                 if (attack) sprites.character.attack.push(attack);
             }
 
-            // Load mob sprites - 9300027 (main mob)
+            // Load mob sprites - 9300027 (main mob) - has stand_0, stand_1, stand_3 (no stand_2)
             sprites.mobs['9300027'] = { stand: [], move: [], hit: [], die: [] };
-            for (let i = 0; i < 4; i++) {
+            for (const i of [0, 1, 3]) {
                 const stand = await loadImage(`${basePath}mobs/9300027/stand_${i}.png`);
                 if (stand) sprites.mobs['9300027'].stand.push(stand);
             }
