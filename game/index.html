@@ -303,40 +303,35 @@
             if (img) assets.backgrounds[i] = img;
         }
 
-        // Load character sprites
+        // Load NPC sprites as player character (Nezuko from Demon Slayer collab)
         updateProgress('Loading character...');
+
+        // Load NPC JSON data
         try {
-            const charRes = await fetch('data/character/00002000.json');
-            assets.character.data = await charRes.json();
-        } catch(e) { console.log('No character JSON'); }
+            const npcRes = await fetch('data/npc/9401960.json');
+            assets.character.data = await npcRes.json();
+        } catch(e) { console.log('No NPC JSON'); }
 
-        // Load head sprites and data
-        try {
-            const headRes = await fetch('data/head/00012000.json');
-            assets.character.headData = await headRes.json();
-        } catch(e) { console.log('No head JSON'); }
+        // Load Nezuko sprites - complete character images (no assembly needed!)
+        assets.character.sprites['stand_0'] = await loadImage('data/npc/9401960/stand_0.png');
+        assets.character.sprites['eye_0'] = await loadImage('data/npc/9401960/eye_0.png');
+        assets.character.sprites['eye_1'] = await loadImage('data/npc/9401960/eye_1.png');
+        assets.character.sprites['eye_2'] = await loadImage('data/npc/9401960/eye_2.png');
+        assets.character.sprites['eye_3'] = await loadImage('data/npc/9401960/eye_3.png');
+        assets.character.sprites['eye_4'] = await loadImage('data/npc/9401960/eye_4.png');
+        assets.character.sprites['move_0'] = await loadImage('data/npc/9401960/Nezuko_00.png');
+        assets.character.sprites['move_1'] = await loadImage('data/npc/9401960/Nezuko_01.png');
+        assets.character.sprites['move_2'] = await loadImage('data/npc/9401960/Nezuko_02.png');
+        assets.character.sprites['move_3'] = await loadImage('data/npc/9401960/Nezuko_03.png');
 
-        // Load head images
-        assets.character.sprites['head_front'] = await loadImage('data/head/front_head.png');
-        assets.character.sprites['head_back'] = await loadImage('data/head/back_head.png');
-        assets.character.sprites['ear_front'] = await loadImage('data/head/front_ear.png');
-        assets.character.sprites['humanear_front'] = await loadImage('data/head/front_humanear.png');
-
-        // Load character walk sprites
+        // Keep old body sprites as fallback
         for (let i = 0; i < 4; i++) {
             assets.character.sprites[`walk1_${i}_body`] = await loadImage(`data/character/walk1_${i}_body.png`);
-            assets.character.sprites[`walk1_${i}_arm`] = await loadImage(`data/character/walk1_${i}_arm.png`);
         }
-
-        // Load character stand sprites
         for (let i = 0; i < 3; i++) {
             assets.character.sprites[`stand1_${i}_body`] = await loadImage(`data/character/stand1_${i}_body.png`);
-            assets.character.sprites[`stand1_${i}_arm`] = await loadImage(`data/character/stand1_${i}_arm.png`);
         }
-
-        // Load character jump sprite
         assets.character.sprites['jump_0_body'] = await loadImage('data/character/jump_0_body.png');
-        assets.character.sprites['jump_0_arm'] = await loadImage('data/character/jump_0_arm.png');
 
         // Load character attack sprites (swingo1)
         for (let i = 0; i < 3; i++) {
@@ -934,11 +929,7 @@
         }
     }
 
-    // Draw player with proper body + head + arm composition
-    // MapleStory coordinate system:
-    // - origin: the anchor point of the sprite (where 0,0 is when drawing)
-    // - map.neck/navel: position of that attachment point relative to origin
-    // - To connect parts: align their map points (e.g., body.neck with head.neck)
+    // Draw player using NPC sprite (complete character image)
     function drawPlayer() {
         const screenX = player.x - camera.x + GAME_WIDTH/2;
         const screenY = player.y - camera.y + GAME_HEIGHT/2;
@@ -952,104 +943,51 @@
             ctx.globalAlpha = 0.5;
         }
 
-        // Get sprite based on state
-        const frame = player.frame;
-        const body = assets.character.sprites[`${player.state}_${frame}_body`];
-        const arm = assets.character.sprites[`${player.state}_${frame}_arm`];
-        const head = assets.character.sprites['head_front'];
+        // Select sprite based on state
+        let sprite = null;
+        let origin = { x: 23, y: 71 }; // Default NPC origin
 
-        if (body) {
-            // Default values from JSON
-            let bodyOrigin = { x: 19, y: 32 };
-            let bodyNeck = { x: -4, y: -32 };
-            let bodyNavel = { x: -6, y: -20 };
-            let armOrigin = { x: 6, y: 8 };
-            let armNavel = { x: -12, y: 2 };
-
-            // Parse from JSON if available
-            if (assets.character.data?.[player.state]?.[frame]) {
-                const frameData = assets.character.data[player.state][frame];
-                if (frameData.body?.origin) {
-                    const [ox, oy] = frameData.body.origin.split(',').map(n => parseInt(n.trim()));
-                    bodyOrigin = { x: ox, y: oy };
-                }
-                if (frameData.body?.map?.neck) {
-                    const [nx, ny] = frameData.body.map.neck.split(',').map(n => parseInt(n.trim()));
-                    bodyNeck = { x: nx, y: ny };
-                }
-                if (frameData.body?.map?.navel) {
-                    const [nx, ny] = frameData.body.map.navel.split(',').map(n => parseInt(n.trim()));
-                    bodyNavel = { x: nx, y: ny };
-                }
-                if (frameData.arm?.origin) {
-                    const [ox, oy] = frameData.arm.origin.split(',').map(n => parseInt(n.trim()));
-                    armOrigin = { x: ox, y: oy };
-                }
-                if (frameData.arm?.map?.navel) {
-                    const [nx, ny] = frameData.arm.map.navel.split(',').map(n => parseInt(n.trim()));
-                    armNavel = { x: nx, y: ny };
-                }
-            }
-
-            // Head data: origin 18,17 / neck 0,15
-            let headOrigin = { x: 18, y: 17 };
-            let headNeck = { x: 0, y: 15 };
-            if (assets.character.headData?.front?.head) {
-                const hd = assets.character.headData.front.head;
-                if (hd.origin) {
-                    const [ox, oy] = hd.origin.split(',').map(n => parseInt(n.trim()));
-                    headOrigin = { x: ox, y: oy };
-                }
-                if (hd.map?.neck) {
-                    const [nx, ny] = hd.map.neck.split(',').map(n => parseInt(n.trim()));
-                    headNeck = { x: nx, y: ny };
-                }
-            }
-
-            // Body is drawn at origin (0,0), offset by -origin
-            const bodyDrawX = -bodyOrigin.x;
-            const bodyDrawY = -bodyOrigin.y;
-
-            // Body's neck position in screen coords: bodyDrawPos + bodyNeck
-            const bodyNeckScreenX = bodyDrawX + bodyOrigin.x + bodyNeck.x;
-            const bodyNeckScreenY = bodyDrawY + bodyOrigin.y + bodyNeck.y;
-
-            // Head needs its neck at body's neck position
-            // headDrawPos + headOrigin + headNeck = bodyNeckScreen
-            // headDrawPos = bodyNeckScreen - headOrigin - headNeck
-            const headDrawX = bodyNeckScreenX - headOrigin.x - headNeck.x;
-            const headDrawY = bodyNeckScreenY - headOrigin.y - headNeck.y;
-
-            // Body's navel position in screen coords
-            const bodyNavelScreenX = bodyDrawX + bodyOrigin.x + bodyNavel.x;
-            const bodyNavelScreenY = bodyDrawY + bodyOrigin.y + bodyNavel.y;
-
-            // Arm needs its navel at body's navel position
-            // armDrawPos + armOrigin + armNavel = bodyNavelScreen
-            const armDrawX = bodyNavelScreenX - armOrigin.x - armNavel.x;
-            const armDrawY = bodyNavelScreenY - armOrigin.y - armNavel.y;
-
-            // Draw in z-order: arm (behind) -> body -> head
-            // 1. Draw arm behind body
-            if (arm) {
-                ctx.drawImage(arm, armDrawX, armDrawY);
-            }
-
-            // 2. Draw body
-            ctx.drawImage(body, bodyDrawX, bodyDrawY);
-
-            // 3. Draw head on top
-            if (head) {
-                ctx.drawImage(head, headDrawX, headDrawY);
-            }
+        if (player.state === 'walk1' || player.vx !== 0) {
+            // Walking/moving - use Nezuko move animation
+            const moveFrame = player.frame % 4;
+            sprite = assets.character.sprites[`move_${moveFrame}`];
+        } else if (player.state === 'swingo1' || player.attacking) {
+            // Attacking - use move animation for action
+            const attackFrame = player.frame % 4;
+            sprite = assets.character.sprites[`move_${attackFrame}`];
+        } else if (!player.onGround) {
+            // Jumping - use move frame
+            sprite = assets.character.sprites['move_0'];
         } else {
-            // Fallback: simple character
-            ctx.fillStyle = '#FFD700';
-            ctx.fillRect(-15, -50, 30, 45);
-            ctx.fillStyle = '#FFDAB9';
-            ctx.beginPath();
-            ctx.arc(0, -55, 12, 0, Math.PI * 2);
-            ctx.fill();
+            // Standing - use stand with eye blink animation
+            sprite = assets.character.sprites['stand_0'];
+            // Overlay eye animation
+            const eyeFrame = Math.floor(Date.now() / 150) % 5;
+            const eyeSprite = assets.character.sprites[`eye_${eyeFrame}`];
+            if (sprite && eyeSprite) {
+                ctx.drawImage(sprite, -origin.x, -origin.y);
+                ctx.drawImage(eyeSprite, -origin.x, -origin.y);
+                ctx.restore();
+                return;
+            }
+        }
+
+        if (sprite) {
+            ctx.drawImage(sprite, -origin.x, -origin.y);
+        } else {
+            // Fallback to old body sprites
+            const body = assets.character.sprites[`${player.state}_${player.frame}_body`];
+            if (body) {
+                ctx.drawImage(body, -19, -32);
+            } else {
+                // Ultimate fallback
+                ctx.fillStyle = '#FFD700';
+                ctx.fillRect(-15, -50, 30, 45);
+                ctx.fillStyle = '#FFDAB9';
+                ctx.beginPath();
+                ctx.arc(0, -55, 12, 0, Math.PI * 2);
+                ctx.fill();
+            }
         }
 
         ctx.restore();
