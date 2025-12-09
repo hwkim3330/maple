@@ -1,0 +1,33 @@
+{
+	"info": {
+		"hideName" : 1,
+		"forceMove" : 1
+	},
+	"stand": {
+		"0": {
+			"origin": "59, 78",
+			"z" : 0,
+			"_outlink" : "Npc/_Canvas/9401963.img/stand/0"
+		}
+	},
+	"move": {
+		"0": {
+			"origin": "85, 83",
+			"z" : 0,
+			"delay" : 200,
+			"_outlink" : "Npc/_Canvas/9401963.img/Inosuke_00"
+		},
+		"1": {
+			"origin": "83, 83",
+			"z" : 0,
+			"delay" : 200,
+			"_outlink" : "Npc/_Canvas/9401963.img/Inosuke_01"
+		},
+		"2": {
+			"origin": "81, 83",
+			"z" : 0,
+			"delay" : 200,
+			"_outlink" : "Npc/_Canvas/9401963.img/Inosuke_02"
+		}
+	}
+}

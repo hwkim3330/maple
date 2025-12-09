@@ -1,0 +1,125 @@
+{
+	"info": {
+		"noFlip" : 1,
+		"removeAfter" : 20,
+		"level" : 100,
+		"bodyAttack" : 1,
+		"maxHP" : 50000,
+		"PADamage" : 682,
+		"PDDamage" : 400,
+		"PDRate" : 25,
+		"MADamage" : 658,
+		"MDDamage" : 350,
+		"MDRate" : 25,
+		"acc" : 160,
+		"eva" : 39,
+		"pushed" : 10000,
+		"fs" : "10",
+		"boss" : 1,
+		"summonType" : 1,
+		"category" : 2,
+		"elemAttr" : "S2F3",
+		"mobType" : "7N"
+	},
+	"stand": {
+		"0": {
+			"origin": "42, 86",
+			"lt": "-42, -86",
+			"head": "-9, -82",
+			"rb": "36, 0",
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/1541175.img/stand/0"
+		},
+		"1": {
+			"origin": "41, 86",
+			"lt": "-41, -86",
+			"head": "-7, -82",
+			"rb": "37, 0",
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/1541175.img/stand/1"
+		},
+		"2": {
+			"origin": "40, 86",
+			"lt": "-40, -86",
+			"head": "-5, -82",
+			"rb": "38, 0",
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/1541175.img/stand/2"
+		},
+		"3": {
+			"origin": "41, 86",
+			"lt": "-41, -86",
+			"head": "-7, -82",
+			"rb": "37, 0",
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/1541175.img/stand/3"
+		},
+		"4": {
+			"origin": "42, 86",
+			"lt": "-42, -86",
+			"head": "-9, -82",
+			"rb": "35, 0",
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/1541175.img/stand/4"
+		},
+		"5": {
+			"origin": "43, 86",
+			"lt": "-44, -86",
+			"head": "-11, -82",
+			"rb": "35, 0",
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/1541175.img/stand/5"
+		}
+	},
+	"hit1": {
+		"0": {
+			"origin": "31, 90",
+			"lt": "-31, -90",
+			"head": "3, -83",
+			"rb": "50, 0",
+			"delay" : 600,
+			"_outlink" : "Mob/_Canvas/1541175.img/hit1/0"
+		},
+		"special" : 1
+	},
+	"die1": {
+		"0": {
+			"origin": "31, 90",
+			"head": "2, -83",
+			"delay" : 150,
+			"_outlink" : "Mob/_Canvas/1541175.img/die1/0"
+		},
+		"1": {
+			"origin": "30, 89",
+			"head": "5, -83",
+			"delay" : 150,
+			"_outlink" : "Mob/_Canvas/1541175.img/die1/1"
+		},
+		"2": {
+			"origin": "27, 88",
+			"head": "7, -84",
+			"delay" : 150,
+			"_outlink" : "Mob/_Canvas/1541175.img/die1/2"
+		},
+		"3": {
+			"origin": "23, 86",
+			"head": "10, -83",
+			"delay" : 150,
+			"_outlink" : "Mob/_Canvas/1541175.img/die1/3"
+		},
+		"4": {
+			"origin": "21, 84",
+			"head": "12, -80",
+			"delay" : 150,
+			"_outlink" : "Mob/_Canvas/1541175.img/die1/4"
+		},
+		"5": {
+			"origin": "20, 81",
+			"head": "13, -77",
+			"delay" : 300,
+			"a0" : 255,
+			"a1" : 0,
+			"_outlink" : "Mob/_Canvas/1541175.img/die1/5"
+		}
+	}
+}

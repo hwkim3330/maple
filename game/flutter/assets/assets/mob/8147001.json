@@ -1,0 +1,42 @@
+{
+	"info": {
+		"attack": {
+			"0": {
+				"action" : 1,
+				"attackRatio" : 100,
+				"type" : 0,
+				"conMP" : 2,
+				"disease" : 125,
+				"level" : 19
+			}
+		},
+		"firstAttack" : 1,
+		"level" : 158,
+		"bodyAttack" : 1,
+		"maxHP" : 2000000000,
+		"maxMP" : 14000,
+		"speed" : -20,
+		"PADamage" : 4460,
+		"PDRate" : 10,
+		"MADamage" : 4182,
+		"MDRate" : 10,
+		"acc" : 563,
+		"eva" : 135,
+		"pushed" : 4500,
+		"fs" : "10",
+		"exp" : 13949,
+		"summonType" : 1,
+		"mobType" : "2N",
+		"category" : 1
+	},
+	"stand": {
+		"0": {
+			"origin": "44, 92",
+			"head": "-24, -123",
+			"lt": "-25, -84",
+			"rb": "44, -10",
+			"delay" : 120,
+			"_outlink" : "Mob/_Canvas/8147001.img/stand/0"
+		}
+	}
+}
