@@ -1,0 +1,128 @@
+{
+	"LevelUp": {
+		"0": {
+			"delay" : 500,
+			"_outlink" : "Effect/_Canvas/BasicEff.img/LevelUp/0"
+		},
+		"1": {
+			"origin": "131, 564",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Effect/_Canvas/BasicEff.img/LevelUp/1"
+		},
+		"2": {
+			"origin": "105, 613",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Effect/_Canvas/BasicEff.img/LevelUp/2"
+		},
+		"3": {
+			"origin": "113, 599",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Effect/_Canvas/BasicEff.img/LevelUp/3"
+		},
+		"4": {
+			"origin": "121, 599",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Effect/_Canvas/BasicEff.img/LevelUp/4"
+		},
+		"5": {
+			"origin": "165, 535",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Effect/_Canvas/BasicEff.img/LevelUp/5"
+		},
+		"6": {
+			"origin": "192, 522",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Effect/_Canvas/BasicEff.img/LevelUp/6"
+		},
+		"7": {
+			"origin": "190, 296",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Effect/_Canvas/BasicEff.img/LevelUp/7"
+		},
+		"8": {
+			"origin": "193, 306",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Effect/_Canvas/BasicEff.img/LevelUp/8"
+		},
+		"9": {
+			"origin": "198, 310",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Effect/_Canvas/BasicEff.img/LevelUp/9"
+		},
+		"10": {
+			"origin": "202, 311",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Effect/_Canvas/BasicEff.img/LevelUp/10"
+		},
+		"11": {
+			"origin": "423, 486",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Effect/_Canvas/BasicEff.img/LevelUp/11"
+		},
+		"12": {
+			"origin": "423, 526",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Effect/_Canvas/BasicEff.img/LevelUp/12"
+		},
+		"13": {
+			"origin": "423, 543",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Effect/_Canvas/BasicEff.img/LevelUp/13"
+		},
+		"14": {
+			"origin": "423, 606",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Effect/_Canvas/BasicEff.img/LevelUp/14"
+		},
+		"15": {
+			"origin": "448, 643",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Effect/_Canvas/BasicEff.img/LevelUp/15"
+		},
+		"16": {
+			"origin": "448, 643",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Effect/_Canvas/BasicEff.img/LevelUp/16"
+		},
+		"17": {
+			"origin": "448, 643",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Effect/_Canvas/BasicEff.img/LevelUp/17"
+		},
+		"18": {
+			"origin": "448, 643",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Effect/_Canvas/BasicEff.img/LevelUp/18"
+		},
+		"19": {
+			"origin": "448, 643",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Effect/_Canvas/BasicEff.img/LevelUp/19"
+		},
+		"20": {
+			"origin": "353, 549",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Effect/_Canvas/BasicEff.img/LevelUp/20"
+		}
+	}
+}

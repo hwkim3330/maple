@@ -1,0 +1,606 @@
+{
+	"kreasePQ": {
+		"stage1": {
+			"0": {
+				"origin": "131, 29",
+				"z": 0,
+				"delay": 150,
+				"_outlink": "Effect/_Canvas/Effect.img/kreasepq/stage1/0"
+			},
+			"1": {
+				"origin": "114, 30",
+				"z": 0,
+				"delay": 150,
+				"_outlink": "Effect/_Canvas/Effect.img/kreasepq/stage1/1"
+			},
+			"2": {
+				"origin": "102, 32",
+				"z": 0,
+				"delay": 150,
+				"_outlink": "Effect/_Canvas/Effect.img/kreasepq/stage1/2"
+			},
+			"3": {
+				"origin": "100, 32",
+				"z": 0,
+				"delay": 1800,
+				"_outlink": "Effect/_Canvas/Effect.img/kreasepq/stage1/3"
+			},
+			"4": {
+				"origin": "99, 31",
+				"z": 0,
+				"delay": 150,
+				"_outlink": "Effect/_Canvas/Effect.img/kreasepq/stage1/4"
+			},
+			"5": {
+				"origin": "96, 29",
+				"z": 0,
+				"delay": 150,
+				"_outlink": "Effect/_Canvas/Effect.img/kreasepq/stage1/5"
+			}
+		},
+		"stage2": {
+			"0": {
+				"origin": "131, 30",
+				"z": 0,
+				"delay": 150,
+				"_outlink": "Effect/_Canvas/Effect.img/kreasepq/stage2/0"
+			},
+			"1": {
+				"origin": "114, 32",
+				"z": 0,
+				"delay": 150,
+				"_outlink": "Effect/_Canvas/Effect.img/kreasepq/stage2/1"
+			},
+			"2": {
+				"origin": "101, 33",
+				"z": 0,
+				"delay": 150,
+				"_outlink": "Effect/_Canvas/Effect.img/kreasepq/stage2/2"
+			},
+			"3": {
+				"origin": "100, 33",
+				"z": 0,
+				"delay": 1800,
+				"_outlink": "Effect/_Canvas/Effect.img/kreasepq/stage2/3"
+			},
+			"4": {
+				"origin": "98, 32",
+				"z": 0,
+				"delay": 150,
+				"_outlink": "Effect/_Canvas/Effect.img/kreasepq/stage2/4"
+			},
+			"5": {
+				"origin": "96, 30",
+				"z": 0,
+				"delay": 150,
+				"_outlink": "Effect/_Canvas/Effect.img/kreasepq/stage2/5"
+			}
+		},
+		"stage3": {
+			"0": {
+				"origin": "131, 30",
+				"z": 0,
+				"delay": 150,
+				"_outlink": "Effect/_Canvas/Effect.img/kreasepq/stage3/0"
+			},
+			"1": {
+				"origin": "114, 31",
+				"z": 0,
+				"delay": 150,
+				"_outlink": "Effect/_Canvas/Effect.img/kreasepq/stage3/1"
+			},
+			"2": {
+				"origin": "101, 32",
+				"z": 0,
+				"delay": 150,
+				"_outlink": "Effect/_Canvas/Effect.img/kreasepq/stage3/2"
+			},
+			"3": {
+				"origin": "100, 32",
+				"z": 0,
+				"delay": 1800,
+				"_outlink": "Effect/_Canvas/Effect.img/kreasepq/stage3/3"
+			},
+			"4": {
+				"origin": "98, 31",
+				"z": 0,
+				"delay": 150,
+				"_outlink": "Effect/_Canvas/Effect.img/kreasepq/stage3/4"
+			},
+			"5": {
+				"origin": "96, 29",
+				"z": 0,
+				"delay": 150,
+				"_outlink": "Effect/_Canvas/Effect.img/kreasepq/stage3/5"
+			}
+		},
+		"stage4": {
+			"0": {
+				"origin": "131, 30",
+				"z": 0,
+				"delay": 150,
+				"_outlink": "Effect/_Canvas/Effect.img/kreasepq/stage4/0"
+			},
+			"1": {
+				"origin": "114, 31",
+				"z": 0,
+				"delay": 150,
+				"_outlink": "Effect/_Canvas/Effect.img/kreasepq/stage4/1"
+			},
+			"2": {
+				"origin": "101, 32",
+				"z": 0,
+				"delay": 150,
+				"_outlink": "Effect/_Canvas/Effect.img/kreasepq/stage4/2"
+			},
+			"3": {
+				"origin": "100, 32",
+				"z": 0,
+				"delay": 1800,
+				"_outlink": "Effect/_Canvas/Effect.img/kreasepq/stage4/3"
+			},
+			"4": {
+				"origin": "98, 31",
+				"z": 0,
+				"delay": 150,
+				"_outlink": "Effect/_Canvas/Effect.img/kreasepq/stage4/4"
+			},
+			"5": {
+				"origin": "96, 29",
+				"z": 0,
+				"delay": 150,
+				"_outlink": "Effect/_Canvas/Effect.img/kreasepq/stage4/5"
+			}
+		},
+		"stage5": {
+			"0": {
+				"origin": "131, 30",
+				"z": 0,
+				"delay": 150,
+				"_outlink": "Effect/_Canvas/Effect.img/kreasepq/stage5/0"
+			},
+			"1": {
+				"origin": "114, 31",
+				"z": 0,
+				"delay": 150,
+				"_outlink": "Effect/_Canvas/Effect.img/kreasepq/stage5/1"
+			},
+			"2": {
+				"origin": "101, 32",
+				"z": 0,
+				"delay": 150,
+				"_outlink": "Effect/_Canvas/Effect.img/kreasepq/stage5/2"
+			},
+			"3": {
+				"origin": "100, 32",
+				"z": 0,
+				"delay": 1800,
+				"_outlink": "Effect/_Canvas/Effect.img/kreasepq/stage5/3"
+			},
+			"4": {
+				"origin": "98, 31",
+				"z": 0,
+				"delay": 150,
+				"_outlink": "Effect/_Canvas/Effect.img/kreasepq/stage5/4"
+			},
+			"5": {
+				"origin": "96, 29",
+				"z": 0,
+				"delay": 150,
+				"_outlink": "Effect/_Canvas/Effect.img/kreasepq/stage5/5"
+			}
+		},
+		"stage6": {
+			"0": {
+				"origin": "131, 30",
+				"z": 0,
+				"delay": 150,
+				"_outlink": "Effect/_Canvas/Effect.img/kreasepq/stage6/0"
+			},
+			"1": {
+				"origin": "114, 31",
+				"z": 0,
+				"delay": 150,
+				"_outlink": "Effect/_Canvas/Effect.img/kreasepq/stage6/1"
+			},
+			"2": {
+				"origin": "101, 32",
+				"z": 0,
+				"delay": 150,
+				"_outlink": "Effect/_Canvas/Effect.img/kreasepq/stage6/2"
+			},
+			"3": {
+				"origin": "100, 32",
+				"z": 0,
+				"delay": 1800,
+				"_outlink": "Effect/_Canvas/Effect.img/kreasepq/stage6/3"
+			},
+			"4": {
+				"origin": "98, 31",
+				"z": 0,
+				"delay": 150,
+				"_outlink": "Effect/_Canvas/Effect.img/kreasepq/stage6/4"
+			},
+			"5": {
+				"origin": "96, 29",
+				"z": 0,
+				"delay": 150,
+				"_outlink": "Effect/_Canvas/Effect.img/kreasepq/stage6/5"
+			}
+		}
+	},
+	"tutorial1": {
+		"0": {
+			"origin": "131, 29",
+			"z": 0,
+			"delay": 150,
+			"_outlink": "Effect/_Canvas/Effect.img/tutorial1/0"
+		},
+		"1": {
+			"origin": "114, 30",
+			"z": 0,
+			"delay": 150,
+			"_outlink": "Effect/_Canvas/Effect.img/tutorial1/1"
+		},
+		"2": {
+			"origin": "102, 32",
+			"z": 0,
+			"delay": 150,
+			"_outlink": "Effect/_Canvas/Effect.img/tutorial1/2"
+		},
+		"3": {
+			"origin": "100, 32",
+			"z": 0,
+			"delay": 1800,
+			"_outlink": "Effect/_Canvas/Effect.img/tutorial1/3"
+		},
+		"4": {
+			"origin": "99, 31",
+			"z": 0,
+			"delay": 150,
+			"_outlink": "Effect/_Canvas/Effect.img/tutorial1/4"
+		},
+		"5": {
+			"origin": "96, 29",
+			"z": 0,
+			"delay": 150,
+			"_outlink": "Effect/_Canvas/Effect.img/tutorial1/5"
+		}
+	},
+	"tutorial2": {
+		"0": {
+			"origin": "131, 30",
+			"z": 0,
+			"delay": 150,
+			"_outlink": "Effect/_Canvas/Effect.img/tutorial2/0"
+		},
+		"1": {
+			"origin": "114, 32",
+			"z": 0,
+			"delay": 150,
+			"_outlink": "Effect/_Canvas/Effect.img/tutorial2/1"
+		},
+		"2": {
+			"origin": "101, 33",
+			"z": 0,
+			"delay": 150,
+			"_outlink": "Effect/_Canvas/Effect.img/tutorial2/2"
+		},
+		"3": {
+			"origin": "100, 33",
+			"z": 0,
+			"delay": 1800,
+			"_outlink": "Effect/_Canvas/Effect.img/tutorial2/3"
+		},
+		"4": {
+			"origin": "98, 32",
+			"z": 0,
+			"delay": 150,
+			"_outlink": "Effect/_Canvas/Effect.img/tutorial2/4"
+		},
+		"5": {
+			"origin": "96, 30",
+			"z": 0,
+			"delay": 150,
+			"_outlink": "Effect/_Canvas/Effect.img/tutorial2/5"
+		}
+	},
+	"tutorial3": {
+		"0": {
+			"origin": "131, 30",
+			"z": 0,
+			"delay": 150,
+			"_outlink": "Effect/_Canvas/Effect.img/tutorial3/0"
+		},
+		"1": {
+			"origin": "114, 31",
+			"z": 0,
+			"delay": 150,
+			"_outlink": "Effect/_Canvas/Effect.img/tutorial3/1"
+		},
+		"2": {
+			"origin": "101, 32",
+			"z": 0,
+			"delay": 150,
+			"_outlink": "Effect/_Canvas/Effect.img/tutorial3/2"
+		},
+		"3": {
+			"origin": "100, 32",
+			"z": 0,
+			"delay": 1800,
+			"_outlink": "Effect/_Canvas/Effect.img/tutorial3/3"
+		},
+		"4": {
+			"origin": "98, 31",
+			"z": 0,
+			"delay": 150,
+			"_outlink": "Effect/_Canvas/Effect.img/tutorial3/4"
+		},
+		"5": {
+			"origin": "96, 29",
+			"z": 0,
+			"delay": 150,
+			"_outlink": "Effect/_Canvas/Effect.img/tutorial3/5"
+		}
+	},
+	"EndMessage": {
+		"timeover": {
+			"0": {
+				"origin": "224, 61",
+				"z": 0,
+				"delay": 250,
+				"_outlink": "Effect/_Canvas/Effect.img/endmessage/timeover/0"
+			},
+			"1": {
+				"origin": "224, 59",
+				"z": 0,
+				"delay": 250,
+				"_outlink": "Effect/_Canvas/Effect.img/endmessage/timeover/1"
+			},
+			"2": {
+				"origin": "224, 61",
+				"z": 0,
+				"delay": 250,
+				"_outlink": "Effect/_Canvas/Effect.img/endmessage/timeover/2"
+			},
+			"3": {
+				"origin": "224, 62",
+				"z": 0,
+				"delay": 250,
+				"_outlink": "Effect/_Canvas/Effect.img/endmessage/timeover/3"
+			},
+			"4": {
+				"origin": "224, 61",
+				"z": 0,
+				"delay": 250,
+				"_outlink": "Effect/_Canvas/Effect.img/endmessage/timeover/4"
+			},
+			"5": {
+				"origin": "224, 61",
+				"z": 0,
+				"delay": 250,
+				"_outlink": "Effect/_Canvas/Effect.img/endmessage/timeover/5"
+			},
+			"6": {
+				"origin": "224, 61",
+				"z": 0,
+				"delay": 250,
+				"_outlink": "Effect/_Canvas/Effect.img/endmessage/timeover/6"
+			},
+			"7": {
+				"origin": "224, 61",
+				"z": 0,
+				"delay": 250,
+				"_outlink": "Effect/_Canvas/Effect.img/endmessage/timeover/7"
+			},
+			"8": {
+				"origin": "224, 11",
+				"z": 0,
+				"delay": 250,
+				"_outlink": "Effect/_Canvas/Effect.img/endmessage/timeover/8"
+			},
+			"9": {
+				"origin": "224, 13",
+				"z": 0,
+				"delay": 250,
+				"_outlink": "Effect/_Canvas/Effect.img/endmessage/timeover/9"
+			},
+			"10": {
+				"origin": "224, 13",
+				"z": 0,
+				"delay": 250,
+				"_outlink": "Effect/_Canvas/Effect.img/endmessage/timeover/10"
+			},
+			"11": {
+				"origin": "224, 13",
+				"z": 0,
+				"delay": 250,
+				"_outlink": "Effect/_Canvas/Effect.img/endmessage/timeover/11"
+			},
+			"12": {
+				"origin": "224, 13",
+				"z": 0,
+				"delay": 1000,
+				"_outlink": "Effect/_Canvas/Effect.img/endmessage/timeover/12"
+			}
+		}
+	},
+	"killing": {
+		"first": {
+			"finish": {
+				"0": {
+					"origin": "179, 74",
+					"z" : 0,
+					"delay" : 150,
+					"_outlink" : "Effect/_Canvas/Effect.img/killing/first/finish/0"
+				},
+				"1": {
+					"origin": "141, 69",
+					"z" : 0,
+					"delay" : 150,
+					"_outlink" : "Effect/_Canvas/Effect.img/killing/first/finish/1"
+				},
+				"2": {
+					"origin": "262, 96",
+					"z" : 0,
+					"delay" : 150,
+					"_outlink" : "Effect/_Canvas/Effect.img/killing/first/finish/2"
+				},
+				"3": {
+					"origin": "288, 101",
+					"z" : 0,
+					"delay" : 150,
+					"_outlink" : "Effect/_Canvas/Effect.img/killing/first/finish/3"
+				},
+				"4": {
+					"origin": "281, 100",
+					"z" : 0,
+					"delay" : 150,
+					"_outlink" : "Effect/_Canvas/Effect.img/killing/first/finish/4"
+				},
+				"5": {
+					"origin": "246, 94",
+					"z" : 0,
+					"delay" : 150,
+					"_outlink" : "Effect/_Canvas/Effect.img/killing/first/finish/5"
+				},
+				"6": {
+					"origin": "141, 69",
+					"z" : 0,
+					"delay" : 150,
+					"_outlink" : "Effect/_Canvas/Effect.img/killing/first/finish/6"
+				},
+				"7": {
+					"origin": "144, 70",
+					"z" : 0,
+					"delay" : 150,
+					"_outlink" : "Effect/_Canvas/Effect.img/killing/first/finish/7"
+				},
+				"8": {
+					"origin": "153, 71",
+					"z" : 0,
+					"delay" : 150,
+					"_outlink" : "Effect/_Canvas/Effect.img/killing/first/finish/8"
+				},
+				"9": {
+					"origin": "161, 72",
+					"z" : 0,
+					"delay" : 150,
+					"_outlink" : "Effect/_Canvas/Effect.img/killing/first/finish/9"
+				}
+			}
+		},
+		"bonus": {
+			"bonus": {
+				"0": {
+					"origin": "143, 43",
+					"z" : 0,
+					"delay" : 150,
+					"_outlink" : "Effect/_Canvas/Effect.img/killing/bonus/bonus/0"
+				},
+				"1": {
+					"origin": "140, 40",
+					"z" : 0,
+					"delay" : 150,
+					"_outlink" : "Effect/_Canvas/Effect.img/killing/bonus/bonus/1"
+				},
+				"2": {
+					"origin": "139, 38",
+					"z" : 0,
+					"delay" : 150,
+					"_outlink" : "Effect/_Canvas/Effect.img/killing/bonus/bonus/2"
+				},
+				"3": {
+					"origin": "138, 38",
+					"z" : 0,
+					"delay" : 150,
+					"_outlink" : "Effect/_Canvas/Effect.img/killing/bonus/bonus/3"
+				},
+				"4": {
+					"origin": "138, 38",
+					"z" : 0,
+					"delay" : 150,
+					"_outlink" : "Effect/_Canvas/Effect.img/killing/bonus/bonus/3"
+				},
+				"5": {
+					"origin": "138, 38",
+					"z" : 0,
+					"delay" : 150,
+					"_outlink" : "Effect/_Canvas/Effect.img/killing/bonus/bonus/5"
+				},
+				"6": {
+					"origin": "138, 38",
+					"z" : 0,
+					"delay" : 150,
+					"_outlink" : "Effect/_Canvas/Effect.img/killing/bonus/bonus/6"
+				},
+				"7": {
+					"origin": "138, 38",
+					"z" : 0,
+					"delay" : 150,
+					"_outlink" : "Effect/_Canvas/Effect.img/killing/bonus/bonus/7"
+				},
+				"8": {
+					"origin": "138, 38",
+					"z" : 0,
+					"delay" : 150,
+					"_outlink" : "Effect/_Canvas/Effect.img/killing/bonus/bonus/8"
+				},
+				"9": {
+					"origin": "138, 38",
+					"z" : 0,
+					"delay" : 150,
+					"_outlink" : "Effect/_Canvas/Effect.img/killing/bonus/bonus/9"
+				},
+				"10": {
+					"origin": "138, 38",
+					"z" : 0,
+					"delay" : 150,
+					"_outlink" : "Effect/_Canvas/Effect.img/killing/bonus/bonus/10"
+				},
+				"11": {
+					"origin": "138, 38",
+					"z" : 0,
+					"delay" : 150,
+					"_outlink" : "Effect/_Canvas/Effect.img/killing/bonus/bonus/11"
+				},
+				"12": {
+					"origin": "138, 38",
+					"z" : 0,
+					"delay" : 150,
+					"_outlink" : "Effect/_Canvas/Effect.img/killing/bonus/bonus/12"
+				},
+				"13": {
+					"origin": "138, 38",
+					"z" : 0,
+					"delay" : 150,
+					"_outlink" : "Effect/_Canvas/Effect.img/killing/bonus/bonus/13"
+				},
+				"14": {
+					"origin": "138, 38",
+					"z" : 0,
+					"delay" : 150,
+					"_outlink" : "Effect/_Canvas/Effect.img/killing/bonus/bonus/3"
+				},
+				"15": {
+					"origin": "138, 38",
+					"z" : 0,
+					"delay" : 100,
+					"_outlink" : "Effect/_Canvas/Effect.img/killing/bonus/bonus/15"
+				},
+				"16": {
+					"origin": "139, 39",
+					"z" : 0,
+					"delay" : 100,
+					"_outlink" : "Effect/_Canvas/Effect.img/killing/bonus/bonus/16"
+				},
+				"17": {
+					"origin": "140, 40",
+					"z" : 0,
+					"delay" : 100,
+					"_outlink" : "Effect/_Canvas/Effect.img/killing/bonus/bonus/17"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,719 @@
+{
+	"fall": {
+		"0": {
+			"origin": "19, 43",
+			"z" : 0,
+			"delay" : 80,
+			"_outlink" : "Effect/_Canvas/Tomb.img/fall/0"
+		},
+		"1": {
+			"origin": "20, 43",
+			"z" : 0,
+			"delay" : 80,
+			"_outlink" : "Effect/_Canvas/Tomb.img/fall/1"
+		},
+		"2": {
+			"origin": "18, 43",
+			"z" : 0,
+			"delay" : 80,
+			"_outlink" : "Effect/_Canvas/Tomb.img/fall/2"
+		},
+		"3": {
+			"origin": "13, 43",
+			"z" : 0,
+			"delay" : 80,
+			"_outlink" : "Effect/_Canvas/Tomb.img/fall/3"
+		},
+		"4": {
+			"origin": "18, 43",
+			"z" : 0,
+			"delay" : 80,
+			"_outlink" : "Effect/_Canvas/Tomb.img/fall/4"
+		},
+		"5": {
+			"origin": "20, 43",
+			"z" : 0,
+			"delay" : 80,
+			"_outlink" : "Effect/_Canvas/Tomb.img/fall/5"
+		},
+		"6": {
+			"origin": "19, 43",
+			"z" : 0,
+			"delay" : 80,
+			"_outlink" : "Effect/_Canvas/Tomb.img/fall/6"
+		},
+		"7": {
+			"origin": "20, 43",
+			"z" : 0,
+			"delay" : 80,
+			"_outlink" : "Effect/_Canvas/Tomb.img/fall/7"
+		},
+		"8": {
+			"origin": "18, 43",
+			"z" : 0,
+			"delay" : 80,
+			"_outlink" : "Effect/_Canvas/Tomb.img/fall/8"
+		},
+		"9": {
+			"origin": "13, 43",
+			"z" : 0,
+			"delay" : 80,
+			"_outlink" : "Effect/_Canvas/Tomb.img/fall/9"
+		},
+		"10": {
+			"origin": "18, 43",
+			"z" : 0,
+			"delay" : 80,
+			"_outlink" : "Effect/_Canvas/Tomb.img/fall/10"
+		},
+		"11": {
+			"origin": "20, 43",
+			"z" : 0,
+			"delay" : 80,
+			"_outlink" : "Effect/_Canvas/Tomb.img/fall/11"
+		},
+		"12": {
+			"origin": "41, 41",
+			"z" : 0,
+			"delay" : 100,
+			"_outlink" : "Effect/_Canvas/Tomb.img/fall/12"
+		},
+		"13": {
+			"origin": "41, 45",
+			"z" : 0,
+			"delay" : 100,
+			"_outlink" : "Effect/_Canvas/Tomb.img/fall/13"
+		},
+		"14": {
+			"origin": "45, 43",
+			"z" : 0,
+			"delay" : 100,
+			"_outlink" : "Effect/_Canvas/Tomb.img/fall/14"
+		},
+		"15": {
+			"origin": "45, 43",
+			"z" : 0,
+			"delay" : 150,
+			"_outlink" : "Effect/_Canvas/Tomb.img/fall/15"
+		},
+		"16": {
+			"origin": "45, 43",
+			"z" : 0,
+			"delay" : 150,
+			"_outlink" : "Effect/_Canvas/Tomb.img/fall/15"
+		},
+		"17": {
+			"origin": "52, 43",
+			"z" : 0,
+			"delay" : 150,
+			"_outlink" : "Effect/_Canvas/Tomb.img/fall/17"
+		},
+		"18": {
+			"origin": "48, 43",
+			"z" : 0,
+			"delay" : 150,
+			"_outlink" : "Effect/_Canvas/Tomb.img/fall/18"
+		},
+		"19": {
+			"origin": "20, 43",
+			"z" : 0,
+			"delay" : 150,
+			"_outlink" : "Effect/_Canvas/Tomb.img/fall/1"
+		}
+	},
+	"land": {
+		"0": "../fall/19"
+	},
+	"condition1": {
+		"fall": {
+			"0": {
+				"origin": "19, 43",
+				"z" : 0,
+				"delay" : 80,
+				"_outlink" : "Effect/_Canvas/Tomb.img/fall/0"
+			},
+			"1": {
+				"origin": "20, 43",
+				"z" : 0,
+				"delay" : 80,
+				"_outlink" : "Effect/_Canvas/Tomb.img/fall/1"
+			},
+			"2": {
+				"origin": "18, 43",
+				"z" : 0,
+				"delay" : 80,
+				"_outlink" : "Effect/_Canvas/Tomb.img/fall/2"
+			},
+			"3": {
+				"origin": "13, 43",
+				"z" : 0,
+				"delay" : 80,
+				"_outlink" : "Effect/_Canvas/Tomb.img/fall/3"
+			},
+			"4": {
+				"origin": "18, 43",
+				"z" : 0,
+				"delay" : 80,
+				"_outlink" : "Effect/_Canvas/Tomb.img/fall/4"
+			},
+			"5": {
+				"origin": "20, 43",
+				"z" : 0,
+				"delay" : 80,
+				"_outlink" : "Effect/_Canvas/Tomb.img/fall/5"
+			},
+			"6": {
+				"origin": "19, 43",
+				"z" : 0,
+				"delay" : 80,
+				"_outlink" : "Effect/_Canvas/Tomb.img/fall/6"
+			},
+			"7": {
+				"origin": "20, 43",
+				"z" : 0,
+				"delay" : 80,
+				"_outlink" : "Effect/_Canvas/Tomb.img/fall/7"
+			},
+			"8": {
+				"origin": "18, 43",
+				"z" : 0,
+				"delay" : 80,
+				"_outlink" : "Effect/_Canvas/Tomb.img/fall/8"
+			},
+			"9": {
+				"origin": "13, 43",
+				"z" : 0,
+				"delay" : 80,
+				"_outlink" : "Effect/_Canvas/Tomb.img/fall/9"
+			},
+			"10": {
+				"origin": "18, 43",
+				"z" : 0,
+				"delay" : 80,
+				"_outlink" : "Effect/_Canvas/Tomb.img/fall/10"
+			},
+			"11": {
+				"origin": "20, 43",
+				"z" : 0,
+				"delay" : 80,
+				"_outlink" : "Effect/_Canvas/Tomb.img/fall/11"
+			},
+			"12": {
+				"origin": "41, 41",
+				"z" : 0,
+				"delay" : 100,
+				"_outlink" : "Effect/_Canvas/Tomb.img/fall/12"
+			},
+			"13": {
+				"origin": "41, 45",
+				"z" : 0,
+				"delay" : 100,
+				"_outlink" : "Effect/_Canvas/Tomb.img/fall/13"
+			},
+			"14": {
+				"origin": "45, 43",
+				"z" : 0,
+				"delay" : 100,
+				"_outlink" : "Effect/_Canvas/Tomb.img/fall/14"
+			},
+			"15": {
+				"origin": "45, 43",
+				"z" : 0,
+				"delay" : 150,
+				"_outlink" : "Effect/_Canvas/Tomb.img/fall/15"
+			},
+			"16": {
+				"origin": "45, 43",
+				"z" : 0,
+				"delay" : 150,
+				"_outlink" : "Effect/_Canvas/Tomb.img/fall/15"
+			},
+			"17": {
+				"origin": "52, 43",
+				"z" : 0,
+				"delay" : 150,
+				"_outlink" : "Effect/_Canvas/Tomb.img/fall/17"
+			},
+			"18": {
+				"origin": "48, 43",
+				"z" : 0,
+				"delay" : 150,
+				"_outlink" : "Effect/_Canvas/Tomb.img/fall/18"
+			},
+			"19": {
+				"origin": "20, 43",
+				"z" : 0,
+				"delay" : 150,
+				"_outlink" : "Effect/_Canvas/Tomb.img/fall/1"
+			}
+		},
+		"land": {
+			"0": "../fall/19"
+		},
+		"dateStart" : "201304011500",
+		"dateEnd" : "201304150000",
+		"landEffect": {
+			"0": {
+				"origin": "-1, -1",
+				"_outlink" : "Effect/_Canvas/Tomb.img/condition1/landEffect/0"
+			},
+			"1": {
+				"origin": "-1, -1",
+				"_outlink" : "Effect/_Canvas/Tomb.img/condition1/landEffect/0"
+			},
+			"2": {
+				"origin": "-1, -1",
+				"_outlink" : "Effect/_Canvas/Tomb.img/condition1/landEffect/0"
+			},
+			"3": {
+				"origin": "-1, -1",
+				"_outlink" : "Effect/_Canvas/Tomb.img/condition1/landEffect/0"
+			},
+			"4": {
+				"origin": "-1, -1",
+				"_outlink" : "Effect/_Canvas/Tomb.img/condition1/landEffect/0"
+			},
+			"5": {
+				"origin": "-1, -1",
+				"_outlink" : "Effect/_Canvas/Tomb.img/condition1/landEffect/0"
+			},
+			"6": {
+				"origin": "-1, -1",
+				"_outlink" : "Effect/_Canvas/Tomb.img/condition1/landEffect/0"
+			},
+			"7": {
+				"origin": "-1, -1",
+				"_outlink" : "Effect/_Canvas/Tomb.img/condition1/landEffect/0"
+			},
+			"8": {
+				"origin": "-1, -1",
+				"_outlink" : "Effect/_Canvas/Tomb.img/condition1/landEffect/0"
+			},
+			"9": {
+				"origin": "-1, -1",
+				"_outlink" : "Effect/_Canvas/Tomb.img/condition1/landEffect/0"
+			},
+			"10": {
+				"origin": "-1, -1",
+				"_outlink" : "Effect/_Canvas/Tomb.img/condition1/landEffect/0"
+			},
+			"11": {
+				"origin": "-1, -1",
+				"_outlink" : "Effect/_Canvas/Tomb.img/condition1/landEffect/0"
+			},
+			"12": {
+				"origin": "-1, -1",
+				"_outlink" : "Effect/_Canvas/Tomb.img/condition1/landEffect/0"
+			},
+			"13": {
+				"origin": "-1, -1",
+				"_outlink" : "Effect/_Canvas/Tomb.img/condition1/landEffect/0"
+			},
+			"14": {
+				"origin": "-1, -1",
+				"_outlink" : "Effect/_Canvas/Tomb.img/condition1/landEffect/0"
+			},
+			"15": {
+				"origin": "-1, -1",
+				"_outlink" : "Effect/_Canvas/Tomb.img/condition1/landEffect/0"
+			},
+			"16": {
+				"origin": "-1, -1",
+				"_outlink" : "Effect/_Canvas/Tomb.img/condition1/landEffect/0"
+			},
+			"17": "10",
+			"18": "11",
+			"19": "12",
+			"20": "13",
+			"21": "14",
+			"22": "15",
+			"23": "16",
+			"24": {
+				"origin": "-1, -1",
+				"_outlink" : "Effect/_Canvas/Tomb.img/condition1/landEffect/0"
+			},
+			"25": {
+				"origin": "-1, -1",
+				"_outlink" : "Effect/_Canvas/Tomb.img/condition1/landEffect/0"
+			},
+			"26": {
+				"origin": "-1, -1",
+				"_outlink" : "Effect/_Canvas/Tomb.img/condition1/landEffect/0"
+			},
+			"27": {
+				"origin": "-1, -1",
+				"_outlink" : "Effect/_Canvas/Tomb.img/condition1/landEffect/0"
+			},
+			"28": {
+				"origin": "-1, -1",
+				"_outlink" : "Effect/_Canvas/Tomb.img/condition1/landEffect/0"
+			},
+			"29": {
+				"origin": "-1, -1",
+				"_outlink" : "Effect/_Canvas/Tomb.img/condition1/landEffect/0"
+			},
+			"30": {
+				"origin": "-1, -1",
+				"_outlink" : "Effect/_Canvas/Tomb.img/condition1/landEffect/0"
+			},
+			"31": {
+				"origin": "-1, -1",
+				"_outlink" : "Effect/_Canvas/Tomb.img/condition1/landEffect/0"
+			},
+			"32": {
+				"origin": "-1, -1",
+				"_outlink" : "Effect/_Canvas/Tomb.img/condition1/landEffect/0"
+			},
+			"33": {
+				"origin": "-1, -1",
+				"_outlink" : "Effect/_Canvas/Tomb.img/condition1/landEffect/0"
+			},
+			"34": {
+				"origin": "-1, -1",
+				"_outlink" : "Effect/_Canvas/Tomb.img/condition1/landEffect/0"
+			},
+			"35": {
+				"origin": "-1, -1",
+				"_outlink" : "Effect/_Canvas/Tomb.img/condition1/landEffect/0"
+			},
+			"36": {
+				"origin": "-1, -1",
+				"_outlink" : "Effect/_Canvas/Tomb.img/condition1/landEffect/0"
+			},
+			"37": {
+				"origin": "-1, -1",
+				"_outlink" : "Effect/_Canvas/Tomb.img/condition1/landEffect/0"
+			},
+			"38": {
+				"origin": "-1, -1",
+				"_outlink" : "Effect/_Canvas/Tomb.img/condition1/landEffect/0"
+			},
+			"39": {
+				"origin": "-1, -1",
+				"_outlink" : "Effect/_Canvas/Tomb.img/condition1/landEffect/0"
+			},
+			"40": {
+				"origin": "-1, -1",
+				"_outlink" : "Effect/_Canvas/Tomb.img/condition1/landEffect/0"
+			},
+			"41": {
+				"origin": "-1, -1",
+				"_outlink" : "Effect/_Canvas/Tomb.img/condition1/landEffect/0"
+			},
+			"42": {
+				"origin": "-1, -1",
+				"_outlink" : "Effect/_Canvas/Tomb.img/condition1/landEffect/0"
+			}
+		}
+	},
+	"urus": {
+		"land": {
+			"0": {
+				"origin": "75, 167",
+				"z" : 0,
+				"delay" : 90,
+				"_outlink" : "Effect/_Canvas/Tomb.img/urus/land/0"
+			},
+			"1": {
+				"origin": "75, 168",
+				"z" : 0,
+				"delay" : 90,
+				"_outlink" : "Effect/_Canvas/Tomb.img/urus/land/1"
+			},
+			"2": {
+				"origin": "75, 162",
+				"z" : 0,
+				"delay" : 90,
+				"_outlink" : "Effect/_Canvas/Tomb.img/urus/land/2"
+			},
+			"3": {
+				"origin": "75, 161",
+				"z" : 0,
+				"delay" : 90,
+				"_outlink" : "Effect/_Canvas/Tomb.img/urus/land/3"
+			},
+			"4": {
+				"origin": "75, 164",
+				"z" : 0,
+				"delay" : 90,
+				"_outlink" : "Effect/_Canvas/Tomb.img/urus/land/4"
+			},
+			"5": {
+				"origin": "75, 165",
+				"z" : 0,
+				"delay" : 90,
+				"_outlink" : "Effect/_Canvas/Tomb.img/urus/land/5"
+			},
+			"6": {
+				"origin": "75, 166",
+				"z" : 0,
+				"delay" : 90,
+				"_outlink" : "Effect/_Canvas/Tomb.img/urus/land/6"
+			},
+			"7": {
+				"origin": "75, 167",
+				"z" : 0,
+				"delay" : 90,
+				"_outlink" : "Effect/_Canvas/Tomb.img/urus/land/7"
+			}
+		},
+		"castingBar": {
+			"backgrnd": {
+				"origin": "0, 0",
+				"z" : 0,
+				"_outlink" : "Effect/_Canvas/MobEff.img/totalDamageGauge/backgrnd"
+			},
+			"gauge": {
+				"backgrnd": {
+					"origin": "-4, -4",
+					"z" : 0,
+					"_outlink" : "Effect/_Canvas/Tomb.img/urus/castingBar/gauge/backgrnd"
+				},
+				"0": {
+					"origin": "0, 0",
+					"z" : 0
+				},
+				"1": {
+					"origin": "0, 0",
+					"z" : 0
+				},
+				"2": {
+					"origin": "0, 0",
+					"z" : 0
+				}
+			},
+			"success": {
+				"0": {
+					"origin": "36, 47",
+					"z" : 0,
+					"delay" : 90,
+					"_outlink" : "Effect/_Canvas/Tomb.img/urus/castingBar/success/0"
+				},
+				"1": {
+					"origin": "36, 55",
+					"z" : 0,
+					"delay" : 90,
+					"_outlink" : "Effect/_Canvas/Tomb.img/urus/castingBar/success/1"
+				},
+				"2": {
+					"origin": "30, 60",
+					"z" : 0,
+					"delay" : 90,
+					"_outlink" : "Effect/_Canvas/Tomb.img/urus/castingBar/success/2"
+				},
+				"3": {
+					"origin": "27, 60",
+					"z" : 0,
+					"delay" : 90,
+					"_outlink" : "Effect/_Canvas/Tomb.img/urus/castingBar/success/3"
+				},
+				"4": {
+					"origin": "25, 44",
+					"z" : 0,
+					"delay" : 90,
+					"_outlink" : "Effect/_Canvas/Tomb.img/urus/castingBar/success/4"
+				},
+				"5": {
+					"origin": "5, 45",
+					"z" : 0,
+					"delay" : 90,
+					"_outlink" : "Effect/_Canvas/Tomb.img/urus/castingBar/success/5"
+				},
+				"6": {
+					"origin": "2, 36",
+					"z" : 0,
+					"delay" : 90,
+					"_outlink" : "Effect/_Canvas/Tomb.img/urus/castingBar/success/6"
+				},
+				"7": {
+					"origin": "-35, 34",
+					"z" : 0,
+					"delay" : 90,
+					"_outlink" : "Effect/_Canvas/Tomb.img/urus/castingBar/success/7"
+				}
+			},
+			"fail": {
+				"0": {
+					"origin": "10, 45",
+					"z" : 0,
+					"delay" : 90,
+					"_outlink" : "Effect/_Canvas/Tomb.img/urus/castingBar/fail/0"
+				},
+				"1": {
+					"origin": "8, 49",
+					"z" : 0,
+					"delay" : 90,
+					"_outlink" : "Effect/_Canvas/Tomb.img/urus/castingBar/fail/1"
+				},
+				"2": {
+					"origin": "4, 57",
+					"z" : 0,
+					"delay" : 90,
+					"_outlink" : "Effect/_Canvas/Tomb.img/urus/castingBar/fail/2"
+				},
+				"3": {
+					"origin": "8, 58",
+					"z" : 0,
+					"delay" : 90,
+					"_outlink" : "Effect/_Canvas/Tomb.img/urus/castingBar/fail/3"
+				},
+				"4": {
+					"origin": "4, 58",
+					"z" : 0,
+					"delay" : 90,
+					"_outlink" : "Effect/_Canvas/Tomb.img/urus/castingBar/fail/4"
+				},
+				"5": {
+					"origin": "-11, 59",
+					"z" : 0,
+					"delay" : 90,
+					"_outlink" : "Effect/_Canvas/Tomb.img/urus/castingBar/fail/5"
+				},
+				"6": {
+					"origin": "-34, 28",
+					"z" : 0,
+					"delay" : 90,
+					"_outlink" : "Effect/_Canvas/Tomb.img/urus/castingBar/fail/6"
+				},
+				"7": {
+					"origin": "-43, 24",
+					"z" : 0,
+					"delay" : 90,
+					"_outlink" : "Effect/_Canvas/Tomb.img/urus/castingBar/fail/7"
+				},
+				"8": {
+					"origin": "-47, 20",
+					"z" : 0,
+					"delay" : 90,
+					"_outlink" : "Effect/_Canvas/Tomb.img/urus/castingBar/fail/8"
+				},
+				"9": {
+					"origin": "-51, 16",
+					"z" : 0,
+					"delay" : 90,
+					"_outlink" : "Effect/_Canvas/Tomb.img/urus/castingBar/fail/9"
+				},
+				"10": {
+					"origin": "-58, 9",
+					"z" : 0,
+					"delay" : 90,
+					"_outlink" : "Effect/_Canvas/Tomb.img/urus/castingBar/fail/10"
+				}
+			}
+		},
+		"revive": {
+			"0": {
+				"origin": "94, 123",
+				"z" : 0,
+				"delay" : 90,
+				"_outlink" : "Effect/_Canvas/Tomb.img/urus/revive/0"
+			},
+			"1": {
+				"origin": "101, 114",
+				"z" : 0,
+				"delay" : 90,
+				"_outlink" : "Effect/_Canvas/Tomb.img/urus/revive/1"
+			},
+			"2": {
+				"origin": "100, 111",
+				"z" : 0,
+				"delay" : 90,
+				"_outlink" : "Effect/_Canvas/Tomb.img/urus/revive/2"
+			},
+			"3": {
+				"origin": "99, 112",
+				"z" : 0,
+				"delay" : 90,
+				"_outlink" : "Effect/_Canvas/Tomb.img/urus/revive/3"
+			},
+			"4": {
+				"origin": "100, 113",
+				"z" : 0,
+				"delay" : 90,
+				"_outlink" : "Effect/_Canvas/Tomb.img/urus/revive/4"
+			},
+			"5": {
+				"origin": "101, 113",
+				"z" : 0,
+				"delay" : 90,
+				"_outlink" : "Effect/_Canvas/Tomb.img/urus/revive/5"
+			},
+			"6": {
+				"origin": "102, 112",
+				"z" : 0,
+				"delay" : 90,
+				"_outlink" : "Effect/_Canvas/Tomb.img/urus/revive/6"
+			},
+			"7": {
+				"origin": "81, 111",
+				"z" : 0,
+				"delay" : 90,
+				"_outlink" : "Effect/_Canvas/Tomb.img/urus/revive/7"
+			}
+		}
+	},
+	"battlehorizon": {
+		"revive": {
+			"0": {
+				"origin": "89, 108",
+				"z" : 0,
+				"_outlink" : "Effect/_Canvas/Tomb.img/battlehorizon/revive/0"
+			},
+			"1": {
+				"origin": "125, 144",
+				"z" : 0,
+				"_outlink" : "Effect/_Canvas/Tomb.img/battlehorizon/revive/1"
+			},
+			"2": {
+				"origin": "153, 170",
+				"z" : 0,
+				"_outlink" : "Effect/_Canvas/Tomb.img/battlehorizon/revive/2"
+			},
+			"3": {
+				"origin": "160, 171",
+				"z" : 0,
+				"_outlink" : "Effect/_Canvas/Tomb.img/battlehorizon/revive/3"
+			},
+			"4": {
+				"origin": "146, 172",
+				"z" : 0,
+				"_outlink" : "Effect/_Canvas/Tomb.img/battlehorizon/revive/4"
+			},
+			"5": {
+				"origin": "153, 172",
+				"z" : 0,
+				"_outlink" : "Effect/_Canvas/Tomb.img/battlehorizon/revive/5"
+			},
+			"6": {
+				"origin": "160, 173",
+				"z" : 0,
+				"_outlink" : "Effect/_Canvas/Tomb.img/battlehorizon/revive/6"
+			},
+			"7": {
+				"origin": "162, 178",
+				"z" : 0,
+				"_outlink" : "Effect/_Canvas/Tomb.img/battlehorizon/revive/7"
+			},
+			"8": {
+				"origin": "152, 187",
+				"z" : 0,
+				"_outlink" : "Effect/_Canvas/Tomb.img/battlehorizon/revive/8"
+			},
+			"9": {
+				"origin": "155, 195",
+				"z" : 0,
+				"_outlink" : "Effect/_Canvas/Tomb.img/battlehorizon/revive/9"
+			},
+			"10": {
+				"origin": "146, 204",
+				"z" : 0,
+				"_outlink" : "Effect/_Canvas/Tomb.img/battlehorizon/revive/10"
+			},
+			"11": {
+				"origin": "150, 212",
+				"z" : 0,
+				"_outlink" : "Effect/_Canvas/Tomb.img/battlehorizon/revive/11"
+			}
+		}
+	}
+}

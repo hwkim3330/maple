@@ -1,0 +1,111 @@
+{
+	"info": {
+		"level" : 35,
+		"maxHP" : 1400,
+		"maxMP" : 200,
+		"speed" : -10,
+		"PADamage" : 164,
+		"PDDamage" : 50,
+		"PDRate" : 10,
+		"MADamage" : 162,
+		"MDDamage" : 20,
+		"MDRate" : 10,
+		"acc" : 25,
+		"eva" : 8,
+		"pushed" : 200,
+		"fs" : "10",
+		"summonType" : 1,
+		"category" : 8,
+		"mobType" : "1N"
+	},
+	"stand": {
+		"0": {
+			"origin": "36, 100",
+			"lt": "-36, -100",
+			"rb": "36, 0",
+			"head": "-13, -68",
+			"delay" : 130,
+			"_outlink" : "Mob/_Canvas/9001007.img/stand/0"
+		}
+	},
+	"hit1": {
+		"0": {
+			"origin": "39, 102",
+			"lt": "-36, -100",
+			"rb": "36, 0",
+			"head": "-13, -68",
+			"delay" : 130,
+			"_outlink" : "Mob/_Canvas/9001007.img/hit1/0"
+		}
+	},
+	"die1": {
+		"0": {
+			"origin": "39, 102",
+			"head": "-2, -91",
+			"delay" : 130,
+			"_outlink" : "Mob/_Canvas/9001007.img/hit1/0"
+		},
+		"1": {
+			"origin": "45, 100",
+			"head": "1, -93",
+			"delay" : 130,
+			"_outlink" : "Mob/_Canvas/9001007.img/die1/1"
+		},
+		"2": {
+			"origin": "47, 100",
+			"head": "2, -93",
+			"delay" : 130,
+			"_outlink" : "Mob/_Canvas/9001007.img/die1/2"
+		},
+		"3": {
+			"origin": "35, 100",
+			"head": "3, -92",
+			"delay" : 130,
+			"_outlink" : "Mob/_Canvas/9001007.img/die1/3"
+		},
+		"4": {
+			"origin": "35, 100",
+			"head": "3, -90",
+			"delay" : 130,
+			"_outlink" : "Mob/_Canvas/9001007.img/die1/4"
+		},
+		"5": {
+			"origin": "19, 100",
+			"head": "4, -88",
+			"delay" : 130,
+			"_outlink" : "Mob/_Canvas/9001007.img/die1/5"
+		},
+		"6": {
+			"origin": "26, 79",
+			"head": "5, -85",
+			"delay" : 130,
+			"_outlink" : "Mob/_Canvas/9001007.img/die1/6"
+		},
+		"7": {
+			"origin": "28, 78",
+			"head": "5, -83",
+			"delay" : 130,
+			"_outlink" : "Mob/_Canvas/9001007.img/die1/7"
+		},
+		"8": {
+			"origin": "30, 77",
+			"head": "5, -83",
+			"delay" : 130,
+			"_outlink" : "Mob/_Canvas/9001007.img/die1/8"
+		},
+		"9": {
+			"origin": "32, 75",
+			"head": "5, -83",
+			"delay" : 130,
+			"_outlink" : "Mob/_Canvas/9001007.img/die1/9"
+		},
+		"10": {
+			"origin": "32, 17",
+			"head": "5, -83",
+			"delay" : 300,
+			"a1" : 0,
+			"a0" : 255,
+			"_outlink" : "Mob/_Canvas/9001007.img/die1/10"
+		}
+	}
+}

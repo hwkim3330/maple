@@ -1,0 +1,2049 @@
+{
+	"info": {
+		"icon": {
+			"origin": "-4, 30"
+		}
+	},
+	"skill": {
+		"121001000": {
+			"icon": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"iconMouseOver": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"iconDisabled": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"info": {
+				"type" : 1,
+				"areaAttack" : 1
+			},
+			"action": {
+				"0" : "TJRAttack1"
+			},
+			"common": {
+				"fixdamage": 10000,
+				"maxLevel" : 1,
+				"mobCount" : "6",
+				"attackCount" : "5",
+				"x" : "2000",
+				"cancelableTime" : "330",
+				"lt": "-325, -260",
+				"rb": "100, 90",
+				"s" : "6",
+				"u" : "100+3*x",
+				"v" : "5",
+				"w" : "6",
+				"y" : "210+3*x",
+				"z" : "5",
+				"s2" : "6",
+				"u2" : "210+3*x",
+				"v2" : "5"
+			},
+			"effect": {
+				"0": {
+					"origin": "274, 208",
+					"z" : 0,
+					"delay" : 60
+				},
+				"1": {
+					"origin": "274, 208",
+					"z" : 0,
+					"delay" : 60
+				},
+				"2": {
+					"origin": "310, 196",
+					"z" : 0,
+					"delay" : 60
+				},
+				"3": {
+					"origin": "262, 90",
+					"z" : 0,
+					"delay" : 60
+				},
+				"4": {
+					"origin": "159, 95",
+					"z" : 0,
+					"delay" : 60
+				},
+				"5": {
+					"origin": "58, 113",
+					"z" : 0,
+					"delay" : 60
+				},
+				"6": {
+					"origin": "-30, 123",
+					"z" : 0,
+					"delay" : 60
+				}
+			},
+			"hit": {
+				"0": {
+					"0": {
+						"origin": "81, 101",
+						"z" : 0,
+						"delay" : 60
+					},
+					"1": {
+						"origin": "88, 88",
+						"z" : 0,
+						"delay" : 60
+					},
+					"2": {
+						"origin": "108, 86",
+						"z" : 0,
+						"delay" : 60
+					},
+					"3": {
+						"origin": "127, 78",
+						"z" : 0,
+						"delay" : 60
+					},
+					"4": {
+						"origin": "125, 79",
+						"z" : 0,
+						"delay" : 60
+					},
+					"5": {
+						"origin": "73, 77",
+						"z" : 0,
+						"delay" : 60
+					},
+					"6": {
+						"origin": "71, 75",
+						"z" : 0,
+						"delay" : 60
+					},
+					"randomHitOrigin" : 25,
+					"useZ" : 1,
+					"z" : 1
+				}
+			},
+			"processtype" : -1,
+			"additional_process": {
+				"0" : 1,
+				"1" : 9,
+				"2" : 22
+			},
+			"cancelableSkillID": {
+				"0" : 121001008,
+				"1" : 121001001,
+				"2" : 121002000,
+				"3" : 121002001,
+				"4" : 121002004,
+				"5" : 121002006
+			},
+			"addAttack": {
+				"skill" : 121001001,
+				"reqCount" : 1,
+				"pattern" : "150",
+				"patternType" : 1,
+				"type" : 1
+			},
+			"fixLevel" : 1,
+			"rush": {
+				"elem": {
+					"0": {
+						"style" : 5,
+						"time" : 120,
+						"vx" : 0,
+						"vy" : 0,
+						"ax" : 0
+					},
+					"1": {
+						"style" : 0,
+						"time" : 60,
+						"vx" : 100,
+						"vy" : 0,
+						"ax" : 0
+					}
+				}
+			}
+		},
+		"121001001": {
+			"icon": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"iconMouseOver": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"iconDisabled": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"info": {
+				"type" : 1,
+				"areaAttack" : 1
+			},
+			"action": {
+				"0" : "TJRAttack2"
+			},
+			"common": {
+				"maxLevel" : 1,
+				"mobCount" : "6",
+				"fixdamage": 10000,
+				"attackCount" : "5",
+				"cancelableTime" : "330",
+				"lt": "-420, -150",
+				"rb": "130, 85"
+			},
+			"effect": {
+				"0": {
+					"origin": "104, 49",
+					"z" : 0,
+					"delay" : 120
+				},
+				"1": {
+					"origin": "104, 49",
+					"z" : 0,
+					"delay" : 60
+				},
+				"2": {
+					"origin": "369, 81",
+					"z" : 0,
+					"delay" : 60
+				},
+				"3": {
+					"origin": "403, 68",
+					"z" : 0,
+					"delay" : 60
+				},
+				"4": {
+					"origin": "423, 59",
+					"z" : 0,
+					"delay" : 60
+				},
+				"5": {
+					"origin": "420, 49",
+					"z" : 0,
+					"delay" : 60
+				},
+				"6": {
+					"origin": "410, 45",
+					"z" : 0,
+					"delay" : 60
+				}
+			},
+			"hit": {
+				"0": {
+					"0": {
+						"origin": "81, 101",
+						"z" : 0,
+						"delay" : 60
+					},
+					"1": {
+						"origin": "88, 88",
+						"z" : 0,
+						"delay" : 60
+					},
+					"2": {
+						"origin": "108, 86",
+						"z" : 0,
+						"delay" : 60
+					},
+					"3": {
+						"origin": "127, 78",
+						"z" : 0,
+						"delay" : 60
+					},
+					"4": {
+						"origin": "125, 79",
+						"z" : 0,
+						"delay" : 60
+					},
+					"5": {
+						"origin": "73, 77",
+						"z" : 0,
+						"delay" : 60
+					},
+					"6": {
+						"origin": "71, 75",
+						"z" : 0,
+						"delay" : 60
+					},
+					"randomHitOrigin" : 25,
+					"useZ" : 1,
+					"z" : 1
+				}
+			},
+			"invisible" : 1,
+			"processtype" : -1,
+			"additional_process": {
+				"0" : 1,
+				"1" : 9,
+				"2" : 22
+			},
+			"cancelableSkillID": {
+				"0" : 121001008,
+				"1" : 121001002,
+				"2" : 121002000,
+				"3" : 121002001,
+				"4" : 121002004,
+				"5" : 121002006
+			},
+			"addAttack": {
+				"skill" : 121001002,
+				"reqCount" : 1,
+				"pattern" : "150",
+				"patternType" : 1,
+				"type" : 1
+			},
+			"rush": {
+				"elem": {
+					"0": {
+						"style" : 5,
+						"time" : 120,
+						"vx" : 0,
+						"vy" : 0,
+						"ax" : 0
+					},
+					"1": {
+						"style" : 0,
+						"time" : 60,
+						"vx" : 100,
+						"vy" : 0,
+						"ax" : 0
+					}
+				}
+			}
+		},
+		"121001002": {
+			"icon": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"iconMouseOver": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"iconDisabled": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"info": {
+				"type" : 1,
+				"areaAttack" : 1
+			},
+			"action": {
+				"0" : "TJRAttack3"
+			},
+			"common": {
+				"maxLevel" : 1,
+				"lt": "-290, -265",
+				"rb": "90, 100",
+				"mobCount" : "6",
+				"fixdamage": 10000,
+				"attackCount" : "5",
+				"cancelableTime" : "330"
+			},
+			"effect": {
+				"0": {
+					"origin": "148, 228",
+					"z" : 0,
+					"delay" : 60
+				},
+				"1": {
+					"origin": "148, 228",
+					"z" : 0,
+					"delay" : 60
+				},
+				"2": {
+					"origin": "261, 226",
+					"z" : 0,
+					"delay" : 60
+				},
+				"3": {
+					"origin": "254, 131",
+					"z" : 0,
+					"delay" : 60
+				},
+				"4": {
+					"origin": "231, 43",
+					"z" : 0,
+					"delay" : 60
+				},
+				"5": {
+					"origin": "142, 37",
+					"z" : 0,
+					"delay" : 60
+				},
+				"6": {
+					"origin": "10, 45",
+					"z" : 0,
+					"delay" : 60
+				}
+			},
+			"hit": {
+				"0": {
+					"0": {
+						"origin": "81, 101",
+						"z" : 0,
+						"delay" : 60
+					},
+					"1": {
+						"origin": "88, 88",
+						"z" : 0,
+						"delay" : 60
+					},
+					"2": {
+						"origin": "108, 86",
+						"z" : 0,
+						"delay" : 60
+					},
+					"3": {
+						"origin": "127, 78",
+						"z" : 0,
+						"delay" : 60
+					},
+					"4": {
+						"origin": "125, 79",
+						"z" : 0,
+						"delay" : 60
+					},
+					"5": {
+						"origin": "73, 77",
+						"z" : 0,
+						"delay" : 60
+					},
+					"6": {
+						"origin": "71, 75",
+						"z" : 0,
+						"delay" : 60
+					},
+					"randomHitOrigin" : 25,
+					"useZ" : 1,
+					"z" : 1
+				}
+			},
+			"invisible" : 1,
+			"processtype" : -1,
+			"additional_process": {
+				"0" : 1,
+				"1" : 9,
+				"2" : 22
+			},
+			"cancelableSkillID": {
+				"0" : 121001008,
+				"1" : 121001003,
+				"2" : 121002000,
+				"3" : 121002001,
+				"4" : 121002004,
+				"5" : 121002006
+			},
+			"addAttack": {
+				"skill" : 121001003,
+				"reqCount" : 1,
+				"pattern" : "150",
+				"patternType" : 1,
+				"type" : 1
+			},
+			"rush": {
+				"elem": {
+					"0": {
+						"style" : 5,
+						"time" : 120,
+						"vx" : 0,
+						"vy" : 0,
+						"ax" : 0
+					},
+					"1": {
+						"style" : 0,
+						"time" : 60,
+						"vx" : 100,
+						"vy" : 0,
+						"ax" : 0
+					}
+				}
+			}
+		},
+		"121001003": {
+			"icon": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"iconMouseOver": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"iconDisabled": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"info": {
+				"type" : 1,
+				"areaAttack" : 1
+			},
+			"action": {
+				"0" : "TJRAttack4"
+			},
+			"common": {
+				"maxLevel" : 1,
+				"lt": "-300, -290",
+				"rb": "75, 100",
+				"mobCount" : "6",
+				"fixdamage": 10000,
+				"attackCount" : "5",
+				"cancelableTime" : "330"
+			},
+			"effect": {
+				"0": {
+					"origin": "-4, 155",
+					"z" : 0,
+					"delay" : 60
+				},
+				"1": {
+					"origin": "-4, 155",
+					"z" : 0,
+					"delay" : 60
+				},
+				"2": {
+					"origin": "273, 255",
+					"z" : 0,
+					"delay" : 60
+				},
+				"3": {
+					"origin": "270, 256",
+					"z" : 0,
+					"delay" : 60
+				},
+				"4": {
+					"origin": "267, 257",
+					"z" : 0,
+					"delay" : 60
+				},
+				"5": {
+					"origin": "260, 257",
+					"z" : 0,
+					"delay" : 60
+				},
+				"6": {
+					"origin": "233, 257",
+					"z" : 0,
+					"delay" : 60
+				}
+			},
+			"hit": {
+				"0": {
+					"0": {
+						"origin": "81, 101",
+						"z" : 0,
+						"delay" : 60
+					},
+					"1": {
+						"origin": "88, 88",
+						"z" : 0,
+						"delay" : 60
+					},
+					"2": {
+						"origin": "108, 86",
+						"z" : 0,
+						"delay" : 60
+					},
+					"3": {
+						"origin": "127, 78",
+						"z" : 0,
+						"delay" : 60
+					},
+					"4": {
+						"origin": "125, 79",
+						"z" : 0,
+						"delay" : 60
+					},
+					"5": {
+						"origin": "73, 77",
+						"z" : 0,
+						"delay" : 60
+					},
+					"6": {
+						"origin": "71, 75",
+						"z" : 0,
+						"delay" : 60
+					},
+					"randomHitOrigin" : 25,
+					"useZ" : 1,
+					"z" : 1
+				}
+			},
+			"invisible" : 1,
+			"processtype" : -1,
+			"additional_process": {
+				"0" : 1,
+				"1" : 9,
+				"2" : 22
+			},
+			"cancelableSkillID": {
+				"0" : 121001008,
+				"1" : 121001000,
+				"2" : 121002000,
+				"3" : 121002001,
+				"4" : 121002004,
+				"5" : 121002006
+			},
+			"addAttack": {
+				"skill" : 121001000,
+				"reqCount" : 1,
+				"pattern" : "150",
+				"patternType" : 1,
+				"type" : 1
+			},
+			"rush": {
+				"elem": {
+					"0": {
+						"style" : 5,
+						"time" : 120,
+						"vx" : 0,
+						"vy" : 0,
+						"ax" : 0
+					},
+					"1": {
+						"style" : 0,
+						"time" : 60,
+						"vx" : 100,
+						"vy" : 0,
+						"ax" : 0
+					}
+				}
+			}
+		},
+		"121000004": {
+			"icon": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"iconMouseOver": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"iconDisabled": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"skillType" : 1,
+			"common": {
+				"maxLevel" : 1,
+				"padX" : "2*x+10",
+				"stanceProp" : "100",
+				"psdJump" : "20",
+				"psdSpeed" : "30",
+				"speedMax" : "20",
+				"mhpR" : "150",
+				"mmpR" : "150",
+				"damAbsorbShieldR" : "40",
+				"asrR" : "20",
+				"ignoreMobpdpR" : "20",
+				"expR" : "100"
+			},
+			"info": {
+				"type" : 50
+			},
+			"psd" : 1,
+			"fixLevel" : 1
+		},
+		"121001005": {
+			"icon": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"iconMouseOver": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"iconDisabled": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"common": {
+				"maxLevel" : 1,
+				"x" : "1",
+				"cooltime" : "3"
+			},
+			"info": {
+				"type" : 50
+			},
+			"psd" : 1,
+			"fixLevel" : 1
+		},
+		"121001006": {
+			"icon": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"iconMouseOver": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"iconDisabled": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"common": {
+				"maxLevel" : 1,
+				"x" : "650",
+				"y" : "500"
+			},
+			"info": {
+				"type" : 40,
+				"casterMove" : 1,
+				"avaliableInJumpingState" : 1
+			},
+			"effect": {
+				"0": {
+					"origin": "25, 71",
+					"z" : 0,
+					"delay" : 60
+				},
+				"1": {
+					"origin": "33, 71",
+					"z" : 0,
+					"delay" : 60
+				},
+				"2": {
+					"origin": "25, 71",
+					"z" : 0,
+					"delay" : 60
+				},
+				"3": {
+					"origin": "38, 71",
+					"z" : 0,
+					"delay" : 60
+				},
+				"4": {
+					"origin": "25, 71",
+					"z" : 0,
+					"delay" : 60
+				},
+				"5": {
+					"origin": "25, 71",
+					"z" : 0,
+					"delay" : 60
+				},
+				"6": {
+					"origin": "38, 71",
+					"z" : 0,
+					"delay" : 60
+				},
+				"7": {
+					"origin": "22, 71",
+					"z" : 0,
+					"delay" : 60
+				},
+				"8": {
+					"origin": "20, 71",
+					"z" : 0,
+					"delay" : 60
+				},
+				"z" : -2
+			},
+			"effect0" : {
+				"0": {
+					"origin": "-17, 103",
+					"z" : 0,
+					"delay" : 60
+				},
+				"1": {
+					"origin": "-15, 107",
+					"z" : 0,
+					"delay" : 60
+				},
+				"2": {
+					"origin": "-14, 112",
+					"z" : 0,
+					"delay" : 60
+				},
+				"3": {
+					"origin": "-13, 112",
+					"z" : 0,
+					"delay" : 60
+				},
+				"4": {
+					"origin": "-12, 115",
+					"z" : 0,
+					"delay" : 60
+				},
+				"5": {
+					"origin": "-11, 119",
+					"z" : 0,
+					"delay" : 60
+				},
+				"6": {
+					"origin": "-11, 120",
+					"z" : 0,
+					"delay" : 60
+				},
+				"7": {
+					"origin": "-11, 122",
+					"z" : 0,
+					"delay" : 60
+				},
+				"8": {
+					"origin": "-11, 123",
+					"z" : 0,
+					"delay" : 60
+				},
+				"9": {
+					"origin": "-14, 122",
+					"z" : 0,
+					"delay" : 60
+				},
+				"10": {
+					"origin": "-28, 125",
+					"z" : 0,
+					"delay" : 60
+				},
+				"fix" : 1
+			},
+			"processtype" : -1,
+			"additional_process": {
+				"0" : 12
+			},
+			"fixLevel" : 1
+		},
+		"121001007": {
+			"icon": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"iconMouseOver": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"iconDisabled": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"common": {
+				"maxLevel" : 1,
+				"y" : "1100",
+				"x" : "0"
+			},
+			"info": {
+				"type" : 40,
+				"casterMove" : 1,
+				"avaliableInJumpingState" : 1
+			},
+			"effect": {
+				"0": {
+					"origin": "26, 38",
+					"z" : 0,
+					"delay" : 60
+				},
+				"1": {
+					"origin": "26, 38",
+					"z" : 0,
+					"delay" : 60
+				},
+				"2": {
+					"origin": "26, 38",
+					"z" : 0,
+					"delay" : 60
+				},
+				"3": {
+					"origin": "26, 38",
+					"z" : 0,
+					"delay" : 60
+				},
+				"4": {
+					"origin": "26, 38",
+					"z" : 0,
+					"delay" : 60
+				},
+				"5": {
+					"origin": "26, 38",
+					"z" : 0,
+					"delay" : 60
+				},
+				"6": {
+					"origin": "26, 38",
+					"z" : 0,
+					"delay" : 60
+				},
+				"7": {
+					"origin": "24, 36",
+					"z" : 0,
+					"delay" : 60
+				},
+				"8": {
+					"origin": "20, 24",
+					"z" : 0,
+					"delay" : 60
+				},
+				"z" : -2
+			},
+			"effect0" : {
+				"0": {
+					"origin": "69, 22",
+					"z" : 0,
+					"delay" : 60
+				},
+				"1": {
+					"origin": "73, 24",
+					"z" : 0,
+					"delay" : 60
+				},
+				"2": {
+					"origin": "77, 25",
+					"z" : 0,
+					"delay" : 60
+				},
+				"3": {
+					"origin": "78, 26",
+					"z" : 0,
+					"delay" : 60
+				},
+				"4": {
+					"origin": "81, 27",
+					"z" : 0,
+					"delay" : 60
+				},
+				"5": {
+					"origin": "83, 28",
+					"z" : 0,
+					"delay" : 60
+				},
+				"6": {
+					"origin": "85, 28",
+					"z" : 0,
+					"delay" : 60
+				},
+				"7": {
+					"origin": "86, 28",
+					"z" : 0,
+					"delay" : 60
+				},
+				"8": {
+					"origin": "87, 28",
+					"z" : 0,
+					"delay" : 60
+				},
+				"9": {
+					"origin": "88, 25",
+					"z" : 0,
+					"delay" : 60
+				},
+				"10": {
+					"origin": "85, 11",
+					"z" : 0,
+					"delay" : 60
+				},
+				"fix" : 1
+			},
+			"invisible" : 1,
+			"processtype" : -1,
+			"additional_process": {
+				"0" : 43,
+				"1" : 12
+			}
+		},
+		"121001008": {
+			"icon": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"iconMouseOver": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"iconDisabled": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"action": {
+				"0" : "TJRDash"
+			},
+			"info": {
+				"type" : 2,
+				"casterMove" : 1,
+				"avaliableInJumpingState" : 1
+			},
+			"info2": {
+				"ignoreCounter" : 1
+			},
+			"common": {
+				"maxLevel" : 1,
+				"damage" : "220",
+				"mobCount" : "6",
+				"attackCount" : "5",
+				"cooltime" : "8",
+				"y" : "4",
+				"u" : "350",
+				"w" : "4",
+				"subTime" : "180",
+				"cancelableTime" : "330",
+				"q" : "2500",
+				"lt": "-30, -110",
+				"rb": "420, 110",
+				"s" : "25"
+			},
+			"effect": {
+				"0": {
+					"0": {
+						"origin": "54, 83",
+						"z" : 0,
+						"delay" : 60
+					}
+				},
+				"front": {
+					"0": {
+						"origin": "54, 83",
+						"z" : 0,
+						"delay" : 60
+					}
+				}
+			},
+			"effect0": {
+				"0": {
+					"origin": "54, 83",
+					"z" : 0,
+					"delay" : 60
+				},
+				"1": {
+					"origin": "60, 84",
+					"z" : 0,
+					"delay" : 60
+				},
+				"2": {
+					"origin": "32, 88",
+					"z" : 0,
+					"delay" : 60
+				},
+				"3": {
+					"origin": "14, 93",
+					"z" : 0,
+					"delay" : 60
+				},
+				"4": {
+					"origin": "8, 96",
+					"z" : 0,
+					"delay" : 60
+				},
+				"5": {
+					"origin": "7, 102",
+					"z" : 0,
+					"delay" : 60
+				},
+				"6": {
+					"origin": "6, 105",
+					"z" : 0,
+					"delay" : 60
+				},
+				"7": {
+					"origin": "3, 106",
+					"z" : 0,
+					"delay" : 60
+				},
+				"8": {
+					"origin": "-3, 106",
+					"z" : 0,
+					"delay" : 60
+				},
+				"9": {
+					"origin": "-7, 105",
+					"z" : 0,
+					"delay" : 60
+				},
+				"10": {
+					"origin": "-21, 99",
+					"z" : 0,
+					"delay" : 60
+				},
+				"z" : 2,
+				"fix" : 1
+			},
+			"hit": {
+				"0": {
+					"0": {
+						"origin": "81, 101",
+						"z" : 0,
+						"delay" : 60
+					},
+					"1": {
+						"origin": "88, 88",
+						"z" : 0,
+						"delay" : 60
+					},
+					"2": {
+						"origin": "108, 86",
+						"z" : 0,
+						"delay" : 60
+					},
+					"3": {
+						"origin": "127, 78",
+						"z" : 0,
+						"delay" : 60
+					},
+					"4": {
+						"origin": "125, 79",
+						"z" : 0,
+						"delay" : 60
+					},
+					"5": {
+						"origin": "73, 77",
+						"z" : 0,
+						"delay" : 60
+					},
+					"6": {
+						"origin": "71, 75",
+						"z" : 0,
+						"delay" : 60
+					},
+					"randomHitOrigin" : 25,
+					"useZ" : 1,
+					"z" : 1
+				}
+			},
+			"additional_process": {
+				"0" : 9,
+				"1" : 22,
+				"2" : 95,
+				"3" : 86
+			},
+			"rush": {
+				"elem": {
+					"0": {
+						"style" : 5,
+						"time" : 60,
+						"vx" : 0,
+						"vy" : 0,
+						"ax" : 0
+					},
+					"1": {
+						"style" : 0,
+						"time" : 60,
+						"vx" : 80,
+						"vy" : 0,
+						"ax" : 0
+					},
+					"2": {
+						"style" : 0,
+						"time" : 60,
+						"vx" : 40,
+						"vy" : 0,
+						"ax" : 0
+					},
+					"3": {
+						"style" : 0,
+						"time" : 60,
+						"vx" : 20,
+						"vy" : 0,
+						"ax" : 0
+					}
+				},
+				"ignoreFoothold" : 1,
+				"action" : 0
+			},
+			"notIncBuffDuration" : 1,
+			"isFieldMovingLimit" : 1,
+			"processtype" : -1,
+			"cancelableSkillID": {
+				"0" : 121001008,
+				"1" : 121001000,
+				"2" : 121001001,
+				"3" : 121001002,
+				"4" : 121001003,
+				"5" : 121002000,
+				"6" : 121002001,
+				"7" : 121002004,
+				"8" : 121002006
+			},
+			"notResetDarkSight" : 1,
+			"notCooltimeReset" : 1,
+			"combatOrders" : 1,
+			"skillList": {
+				"0" : 121001000,
+				"1" : 121001001,
+				"2" : 121001002,
+				"3" : 121001003,
+				"4" : 121002000,
+				"5" : 121002001,
+				"6" : 121002004,
+				"7" : 121002006
+			}
+		},
+		"121002000": {
+			"icon": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"iconMouseOver": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"iconDisabled": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"info": {
+				"type" : 1,
+				"areaAttack" : 1
+			},
+			"info2": {
+				"type" : 1,
+				"areaAttack" : 1
+			},
+			"action": {
+				"0" : "TJRWaterWheel"
+			},
+			"common": {
+				"maxLevel" : 1,
+				"mobCount" : "7",
+				"damage" : "285+3*x",
+				"attackCount" : "6",
+				"lt": "-340, -390",
+				"rb": "239, 185",
+				"cancelableTime" : "210",
+				"cooltime" : "5",
+				"pdR" : "5"
+			},
+			"hit": {
+				"0": {
+					"0": {
+						"origin": "97, 112",
+						"z" : 0,
+						"delay" : 60
+					},
+					"1": {
+						"origin": "108, 114",
+						"z" : 0,
+						"delay" : 60
+					},
+					"2": {
+						"origin": "111, 113",
+						"z" : 0,
+						"delay" : 60
+					},
+					"3": {
+						"origin": "110, 113",
+						"z" : 0,
+						"delay" : 60
+					},
+					"4": {
+						"origin": "104, 108",
+						"z" : 0,
+						"delay" : 60
+					},
+					"5": {
+						"origin": "102, 105",
+						"z" : 0,
+						"delay" : 60
+					},
+					"6": {
+						"origin": "95, 100",
+						"z" : 0,
+						"delay" : 60
+					},
+					"7": {
+						"origin": "92, 98",
+						"z" : 0,
+						"delay" : 60
+					},
+					"8": {
+						"origin": "77, 87",
+						"z" : 0,
+						"delay" : 60
+					},
+					"randomHitOrigin" : 20
+				}
+			},
+			"effect": {
+				"0": {
+					"origin": "-92, 124",
+					"z" : 0,
+					"delay" : 60
+				},
+				"1": {
+					"origin": "86, 316",
+					"z" : 0,
+					"delay" : 60
+				},
+				"2": {
+					"origin": "291, 377",
+					"z" : 0,
+					"delay" : 60
+				},
+				"3": {
+					"origin": "301, 375",
+					"z" : 0,
+					"delay" : 60
+				},
+				"4": {
+					"origin": "301, 374",
+					"z" : 0,
+					"delay" : 60
+				},
+				"5": {
+					"origin": "302, 369",
+					"z" : 0,
+					"delay" : 60
+				},
+				"6": {
+					"origin": "305, 378",
+					"z" : 0,
+					"delay" : 60
+				},
+				"7": {
+					"origin": "307, 371",
+					"z" : 0,
+					"delay" : 60
+				},
+				"8": {
+					"origin": "312, 371",
+					"z" : 0,
+					"delay" : 60
+				},
+				"9": {
+					"origin": "316, 369",
+					"z" : 0,
+					"delay" : 60
+				},
+				"10": {
+					"origin": "316, 365",
+					"z" : 0,
+					"delay" : 60
+				},
+				"11": {
+					"origin": "324, 341",
+					"z" : 0,
+					"delay" : 60
+				},
+				"12": {
+					"origin": "327, 343",
+					"z" : 0,
+					"delay" : 60
+				},
+				"13": {
+					"origin": "334, 309",
+					"z" : 0,
+					"delay" : 60
+				},
+				"14": {
+					"origin": "343, 323",
+					"z" : 0,
+					"delay" : 60
+				},
+				"15": {
+					"origin": "207, 299",
+					"z" : 0,
+					"delay" : 60
+				},
+				"16": {
+					"origin": "208, 299",
+					"z" : 0,
+					"delay" : 60
+				},
+				"fix" : 1
+			},
+			"processtype" : -1,
+			"additional_process": {
+				"0" : 1,
+				"1" : 22
+			},
+			"reqLev" : 20,
+			"cancelableSkillID": {
+				"0" : 121001008,
+				"1" : 121001000,
+				"2" : 121001001,
+				"3" : 121001002,
+				"4" : 121001003,
+				"5" : 121002001,
+				"6" : 121002004,
+				"7" : 121002006
+			},
+			"fixLevel" : 1,
+			"psd" : 1
+		},
+		"121000009": {
+			"icon": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"iconMouseOver": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"iconDisabled": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"common": {
+				"maxLevel" : 1,
+				"x" : "10+4*x",
+				"y" : "10+4*x",
+				"z" : "10-4*4",
+				"v" : "10+4*x",
+				"w" : "10+4*x",
+				"u" : "10+4*x"
+			},
+			"info": {
+				"type" : 50
+			},
+			"psd" : 1,
+			"reqLev" : 20,
+			"fixLevel" : 1
+		},
+		"121000010": {
+			"icon": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"iconMouseOver": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"iconDisabled": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"skillType" : 1,
+			"common": {
+				"maxLevel" : 1,
+				"pddX" : "2*x+10",
+				"expR" : "100"
+			},
+			"info": {
+				"type" : 50
+			},
+			"psd" : 1,
+			"reqLev" : 30,
+			"fixLevel" : 1
+		},
+		"121000011": {
+			"icon": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"iconMouseOver": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"iconDisabled": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"skillType" : 1,
+			"info": {
+				"type" : 10
+			},
+			"common": {
+				"maxLevel" : 1,
+				"strX" : "2*x",
+				"mastery" : "90"
+			},
+			"psdWeaponBooster": {
+				"actionSpeed" : "-2"
+			},
+			"psd" : 1,
+			"reqLev" : 30,
+			"fixLevel" : 1
+		},
+		"121002001": {
+			"icon": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"iconMouseOver": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"iconDisabled": {
+				"origin": "0, 32",
+				"z" : 0
+			},
+			"info": {
+				"type" : 1,
+				"areaAttack" : 1
+			},
+			"info2": {
+				"ignoreCounter" : 1
+			},
+			"action": {
+				"0" : "TJRStrikingTide"
+			},
+			"common": {
+				"maxLevel" : 1,
+				"damage" : "210+3*x",
+				"attackCount" : "8",
+				"mobCount" : "5",
+				"lt": "-421, -228",
+				"rb": "119, 111",
+				"cooltime" : "10",
+				"time" : "10",
+				"cancelableTime" : "210",
+				"pdR" : "5"
+			},
+			"effect": {
+				"0": {
+					"origin": "26, 31",
+					"z" : 0,
+					"delay" : 60
+				},
+				"1": {
+					"origin": "26, 31",
+					"z" : 0,
+					"delay" : 60
+				},
+				"2": {
+					"origin": "212, 91",
+					"z" : 0,
+					"delay" : 60
+				},
+				"3": {
+					"origin": "402, 167",
+					"z" : 0,
+					"delay" : 60
+				},
+				"4": {
+					"origin": "428, 219",
+					"z" : 0,
+					"delay" : 60
+				},
+				"5": {
+					"origin": "428, 221",
+					"z" : 0,
+					"delay" : 60
+				},
+				"6": {
+					"origin": "426, 221",
+					"z" : 0,
+					"delay" : 60
+				},
+				"7": {
+					"origin": "421, 220",
+					"z" : 0,
+					"delay" : 60
+				},
+				"8": {
+					"origin": "390, 219",
+					"z" : 0,
+					"delay" : 60
+				},
+				"9": {
+					"origin": "364, 217",
+					"z" : 0,
+					"delay" : 60
+				},
+				"10": {
+					"origin": "333, 210",
+					"z" : 0,
+					"delay" : 60
+				},
+				"11": {
+					"origin": "323, 208",
+					"z" : 0,
+					"delay" : 60
+				},
+				"12": {
+					"origin": "322, 182",
+					"z" : 0,
+					"delay" : 60
+				},
+				"13": {
+					"origin": "317, 181",
+					"z" : 0,
+					"delay" : 60
+				},
+				"14": {
+					"origin": "315, 176",
+					"z" : 0,
+					"delay" : 60
+				},
+				"15": {
+					"origin": "236, 176",
+					"z" : 0,
+					"delay" : 60
+				},
+				"z" : 1,
+				"fix" : 1
+			},
+			"effect0": {
+				"0": {
+					"origin": "0, 0",
+					"z" : 0,
+					"delay" : 120
+				},
+				"1": {
+					"origin": "130, 51",
+					"z" : 0,
+					"delay" : 60
+				},
+				"2": {
+					"origin": "413, 216",
+					"z" : 0,
+					"delay" : 60
+				},
+				"3": {
+					"origin": "410, 223",
+					"z" : 0,
+					"delay" : 60
+				},
+				"4": {
+					"origin": "407, 228",
+					"z" : 0,
+					"delay" : 60
+				},
+				"5": {
+					"origin": "408, 231",
+					"z" : 0,
+					"delay" : 60
+				},
+				"6": {
+					"origin": "416, 237",
+					"z" : 0,
+					"delay" : 60
+				},
+				"7": {
+					"origin": "421, 239",
+					"z" : 0,
+					"delay" : 60
+				},
+				"8": {
+					"origin": "430, 242",
+					"z" : 0,
+					"delay" : 60
+				},
+				"9": {
+					"origin": "436, 248",
+					"z" : 0,
+					"delay" : 60
+				},
+				"10": {
+					"origin": "439, 252",
+					"z" : 0,
+					"delay" : 60
+				},
+				"11": {
+					"origin": "446, 256",
+					"z" : 0,
+					"delay" : 60
+				},
+				"12": {
+					"origin": "439, 259",
+					"z" : 0,
+					"delay" : 60
+				},
+				"13": {
+					"origin": "429, 266",
+					"z" : 0,
+					"delay" : 60
+				},
+				"14": {
+					"origin": "435, 273",
+					"z" : 0,
+					"delay" : 60
+				},
+				"z" : -1,
+				"fix" : 1
+			},
+			"hit": {
+				"0": {
+					"0": {
+						"origin": "102, 101",
+						"z" : 0,
+						"delay" : 60
+					},
+					"1": {
+						"origin": "104, 101",
+						"z" : 0,
+						"delay" : 60
+					},
+					"2": {
+						"origin": "104, 102",
+						"z" : 0,
+						"delay" : 60
+					},
+					"3": {
+						"origin": "104, 102",
+						"z" : 0,
+						"delay" : 60
+					},
+					"4": {
+						"origin": "104, 101",
+						"z" : 0,
+						"delay" : 60
+					},
+					"5": {
+						"origin": "101, 98",
+						"z" : 0,
+						"delay" : 60
+					},
+					"6": {
+						"origin": "96, 94",
+						"z" : 0,
+						"delay" : 60
+					},
+					"7": {
+						"origin": "94, 92",
+						"z" : 0,
+						"delay" : 60
+					},
+					"8": {
+						"origin": "45, 53",
+						"z" : 0,
+						"delay" : 60
+					},
+					"randomHitOrigin" : 15
+				}
+			},
+			"mob": {
+				"0": {
+					"pre": {
+						"0": {
+							"origin": "92, 64",
+							"z" : 0,
+							"delay" : 60
+						}
+					},
+					"loop": {
+						"0": {
+							"origin": "92, 64",
+							"z" : 0,
+							"delay" : 60
+						},
+						"1": {
+							"origin": "92, 69",
+							"z" : 0,
+							"delay" : 60
+						},
+						"2": {
+							"origin": "92, 73",
+							"z" : 0,
+							"delay" : 60
+						},
+						"3": {
+							"origin": "92, 75",
+							"z" : 0,
+							"delay" : 60
+						},
+						"4": {
+							"origin": "92, 69",
+							"z" : 0,
+							"delay" : 60
+						},
+						"5": {
+							"origin": "92, 70",
+							"z" : 0,
+							"delay" : 60
+						},
+						"6": {
+							"origin": "92, 70",
+							"z" : 0,
+							"delay" : 60
+						},
+						"7": {
+							"origin": "92, 70",
+							"z" : 0,
+							"delay" : 60
+						},
+						"8": {
+							"origin": "92, 69",
+							"z" : 0,
+							"delay" : 60
+						},
+						"9": {
+							"origin": "92, 67",
+							"z" : 0,
+							"delay" : 60
+						},
+						"10": {
+							"origin": "92, 63",
+							"z" : 0,
+							"delay" : 60
+						},
+						"11": {
+							"origin": "92, 64",
+							"z" : 0,
+							"delay" : 60
+						}
+					},
+					"end": {
+						"0": {
+							"origin": "92, 64",
+							"z" : 0,
+							"delay" : 60
+						}
+					}
+				},
+				"1": {
+					"pre": {
+						"0": {
+							"origin": "92, 64",
+							"z" : 0,
+							"delay" : 60
+						}
+					},
+					"loop": {
+						"0": {
+							"origin": "133, 93",
+							"z" : 0,
+							"delay" : 60
+						},
+						"1": {
+							"origin": "133, 100",
+							"z" : 0,
+							"delay" : 60
+						},
+						"2": {
+							"origin": "133, 104",
+							"z" : 0,
+							"delay" : 60
+						},
+						"3": {
+							"origin": "133, 108",
+							"z" : 0,
+							"delay" : 60
+						},
+						"4": {
+							"origin": "133, 99",
+							"z" : 0,
+							"delay" : 60
+						},
+						"5": {
+							"origin": "133, 101",
+							"z" : 0,
+							"delay" : 60
+						},
+						"6": {
+							"origin": "133, 101",
+							"z" : 0,
+							"delay" : 60
+						},
+						"7": {
+							"origin": "133, 100",
+							"z" : 0,
+							"delay" : 60
+						},
+						"8": {
+							"origin": "133, 99",
+							"z" : 0,
+							"delay" : 60
+						},
+						"9": {
+							"origin": "133, 96",
+							"z" : 0,
+							"delay" : 60
+						},
+						"10": {
+							"origin": "133, 91",
+							"z" : 0,
+							"delay" : 60
+						},
+						"11": {
+							"origin": "133, 91",
+							"z" : 0,
+							"delay" : 60
+						}
+					},
+					"end": {
+						"0": {
+							"origin": "92, 64",
+							"z" : 0,
+							"delay" : 60
+						}
+					}
+				},
+				"2": {
+					"pre": {
+						"0": {
+							"origin": "92, 64",
+							"z" : 0,
+							"delay" : 60
+						}
+					},
+					"loop": {
+						"0": {
+							"origin": "174, 121",
+							"z" : 0,
+							"delay" : 60
+						},
+						"1": {
+							"origin": "174, 130",
+							"z" : 0,
+							"delay" : 60
+						},
+						"2": {
+							"origin": "174, 136",
+							"z" : 0,
+							"delay" : 60
+						},
+						"3": {
+							"origin": "174, 141",
+							"z" : 0,
+							"delay" : 60
+						},
+						"4": {
+							"origin": "174, 129",
+							"z" : 0,
+							"delay" : 60
+						},
+						"5": {
+							"origin": "174, 131",
+							"z" : 0,
+							"delay" : 60
+						},
+						"6": {
+							"origin": "174, 131",
+							"z" : 0,
+							"delay" : 60
+						},
+						"7": {
+							"origin": "174, 130",
+							"z" : 0,
+							"delay" : 60
+						},
+						"8": {
+							"origin": "174, 128",
+							"z" : 0,
+							"delay" : 60
+						},
+						"9": {
+							"origin": "174, 125",
+							"z" : 0,
+							"delay" : 60
+						},
+						"10": {
+							"origin": "174, 119",
+							"z" : 0,
+							"delay" : 60
+						},
+						"11": {
+							"origin": "174, 119",
+							"z" : 0,
+							"delay" : 60
+						}
+					},
+					"end": {
+						"0": {
+							"origin": "92, 64",
+							"z" : 0,
+							"delay" : 60
+						}
+					}
+				},
+				"3": {
+					"pre": {
+						"0": {
+							"origin": "92, 64",
+							"z" : 0,
+							"delay" : 60
+						}
+					},
+					"loop": {
+						"0": {
+							"origin": "205, 143",
+							"z" : 0,
+							"delay" : 60
+						},
+						"1": {
+							"origin": "205, 154",
+							"z" : 0,
+							"delay" : 60
+						},
+						"2": {
+							"origin": "205, 161",
+							"z" : 0,
+							"delay" : 60
+						},
+						"3": {
+							"origin": "205, 168",
+							"z" : 0,
+							"delay" : 60
+						},
+						"4": {
+							"origin": "205, 153",
+							"z" : 0,
+							"delay" : 60
+						},
+						"5": {
+							"origin": "205, 155",
+							"z" : 0,
+							"delay" : 60
+						},
+						"6": {
+							"origin": "205, 155",
+							"z" : 0,
+							"delay" : 60
+						},
+						"7": {
+							"origin": "205, 154",
+							"z" : 0,
+							"delay" : 60
+						},
+						"8": {
+							"origin": "205, 152",
+							"z" : 0,
+							"delay" : 60
+						},
+						"9": {
+							"origin": "205, 148",
+							"z" : 0,
+							"delay" : 60
+						},
+						"10": {
+							"origin": "205, 141",
+							"z" : 0,
+							"delay" : 60
+						},
+						"11": {
+							"origin": "205, 141",
+							"z" : 0,
+							"delay" : 60
+						}
+					},
+					"end": {
+						"0": {
+							"origin": "92, 64",
+							"z" : 0,
+							"delay" : 60
+						}
+					}
+				}
+			},
+			"processtype" : -1,
+			"additional_process": {
+				"0" : 16,
+				"1" : 22,
+				"2" : 9,
+				"3" : 21
+			},
+			"notCooltimeReset" : 1,
+			"reqLev" : 50,
+			"cancelableSkillID": {
+				"0" : 121001008,
+				"1" : 121001000,
+				"2" : 121001001,
+				"3" : 121001002,
+				"4" : 121001003,
+				"5" : 121002000,
+				"6" : 121002004,
+				"7" : 121002006
+			},
+			"rush": {
+				"elem": {
+					"0": {
+						"style" : 0,
+						"time" : 60,
+						"vx" : 0,
+						"vy" : 0,
+						"ax" : 0
+					},
+					"1": {
+						"style" : 0,
+						"time" : 120,
+						"vx" : 55,
+						"vy" : 15,
+						"ax" : 0
+					}
+				},
+				"ignoreFoothold" : 0,
+				"action" : 0
+			},
+			"fixLevel" : 1,
+			"psd" : 1
+		}
+	}
+}
