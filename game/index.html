@@ -935,6 +935,10 @@
     }
 
     // Draw player with proper body + head + arm composition
+    // MapleStory coordinate system:
+    // - origin: the anchor point of the sprite (where 0,0 is when drawing)
+    // - map.neck/navel: position of that attachment point relative to origin
+    // - To connect parts: align their map points (e.g., body.neck with head.neck)
     function drawPlayer() {
         const screenX = player.x - camera.x + GAME_WIDTH/2;
         const screenY = player.y - camera.y + GAME_HEIGHT/2;
@@ -955,11 +959,14 @@
         const head = assets.character.sprites['head_front'];
 
         if (body) {
-            // Parse origin and neck from JSON
+            // Default values from JSON
             let bodyOrigin = { x: 19, y: 32 };
             let bodyNeck = { x: -4, y: -32 };
+            let bodyNavel = { x: -6, y: -20 };
             let armOrigin = { x: 6, y: 8 };
+            let armNavel = { x: -12, y: 2 };
 
+            // Parse from JSON if available
             if (assets.character.data?.[player.state]?.[frame]) {
                 const frameData = assets.character.data[player.state][frame];
                 if (frameData.body?.origin) {
@@ -970,14 +977,21 @@
                     const [nx, ny] = frameData.body.map.neck.split(',').map(n => parseInt(n.trim()));
                     bodyNeck = { x: nx, y: ny };
                 }
+                if (frameData.body?.map?.navel) {
+                    const [nx, ny] = frameData.body.map.navel.split(',').map(n => parseInt(n.trim()));
+                    bodyNavel = { x: nx, y: ny };
+                }
                 if (frameData.arm?.origin) {
                     const [ox, oy] = frameData.arm.origin.split(',').map(n => parseInt(n.trim()));
                     armOrigin = { x: ox, y: oy };
                 }
+                if (frameData.arm?.map?.navel) {
+                    const [nx, ny] = frameData.arm.map.navel.split(',').map(n => parseInt(n.trim()));
+                    armNavel = { x: nx, y: ny };
+                }
             }
 
-            // Head positioning from JSON
-            // Head origin: 18, 17 / Head neck: 0, 15
+            // Head data: origin 18,17 / neck 0,15
             let headOrigin = { x: 18, y: 17 };
             let headNeck = { x: 0, y: 15 };
             if (assets.character.headData?.front?.head) {
@@ -992,34 +1006,44 @@
                 }
             }
 
-            // Calculate head position relative to body
-            // Body neck point is at: (-bodyOrigin.x + bodyNeck.x, -bodyOrigin.y + bodyNeck.y)
-            // Head needs to align its neck point to body's neck point
-            // So head draws at: neckPoint - (headNeck - (-headOrigin))
-            //                 = neckPoint - headNeck - headOrigin
-            const bodyNeckX = bodyNeck.x;
-            const bodyNeckY = bodyNeck.y;
-            const headX = bodyNeckX - headNeck.x - headOrigin.x;
-            const headY = bodyNeckY - headNeck.y - headOrigin.y;
+            // Body is drawn at origin (0,0), offset by -origin
+            const bodyDrawX = -bodyOrigin.x;
+            const bodyDrawY = -bodyOrigin.y;
 
-            // Draw in z-order: body -> head -> arm (over hair)
-            // 1. Draw body
-            ctx.drawImage(body, -bodyOrigin.x, -bodyOrigin.y);
+            // Body's neck position in screen coords: bodyDrawPos + bodyNeck
+            const bodyNeckScreenX = bodyDrawX + bodyOrigin.x + bodyNeck.x;
+            const bodyNeckScreenY = bodyDrawY + bodyOrigin.y + bodyNeck.y;
 
-            // 2. Draw head on top of body at neck position
-            if (head) {
-                ctx.drawImage(head, headX, headY);
+            // Head needs its neck at body's neck position
+            // headDrawPos + headOrigin + headNeck = bodyNeckScreen
+            // headDrawPos = bodyNeckScreen - headOrigin - headNeck
+            const headDrawX = bodyNeckScreenX - headOrigin.x - headNeck.x;
+            const headDrawY = bodyNeckScreenY - headOrigin.y - headNeck.y;
+
+            // Body's navel position in screen coords
+            const bodyNavelScreenX = bodyDrawX + bodyOrigin.x + bodyNavel.x;
+            const bodyNavelScreenY = bodyDrawY + bodyOrigin.y + bodyNavel.y;
+
+            // Arm needs its navel at body's navel position
+            // armDrawPos + armOrigin + armNavel = bodyNavelScreen
+            const armDrawX = bodyNavelScreenX - armOrigin.x - armNavel.x;
+            const armDrawY = bodyNavelScreenY - armOrigin.y - armNavel.y;
+
+            // Draw in z-order: arm (behind) -> body -> head
+            // 1. Draw arm behind body
+            if (arm) {
+                ctx.drawImage(arm, armDrawX, armDrawY);
             }
 
-            // 3. Draw arm
-            if (arm) {
-                // Arm connects via navel, calculate position
-                const armX = -armOrigin.x;
-                const armY = -armOrigin.y;
-                ctx.drawImage(arm, armX, armY);
+            // 2. Draw body
+            ctx.drawImage(body, bodyDrawX, bodyDrawY);
+
+            // 3. Draw head on top
+            if (head) {
+                ctx.drawImage(head, headDrawX, headDrawY);
             }
         } else {
-            // Fallback: simple character with head circle
+            // Fallback: simple character
             ctx.fillStyle = '#FFD700';
             ctx.fillRect(-15, -50, 30, 45);
             ctx.fillStyle = '#FFDAB9';
