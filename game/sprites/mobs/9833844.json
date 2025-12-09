@@ -1,0 +1,359 @@
+{
+	"info": {
+		"level" : 10,
+		"bodyAttack" : 0,
+		"maxHP" : 300000000,
+		"maxMP" : 10,
+		"PADamage" : 75,
+		"PDRate" : 10,
+		"MADamage" : 70,
+		"MDDamage" : 10,
+		"MDRate" : 10,
+		"acc" : 23,
+		"pushed" : 50,
+		"fs" : "10",
+		"exp" : 0,
+		"summonType" : 1,
+		"category" : 1,
+		"mobType" : "1N",
+		"hideHP" : 1,
+		"hideName" : 1,
+		"noFlip" : 1,
+		"exceptCapacityMob" : 1,
+		"fixedDamage" : 10000000,
+		"explosiveReward" : 1,
+		"individualReward" : 1,
+		"removeAfter" : 600
+	},
+	"regen": {
+		"0": {
+			"origin": "162, 242",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/regen/0"
+		},
+		"1": {
+			"origin": "136, 213",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/regen/1"
+		},
+		"2": {
+			"origin": "171, 203",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/regen/2"
+		},
+		"3": {
+			"origin": "136, 242",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/regen/3"
+		},
+		"4": {
+			"origin": "96, 214",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/regen/4"
+		},
+		"5": {
+			"origin": "163, 236",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/regen/5"
+		},
+		"6": {
+			"origin": "110, 252",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/regen/6"
+		},
+		"7": {
+			"origin": "153, 242",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/regen/7"
+		},
+		"8": {
+			"origin": "190, 287",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/regen/8"
+		},
+		"9": {
+			"origin": "192, 300",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/regen/9"
+		},
+		"10": {
+			"origin": "208, 307",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/regen/10"
+		},
+		"11": {
+			"origin": "189, 315",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/regen/11"
+		},
+		"12": {
+			"origin": "192, 321",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/regen/12"
+		},
+		"13": {
+			"origin": "193, 330",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/regen/13"
+		},
+		"14": {
+			"origin": "193, 336",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/regen/14"
+		},
+		"15": {
+			"origin": "194, 342",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/regen/15"
+		},
+		"16": {
+			"origin": "197, 349",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/regen/16"
+		},
+		"17": {
+			"origin": "206, 350",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/regen/17"
+		},
+		"18": {
+			"origin": "210, 343",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/regen/18"
+		},
+		"19": {
+			"origin": "217, 350",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/regen/19"
+		},
+		"20": {
+			"origin": "213, 356",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/regen/20"
+		}
+	},
+	"stand": {
+		"0": {
+			"origin": "179, 303",
+			"z" : 0,
+			"delay" : 90,
+			"lt": "-196, -308",
+			"rb": "169, 10",
+			"_outlink" : "Mob/_Canvas/9833842.img/stand/0"
+		},
+		"1": {
+			"origin": "183, 303",
+			"z" : 0,
+			"delay" : 90,
+			"lt": "-196, -308",
+			"rb": "169, 10",
+			"_outlink" : "Mob/_Canvas/9833842.img/stand/1"
+		},
+		"2": {
+			"origin": "188, 277",
+			"z" : 0,
+			"delay" : 90,
+			"lt": "-196, -308",
+			"rb": "169, 10",
+			"_outlink" : "Mob/_Canvas/9833842.img/stand/2"
+		},
+		"3": {
+			"origin": "190, 281",
+			"z" : 0,
+			"delay" : 90,
+			"lt": "-196, -308",
+			"rb": "169, 10",
+			"_outlink" : "Mob/_Canvas/9833842.img/stand/3"
+		},
+		"4": {
+			"origin": "192, 286",
+			"z" : 0,
+			"delay" : 90,
+			"lt": "-196, -308",
+			"rb": "169, 10",
+			"_outlink" : "Mob/_Canvas/9833842.img/stand/4"
+		},
+		"5": {
+			"origin": "164, 290",
+			"z" : 0,
+			"delay" : 90,
+			"lt": "-196, -308",
+			"rb": "169, 10",
+			"_outlink" : "Mob/_Canvas/9833842.img/stand/5"
+		},
+		"6": {
+			"origin": "169, 295",
+			"z" : 0,
+			"delay" : 90,
+			"lt": "-196, -308",
+			"rb": "169, 10",
+			"_outlink" : "Mob/_Canvas/9833842.img/stand/6"
+		},
+		"7": {
+			"origin": "174, 299",
+			"z" : 0,
+			"delay" : 90,
+			"lt": "-196, -308",
+			"rb": "169, 10",
+			"_outlink" : "Mob/_Canvas/9833842.img/stand/7"
+		}
+	},
+	"hit1": {
+		"0": {
+			"origin": "186, 289",
+			"z" : 0,
+			"lt": "-190, -293",
+			"rb": "170, 11",
+			"_outlink" : "Mob/_Canvas/9833842.img/hit1/0"
+		}
+	},
+	"die1": {
+		"0": {
+			"origin": "179, 303",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/die1/0"
+		},
+		"1": {
+			"origin": "269, 289",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/die1/1"
+		},
+		"2": {
+			"origin": "284, 337",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/die1/2"
+		},
+		"3": {
+			"origin": "267, 338",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/die1/3"
+		},
+		"4": {
+			"origin": "233, 373",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/die1/4"
+		},
+		"5": {
+			"origin": "285, 394",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/die1/5"
+		},
+		"6": {
+			"origin": "374, 436",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/die1/6"
+		},
+		"7": {
+			"origin": "377, 438",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/die1/7"
+		},
+		"8": {
+			"origin": "380, 439",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/die1/8"
+		},
+		"9": {
+			"origin": "417, 471",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/die1/9"
+		},
+		"10": {
+			"origin": "415, 468",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/die1/10"
+		},
+		"11": {
+			"origin": "410, 463",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/die1/11"
+		},
+		"12": {
+			"origin": "312, 424",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/die1/12"
+		},
+		"13": {
+			"origin": "295, 413",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/die1/13"
+		},
+		"14": {
+			"origin": "316, 424",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/die1/14"
+		},
+		"15": {
+			"origin": "322, 431",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/die1/15"
+		},
+		"16": {
+			"origin": "325, 416",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/die1/16"
+		},
+		"17": {
+			"origin": "328, 409",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/die1/17"
+		},
+		"18": {
+			"origin": "327, 397",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/die1/18"
+		},
+		"19": {
+			"origin": "302, 394",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/die1/19"
+		},
+		"20": {
+			"origin": "301, 388",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Mob/_Canvas/9833842.img/die1/20"
+		}
+	}
+}

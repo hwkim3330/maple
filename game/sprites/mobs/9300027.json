@@ -1,0 +1,164 @@
+{
+	"info": {
+		"hideName" : 1,
+		"level" : 23,
+		"bodyAttack" : 1,
+		"maxHP" : 465,
+		"maxMP" : 80,
+		"speed" : -20,
+		"PADamage" : 105,
+		"PDDamage" : 30,
+		"PDRate" : 10,
+		"MADamage" : 100,
+		"MDDamage" : 40,
+		"MDRate" : 10,
+		"acc" : 40,
+		"eva" : 3,
+		"pushed" : 100,
+		"fs" : "10",
+		"exp" : 40,
+		"summonType" : 1,
+		"category" : 8,
+		"mobType" : "1N"
+	},
+	"move": {
+		"0": {
+			"origin": "29, 51",
+			"lt": "-29, -41",
+			"rb": "26, 0",
+			"delay" : "200",
+			"head": "-4, -41",
+			"_outlink" : "Mob/_Canvas/9300027.img/move/0"
+		},
+		"1": {
+			"origin": "31, 56",
+			"lt": "-31, -41",
+			"rb": "26, 0",
+			"delay" : "50",
+			"head": "-8, -40",
+			"_outlink" : "Mob/_Canvas/9300027.img/move/1"
+		},
+		"2": {
+			"origin": "27, 71",
+			"lt": "-27, -66",
+			"rb": "19, -16",
+			"delay" : "150",
+			"head": "-4, -66",
+			"_outlink" : "Mob/_Canvas/9300027.img/move/2"
+		},
+		"3": {
+			"origin": "27, 71",
+			"lt": "-27, -66",
+			"rb": "19, -17",
+			"delay" : "150",
+			"head": "-4, -66",
+			"_outlink" : "Mob/_Canvas/9300027.img/move/3"
+		},
+		"4": {
+			"origin": "27, 94",
+			"lt": "-27, -58",
+			"rb": "21, -10",
+			"delay" : "100",
+			"head": "-4, -55",
+			"_outlink" : "Mob/_Canvas/9300027.img/move/4"
+		},
+		"5": {
+			"origin": "28, 71",
+			"lt": "-28, -42",
+			"rb": "25, 0",
+			"delay" : "100",
+			"head": "6, -38",
+			"_outlink" : "Mob/_Canvas/9300027.img/move/5"
+		},
+		"6": {
+			"origin": "27, 46",
+			"lt": "-27, -43",
+			"rb": "24, 0",
+			"delay" : "300",
+			"head": "3, -43",
+			"_outlink" : "Mob/_Canvas/9300027.img/move/6"
+		}
+	},
+	"stand": {
+		"0": {
+			"origin": "27, 49",
+			"lt": "-27, -43",
+			"rb": "24, 0",
+			"delay" : "200",
+			"head": "3, -43",
+			"_outlink" : "Mob/_Canvas/9300027.img/stand/0"
+		},
+		"1": {
+			"origin": "28, 49",
+			"lt": "-28, -42",
+			"rb": "24, 0",
+			"delay" : "300",
+			"head": "3, -42",
+			"_outlink" : "Mob/_Canvas/9300027.img/stand/1"
+		},
+		"2": {
+			"origin": "26, 50",
+			"lt": "-26, -44",
+			"rb": "23, 0",
+			"delay" : "250",
+			"head": "2, -44",
+			"_outlink" : "Mob/_Canvas/9300027.img/stand/0"
+		},
+		"3": {
+			"origin": "27, 49",
+			"lt": "-27, -43",
+			"rb": "24, 0",
+			"delay" : "200",
+			"head": "3, -43",
+			"_outlink" : "Mob/_Canvas/9300027.img/stand/3"
+		}
+	},
+	"jump": {
+		"0": {
+			"origin": "28, 54",
+			"lt": "-27, -49",
+			"rb": "19, 0",
+			"delay" : "150",
+			"head": "-4, -49",
+			"_outlink" : "Mob/_Canvas/9300027.img/move/3"
+		}
+	},
+	"hit1": {
+		"0": {
+			"origin": "23, 66",
+			"lt": "-23, -46",
+			"rb": "26, 0",
+			"delay" : 600,
+			"head": "-2, -46",
+			"_outlink" : "Mob/_Canvas/9300027.img/hit1/0"
+		}
+	},
+	"die1": {
+		"0": {
+			"origin": "26, 65",
+			"head": "-5, -24",
+			"delay" : 180,
+			"_outlink" : "Mob/_Canvas/9300027.img/die1/0"
+		},
+		"1": {
+			"origin": "28, 63",
+			"head": "-5, -15",
+			"delay" : 180,
+			"_outlink" : "Mob/_Canvas/9300027.img/die1/1"
+		},
+		"2": {
+			"origin": "24, 57",
+			"head": "-5, -15",
+			"delay" : 180,
+			"_outlink" : "Mob/_Canvas/9300027.img/die1/2"
+		},
+		"3": {
+			"origin": "15, 44",
+			"head": "-5, -15",
+			"delay" : 300,
+			"a0" : 255,
+			"a1" : 0,
+			"_outlink" : "Mob/_Canvas/9300027.img/die1/3"
+		}
+	}
+}

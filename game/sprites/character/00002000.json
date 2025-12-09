@@ -1,0 +1,4364 @@
+{
+	"info": {
+		"islot" : "Bd",
+		"vslot" : "Bd",
+		"cash" : 0
+	},
+	"walk1": {
+		"0": {
+			"body": {
+				"origin": "19, 32",
+				"map": {
+					"neck": "-4, -32",
+					"navel": "-6, -20"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/walk1/0/body"
+			},
+			"arm": {
+				"origin": "6, 8",
+				"map": {
+					"navel": "-12, 2",
+					"hand": "1, 5"
+				},
+				"z" : "arm",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/walk1/0/arm"
+			},
+			"face" : 1,
+			"delay" : 180
+		},
+		"1": {
+			"body": {
+				"origin": "16, 32",
+				"map": {
+					"neck": "-4, -31",
+					"navel": "-6, -20"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/walk1/1/body"
+			},
+			"arm": {
+				"origin": "6, 9",
+				"map": {
+					"navel": "-6, -1",
+					"hand": "-2, 5"
+				},
+				"z" : "arm",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/walk1/1/arm"
+			},
+			"face" : 1,
+			"delay" : 180
+		},
+		"2": {
+			"body": {
+				"origin": "19, 32",
+				"map": {
+					"neck": "-4, -32",
+					"navel": "-6, -20"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/walk1/2/body"
+			},
+			"arm": {
+				"origin": "6, 8",
+				"map": {
+					"navel": "-12, 2",
+					"hand": "1, 6"
+				},
+				"z" : "arm",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/walk1/0/arm"
+			},
+			"face" : 1,
+			"delay" : 180
+		},
+		"3": {
+			"body": {
+				"origin": "21, 31",
+				"map": {
+					"neck": "-4, -31",
+					"navel": "-6, -18"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/walk1/3/body"
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "-13, 4",
+					"hand": "3, 5"
+				},
+				"z" : "arm",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/walk1/3/arm"
+			},
+			"face" : 1,
+			"delay" : 180
+		}
+	},
+	"walk2": {
+		"0": {
+			"body": {
+				"origin": "13, 31",
+				"map": {
+					"neck": "-4, -32",
+					"navel": "-6, -20"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/walk2/0/body"
+			},
+			"arm": {
+				"origin": "6, 6",
+				"map": {
+					"navel": "-6, 3",
+					"hand": "-2, 2"
+				},
+				"z" : "arm",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/walk2/0/arm"
+			},
+			"hand": {
+				"origin": "4, 4",
+				"map": {
+					"navel": "6, 2"
+				},
+				"z" : "handOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/walk2/0/hand"
+			},
+			"face" : 1,
+			"delay" : 180
+		},
+		"1": {
+			"body": {
+				"origin": "16, 30",
+				"map": {
+					"neck": "-4, -31",
+					"navel": "-6, -20"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/walk2/1/body"
+			},
+			"arm": {
+				"origin": "6, 6",
+				"map": {
+					"navel": "-5, 2",
+					"hand": "-2, 2"
+				},
+				"z" : "arm",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/walk2/1/arm"
+			},
+			"hand": {
+				"origin": "4, 4",
+				"map": {
+					"navel": "7, 1"
+				},
+				"z" : "handOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/walk2/1/hand"
+			},
+			"face" : 1,
+			"delay" : 180
+		},
+		"2": {
+			"body": {
+				"origin": "13, 32",
+				"map": {
+					"neck": "-4, -32",
+					"navel": "-6, -20"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/walk2/2/body"
+			},
+			"arm": {
+				"origin": "6, 6",
+				"map": {
+					"navel": "-6, 3",
+					"hand": "-2, 2"
+				},
+				"z" : "arm",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/walk2/2/arm"
+			},
+			"hand": {
+				"origin": "4, 4",
+				"map": {
+					"navel": "6, 2"
+				},
+				"z" : "handOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/walk2/2/hand"
+			},
+			"face" : 1,
+			"delay" : 180
+		},
+		"3": {
+			"body": {
+				"origin": "15, 30",
+				"map": {
+					"neck": "-4, -31",
+					"navel": "-6, -18"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/walk2/3/body"
+			},
+			"arm": {
+				"origin": "5, 6",
+				"map": {
+					"navel": "-6, 4",
+					"hand": "-1, 4"
+				},
+				"z" : "arm",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/walk2/3/arm"
+			},
+			"hand": {
+				"origin": "4, 4",
+				"map": {
+					"navel": "5, 3"
+				},
+				"z" : "handOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/walk2/3/hand"
+			},
+			"face" : 1,
+			"delay" : 180
+		}
+	},
+	"stand1": {
+		"0": {
+			"body": {
+				"origin": "16, 31",
+				"map": {
+					"neck": "-4, -32",
+					"navel": "-8, -21"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stand1/0/body"
+			},
+			"arm": {
+				"origin": "5, 9",
+				"map": {
+					"navel": "-13, -1",
+					"hand": "-1, 5"
+				},
+				"z" : "arm",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stand1/0/arm"
+			},
+			"face" : 1,
+			"delay" : 500
+		},
+		"1": {
+			"body": {
+				"origin": "17, 31",
+				"map": {
+					"neck": "-4, -32",
+					"navel": "-7, -20"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stand1/1/body"
+			},
+			"arm": {
+				"origin": "5, 9",
+				"map": {
+					"navel": "-13, 0",
+					"hand": "-1, 5"
+				},
+				"z" : "arm",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stand1/1/arm"
+			},
+			"face" : 1,
+			"delay" : 500
+		},
+		"2": {
+			"body": {
+				"origin": "18, 31",
+				"map": {
+					"neck": "-4, -32",
+					"navel": "-6, -21"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stand1/2/body"
+			},
+			"arm": {
+				"origin": "6, 9",
+				"map": {
+					"navel": "-13, -1",
+					"hand": "-1, 5"
+				},
+				"z" : "arm",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stand1/2/arm"
+			},
+			"face" : 1,
+			"delay" : 500
+		}
+	},
+	"stand2": {
+		"0": {
+			"body": {
+				"origin": "15, 31",
+				"map": {
+					"neck": "-4, -32",
+					"navel": "-8, -21"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stand2/0/body"
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "-11, 1",
+					"hand": "-6, 1"
+				},
+				"z" : "arm",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stand2/0/arm"
+			},
+			"hand": {
+				"origin": "4, 12",
+				"map": {
+					"navel": "6, -7"
+				},
+				"z" : "handOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stand2/0/hand"
+			},
+			"face" : 1,
+			"delay" : 500
+		},
+		"1": {
+			"body": {
+				"origin": "15, 31",
+				"map": {
+					"neck": "-4, -32",
+					"navel": "-7, -20"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stand2/1/body"
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "-11, 2",
+					"hand": "-6, 1"
+				},
+				"z" : "arm",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stand2/1/arm"
+			},
+			"hand": {
+				"origin": "4, 4",
+				"map": {
+					"navel": "6, 2"
+				},
+				"z" : "handOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stand2/1/hand"
+			},
+			"face" : 1,
+			"delay" : 500
+		},
+		"2": {
+			"body": {
+				"origin": "15, 31",
+				"map": {
+					"neck": "-4, -32",
+					"navel": "-6, -21"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stand2/2/body"
+			},
+			"arm": {
+				"origin": "6, 7",
+				"map": {
+					"navel": "-10, 1",
+					"hand": "-5, 1"
+				},
+				"z" : "arm",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stand2/2/arm"
+			},
+			"hand": {
+				"origin": "4, 4",
+				"map": {
+					"navel": "6, 1"
+				},
+				"z" : "handOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stand2/1/hand"
+			},
+			"face" : 1,
+			"delay" : 500
+		}
+	},
+	"alert": {
+		"0": {
+			"body": {
+				"origin": "16, 29",
+				"map": {
+					"neck": "-4, -29",
+					"navel": "-3, -18"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/alert/0/body"
+			},
+			"arm": {
+				"origin": "6, 8",
+				"map": {
+					"navel": "-11, 1",
+					"hand": "-5, 5"
+				},
+				"z" : "armOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/alert/0/arm"
+			},
+			"land": {
+				"origin": "15, 24",
+				"map": {
+					"handMove": "-11, -20"
+				},
+				"z" : "handBelowWeapon",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/alert/0/lHand"
+			},
+			"rand": {
+				"origin": "4, 4",
+				"map": {
+					"navel": "-4, -2"
+				},
+				"z" : "handOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/alert/0/rHand"
+			},
+			"face" : 1,
+			"delay" : 500
+		},
+		"1": {
+			"body": {
+				"origin": "16, 30",
+				"map": {
+					"neck": "-4, -30",
+					"navel": "-3, -19"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/alert/1/body"
+			},
+			"arm": {
+				"origin": "7, 8",
+				"map": {
+					"navel": "-11, 1",
+					"hand": "-6, 6"
+				},
+				"z" : "armOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/alert/1/arm"
+			},
+			"land": {
+				"origin": "15, 23",
+				"map": {
+					"handMove": "-13, -19"
+				},
+				"z" : "handBelowWeapon",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/alert/0/lHand"
+			},
+			"rand": {
+				"origin": "4, 4",
+				"map": {
+					"navel": "-4, -4"
+				},
+				"z" : "handOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/alert/0/rHand"
+			},
+			"face" : 1,
+			"delay" : 500
+		},
+		"2": {
+			"body": {
+				"origin": "16, 31",
+				"map": {
+					"neck": "-4, -31",
+					"navel": "-3, -20"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/alert/2/body"
+			},
+			"arm": {
+				"origin": "6, 10",
+				"map": {
+					"navel": "-11, -1",
+					"hand": "-5, 5"
+				},
+				"z" : "armOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/alert/2/arm"
+			},
+			"land": {
+				"origin": "15, 22",
+				"map": {
+					"handMove": "-15, -17"
+				},
+				"z" : "handBelowWeapon",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/alert/0/lHand"
+			},
+			"rand": {
+				"origin": "4, 4",
+				"map": {
+					"navel": "-4, -6"
+				},
+				"z" : "handOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/alert/0/rHand"
+			},
+			"face" : 1,
+			"delay" : 500
+		}
+	},
+	"swingO1": {
+		"0": {
+			"body": {
+				"origin": "11, 27",
+				"map": {
+					"neck": "-9, -26",
+					"navel": "-1, -16"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingO1/0/body"
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 2",
+					"hand": "0, 2"
+				},
+				"z" : "arm",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingO1/0/arm"
+			},
+			"face" : 1,
+			"delay" : 300
+		},
+		"1": {
+			"body": {
+				"origin": "11, 31",
+				"map": {
+					"neck": "-10, -31",
+					"navel": "-8, -20"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingO1/1/body"
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 4",
+					"hand": "-3, 5"
+				},
+				"z" : "armOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingO1/1/arm"
+			},
+			"face" : 1,
+			"delay" : 150
+		},
+		"2": {
+			"body": {
+				"origin": "38, 27",
+				"map": {
+					"neck": "-37, -25",
+					"navel": "-29, -17"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingO1/2/body"
+			},
+			"arm": {
+				"origin": "6, 7",
+				"map": {
+					"navel": "-8, 18",
+					"hand": "11, -1"
+				},
+				"z" : "armOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingO1/2/arm"
+			},
+			"face" : 1,
+			"delay" : 350
+		}
+	},
+	"swingO2": {
+		"0": {
+			"body": {
+				"origin": "18, 31",
+				"map": {
+					"neck": "-4, -32",
+					"navel": "-6, -20"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingO2/0/body"
+			},
+			"arm": {
+				"origin": "11, 7",
+				"map": {
+					"navel": "11, 12",
+					"hand": "-6, -4"
+				},
+				"z" : "armBelowHead",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingO2/0/arm"
+			},
+			"face" : 1,
+			"delay" : 300
+		},
+		"1": {
+			"body": {
+				"origin": "21, 31",
+				"map": {
+					"neck": "-13, -30",
+					"navel": "-8, -18"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingO2/1/body"
+			},
+			"arm": {
+				"origin": "12, 6",
+				"map": {
+					"navel": "13, 9",
+					"hand": "-8, 8"
+				},
+				"z" : "armBelowHead",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingO2/1/arm"
+			},
+			"face" : 1,
+			"delay" : 150
+		},
+		"2": {
+			"body": {
+				"origin": "30, 29",
+				"map": {
+					"neck": "-17, -27",
+					"navel": "-11, -16"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingO2/2/body"
+			},
+			"arm": {
+				"origin": "10, 8",
+				"map": {
+					"navel": "-14, 3",
+					"hand": "5, 4"
+				},
+				"z" : "arm",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingO2/2/arm"
+			},
+			"face" : 1,
+			"delay" : 350
+		}
+	},
+	"swingO3": {
+		"0": {
+			"body": {
+				"origin": "36, 27",
+				"map": {
+					"neck": "-11, -27",
+					"navel": "-8, -16"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingO3/0/body"
+			},
+			"arm": {
+				"origin": "11, 7",
+				"map": {
+					"navel": "-14, 10",
+					"hand": "6, -3"
+				},
+				"z" : "arm",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingO3/0/arm"
+			},
+			"face" : 1,
+			"delay" : 300
+		},
+		"1": {
+			"body": {
+				"origin": "28, 30",
+				"map": {
+					"neck": "-31, -28",
+					"navel": "-24, -17"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingO3/1/body"
+			},
+			"arm": {
+				"origin": "12, 6",
+				"map": {
+					"navel": "11, 5",
+					"hand": "-9, 2"
+				},
+				"z" : "armBelowHead",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingO3/1/arm"
+			},
+			"face" : 1,
+			"delay" : 150
+		},
+		"2": {
+			"body": {
+				"origin": "36, 27",
+				"map": {
+					"neck": "-34, -26",
+					"navel": "-30, -16"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingO1/0/body"
+			},
+			"arm": {
+				"origin": "10, 8",
+				"map": {
+					"navel": "-2, 1",
+					"hand": "-9, 0"
+				},
+				"z" : "arm",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingO1/0/arm"
+			},
+			"face" : 1,
+			"delay" : 350
+		}
+	},
+	"swingOF": {
+		"0": {
+			"body": {
+				"origin": "22, 31",
+				"map": {
+					"neck": "-14, -26",
+					"navel": "-7, -17",
+					"hand": "12, -24"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingOF/0/body"
+			},
+			"hand": {
+				"origin": "13, 24",
+				"map": {
+					"navel": "-27, -12"
+				},
+				"z" : "handOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingOF/0/hand"
+			},
+			"face" : 1,
+			"delay" : 200
+		},
+		"1": {
+			"body": {
+				"origin": "26, 47",
+				"map": {
+					"neck": "-9, -42",
+					"navel": "-13, -31",
+					"hand": "3, -35"
+				},
+				"z" : "backBody",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingOF/1/body"
+			},
+			"face" : 0,
+			"delay" : 100
+		},
+		"2": {
+			"body": {
+				"origin": "44, 38",
+				"map": {
+					"neck": "-29, -38",
+					"navel": "-27, -25",
+					"hand": "-41, -35"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingOF/2/body"
+			},
+			"face" : 1,
+			"delay" : 100
+		},
+		"3": {
+			"body": {
+				"origin": "55, 32",
+				"map": {
+					"neck": "-52, -21",
+					"navel": "-39, -12",
+					"hand": "-19, -28"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingOF/3/body"
+			},
+			"arm": {
+				"origin": "11, 7",
+				"map": {
+					"navel": "8, -1",
+					"hand": "28, -14"
+				},
+				"z" : "armBelowHeadOverMailChest",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingOF/3/arm"
+			},
+			"face" : 1,
+			"delay" : 300
+		}
+	},
+	"swingT1": {
+		"0": {
+			"body": {
+				"origin": "19, 31",
+				"map": {
+					"neck": "-4, -32",
+					"navel": "-8, -21"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingT1/0/body"
+			},
+			"arm": {
+				"origin": "5, 9",
+				"map": {
+					"navel": "-3, 18",
+					"hand": "6, -5"
+				},
+				"z" : "armOverHairBelowWeapon",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingT1/0/arm"
+			},
+			"armverair": {
+				"origin": "9, 13",
+				"map": {
+					"navel": "-15, 17"
+				},
+				"z" : "armOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingT1/0/armOverHair"
+			},
+			"face" : 1,
+			"delay" : 300
+		},
+		"1": {
+			"body": {
+				"origin": "25, 31",
+				"map": {
+					"neck": "-19, -30",
+					"navel": "-13, -18"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingT1/1/body"
+			},
+			"arm": {
+				"origin": "10, 10",
+				"map": {
+					"navel": "13, 6",
+					"hand": "-6, -6"
+				},
+				"z" : "armOverHairBelowWeapon",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingT1/1/arm"
+			},
+			"armverair": {
+				"origin": "9, 13",
+				"map": {
+					"navel": "10, 12"
+				},
+				"z" : "armOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingT1/1/armOverHair"
+			},
+			"face" : 1,
+			"delay" : 150
+		},
+		"2": {
+			"body": {
+				"origin": "35, 28",
+				"map": {
+					"neck": "-33, -25",
+					"navel": "-23, -17"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingT1/2/body"
+			},
+			"arm": {
+				"origin": "10, 8",
+				"map": {
+					"navel": "10, -2",
+					"hand": "-6, 10"
+				},
+				"z" : "arm",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingT1/2/arm"
+			},
+			"face" : 1,
+			"delay" : 350
+		}
+	},
+	"swingT2": {
+		"0": {
+			"body": {
+				"origin": "23, 37",
+				"map": {
+					"neck": "-4, -30",
+					"navel": "-8, -18",
+					"hand": "-9, -32"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingT2/0/body"
+			},
+			"face" : 1,
+			"delay" : 300
+		},
+		"1": {
+			"body": {
+				"origin": "33, 31",
+				"map": {
+					"neck": "-13, -30",
+					"navel": "-12, -18"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingT2/1/body"
+			},
+			"arm": {
+				"origin": "10, 10",
+				"map": {
+					"navel": "9, -1",
+					"hand": "-6, -6"
+				},
+				"z" : "arm",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingT2/1/arm"
+			},
+			"face" : 1,
+			"delay" : 150
+		},
+		"2": {
+			"body": {
+				"origin": "32, 28",
+				"map": {
+					"neck": "-33, -24",
+					"navel": "-21, -16"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingT2/2/body"
+			},
+			"arm": {
+				"origin": "10, 8",
+				"map": {
+					"navel": "-1, 4",
+					"hand": "4, 10"
+				},
+				"z" : "armBelowHeadOverMailChest",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingT2/2/arm"
+			},
+			"face" : 1,
+			"delay" : 350
+		}
+	},
+	"swingT3": {
+		"0": {
+			"body": {
+				"origin": "14, 31",
+				"map": {
+					"neck": "-4, -30",
+					"navel": "-1, -18"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingT3/0/body"
+			},
+			"arm": {
+				"origin": "10, 8",
+				"map": {
+					"navel": "-5, 0",
+					"hand": "3, 3"
+				},
+				"z" : "arm",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingT3/0/arm"
+			},
+			"face" : 1,
+			"delay" : 300
+		},
+		"1": {
+			"body": {
+				"origin": "18, 25",
+				"map": {
+					"neck": "-16, -24",
+					"navel": "-10, -16"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingT3/1/body"
+			},
+			"arm": {
+				"origin": "10, 10",
+				"map": {
+					"navel": "-2, -2",
+					"hand": "10, 2"
+				},
+				"z" : "armBelowHeadOverMailChest",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingT3/1/arm"
+			},
+			"face" : 1,
+			"delay" : 150
+		},
+		"2": {
+			"body": {
+				"origin": "25, 40",
+				"map": {
+					"neck": "-20, -27",
+					"navel": "-13, -17"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingT3/2/body"
+			},
+			"arm": {
+				"origin": "10, 8",
+				"map": {
+					"navel": "9, 12",
+					"hand": "-2, -4"
+				},
+				"z" : "armBelowHead",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingT3/2/arm"
+			},
+			"face" : 1,
+			"delay" : 350
+		}
+	},
+	"swingTF": {
+		"0": {
+			"body": {
+				"origin": "14, 48",
+				"map": {
+					"neck": "-5, -32",
+					"navel": "-5, -21",
+					"hand": "-6, -45"
+				},
+				"z" : "backBody",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingTF/0/body"
+			},
+			"face" : 0,
+			"delay" : 200
+		},
+		"1": {
+			"body": {
+				"origin": "19, 41",
+				"map": {
+					"neck": "-9, -33",
+					"navel": "-9, -22"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingTF/1/body"
+			},
+			"arm": {
+				"origin": "10, 10",
+				"map": {
+					"navel": "-12, 7",
+					"hand": "-1, -7"
+				},
+				"z" : "armBelowHeadOverMailChest",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingTF/1/arm"
+			},
+			"face" : 1,
+			"delay" : 150
+		},
+		"2": {
+			"body": {
+				"origin": "25, 30",
+				"map": {
+					"neck": "-22, -30",
+					"navel": "-17, -18"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingTF/2/body"
+			},
+			"arm": {
+				"origin": "10, 8",
+				"map": {
+					"navel": "6, 26",
+					"hand": "3, -4"
+				},
+				"z" : "armOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingTF/2/arm"
+			},
+			"face" : 1,
+			"delay" : 150
+		},
+		"3": {
+			"body": {
+				"origin": "41, 28",
+				"map": {
+					"neck": "-37, -24",
+					"navel": "-24, -15"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingTF/3/body"
+			},
+			"arm": {
+				"origin": "10, 8",
+				"map": {
+					"navel": "12, 0",
+					"hand": "-6, 10"
+				},
+				"z" : "armOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingT1/2/arm"
+			},
+			"face" : 1,
+			"delay" : 200
+		}
+	},
+	"swingP1": {
+		"0": {
+			"body": {
+				"origin": "19, 31",
+				"map": {
+					"neck": "-4, -32",
+					"navel": "-7, -20"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingP1/0/body"
+			},
+			"arm": {
+				"origin": "5, 9",
+				"map": {
+					"navel": "3, 21",
+					"hand": "5, -5"
+				},
+				"z" : "armOverHairBelowWeapon",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingP1/0/arm"
+			},
+			"armverair": {
+				"origin": "9, 13",
+				"map": {
+					"navel": "-14, 19"
+				},
+				"z" : "armOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingP1/0/armOverHair"
+			},
+			"face" : 1,
+			"delay" : 300
+		},
+		"1": {
+			"body": {
+				"origin": "38, 31",
+				"map": {
+					"neck": "-19, -30",
+					"navel": "-13, -17"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingP1/1/body"
+			},
+			"arm": {
+				"origin": "10, 10",
+				"map": {
+					"navel": "9, 16",
+					"hand": "-6, -6"
+				},
+				"z" : "armOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingT1/1/armOverHair"
+			},
+			"face" : 1,
+			"delay" : 150
+		},
+		"2": {
+			"body": {
+				"origin": "35, 28",
+				"map": {
+					"neck": "-33, -25",
+					"navel": "-23, -16"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingT1/2/body"
+			},
+			"arm": {
+				"origin": "10, 8",
+				"map": {
+					"navel": "10, -1",
+					"hand": "-6, 10"
+				},
+				"z" : "arm",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingT1/2/arm"
+			},
+			"face" : 1,
+			"delay" : 350
+		}
+	},
+	"swingP2": {
+		"0": {
+			"body": {
+				"origin": "18, 48",
+				"map": {
+					"neck": "-4, -32",
+					"navel": "-7, -20"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingP2/0/body"
+			},
+			"arm": {
+				"origin": "5, 9",
+				"map": {
+					"navel": "17, 9",
+					"hand": "0, -5"
+				},
+				"z" : "arm",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingP2/0/arm"
+			},
+			"face" : 1,
+			"delay" : 300
+		},
+		"1": {
+			"body": {
+				"origin": "31, 43",
+				"map": {
+					"neck": "-13, -30",
+					"navel": "-9, -18"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingP2/1/body"
+			},
+			"arm": {
+				"origin": "10, 10",
+				"map": {
+					"navel": "13, -3",
+					"hand": "-6, -5"
+				},
+				"z" : "arm",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingP2/1/arm"
+			},
+			"face" : 1,
+			"delay" : 150
+		},
+		"2": {
+			"body": {
+				"origin": "28, 28",
+				"map": {
+					"neck": "-29, -24",
+					"navel": "-17, -16"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingT2/2/body"
+			},
+			"arm": {
+				"origin": "10, 8",
+				"map": {
+					"navel": "-1, 4",
+					"hand": "5, 11"
+				},
+				"z" : "armBelowHead",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingT2/2/arm"
+			},
+			"face" : 1,
+			"delay" : 350
+		}
+	},
+	"swingPF": {
+		"0": {
+			"body": {
+				"origin": "31, 28",
+				"map": {
+					"neck": "-11, -27",
+					"navel": "-12, -15"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingPF/0/body"
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "-14, 10",
+					"hand": "6, 7"
+				},
+				"z" : "arm",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingPF/0/arm"
+			},
+			"hand": {
+				"origin": "4, 4",
+				"map": {
+					"navel": "19, 3"
+				},
+				"z" : "handOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingPF/0/hand"
+			},
+			"face" : 1,
+			"delay" : 100
+		},
+		"1": {
+			"body": {
+				"origin": "31, 27",
+				"map": {
+					"neck": "-11, -26",
+					"navel": "-12, -14"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingPF/1/body"
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "-14, 9",
+					"hand": "6, 3"
+				},
+				"z" : "arm",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingPF/1/arm"
+			},
+			"hand": {
+				"origin": "4, 4",
+				"map": {
+					"navel": "17, -1"
+				},
+				"z" : "handOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingPF/1/hand"
+			},
+			"face" : 1,
+			"delay" : 200
+		},
+		"2": {
+			"body": {
+				"origin": "30, 59",
+				"map": {
+					"neck": "-21, -58",
+					"navel": "-18, -46"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingPF/2/body"
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "-8, 25",
+					"hand": "6, -4"
+				},
+				"z" : "armOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingPF/2/arm"
+			},
+			"armverair": {
+				"origin": "9, 13",
+				"map": {
+					"navel": "5, 17"
+				},
+				"z" : "armOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingPF/2/armOverHair"
+			},
+			"face" : 1,
+			"delay" : 200
+		},
+		"3": {
+			"body": {
+				"origin": "50, 28",
+				"map": {
+					"neck": "-48, -25",
+					"navel": "-36, -16"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingPF/3/body"
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "15, 0",
+					"hand": "-8, 6"
+				},
+				"z" : "armOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingT1/2/arm"
+			},
+			"face" : 1,
+			"delay" : 200
+		}
+	},
+	"stabO1": {
+		"0": {
+			"body": {
+				"origin": "30, 29",
+				"map": {
+					"neck": "-4, -29",
+					"navel": "-5, -17"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stabO1/0/body"
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "-12, 4",
+					"hand": "2, 7"
+				},
+				"z" : "arm",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stabO1/0/arm"
+			},
+			"face" : 1,
+			"delay" : 350
+		},
+		"1": {
+			"body": {
+				"origin": "25, 27",
+				"map": {
+					"neck": "-23, -26",
+					"navel": "-14, -15"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stabO1/1/body"
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "23, 5",
+					"hand": "-3, -2"
+				},
+				"z" : "armOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stabO1/1/arm"
+			},
+			"face" : 1,
+			"delay" : 450
+		}
+	},
+	"stabO2": {
+		"0": {
+			"body": {
+				"origin": "30, 33",
+				"map": {
+					"neck": "-4, -32",
+					"navel": "-5, -20"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stabO2/0/body"
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "-13, 9",
+					"hand": "-2, -3"
+				},
+				"z" : "armOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stabO2/0/arm"
+			},
+			"face" : 1,
+			"delay" : 350
+		},
+		"1": {
+			"body": {
+				"origin": "26, 27",
+				"map": {
+					"neck": "-26, -25",
+					"navel": "-16, -16"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stabO2/1/body"
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "20, 4",
+					"hand": "-3, -3"
+				},
+				"z" : "armOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stabO2/1/arm"
+			},
+			"face" : 1,
+			"delay" : 450
+		}
+	},
+	"stabOF": {
+		"0": {
+			"body": {
+				"origin": "8, 26",
+				"map": {
+					"neck": "-5, -25",
+					"navel": "4, -13"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stabOF/0/body"
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "-4, 6",
+					"hand": "3, 5"
+				},
+				"z" : "armOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stabOF/0/arm"
+			},
+			"face" : 1,
+			"delay" : 250
+		},
+		"1": {
+			"body": {
+				"origin": "53, 34",
+				"map": {
+					"neck": "-30, -30",
+					"navel": "-18, -21"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stabOF/1/body"
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "-5, 2",
+					"hand": "-28, 8"
+				},
+				"z" : "armOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stabOF/1/arm"
+			},
+			"face" : 1,
+			"delay" : 150
+		},
+		"2": {
+			"body": {
+				"origin": "60, 27",
+				"map": {
+					"neck": "-50, -24",
+					"navel": "-37, -15"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stabOF/2/body"
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "25, 4",
+					"hand": "2, 10"
+				},
+				"z" : "armOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stabOF/2/arm"
+			},
+			"face" : 1,
+			"delay" : 300
+		}
+	},
+	"stabT1": {
+		"0": {
+			"body": {
+				"origin": "25, 32",
+				"map": {
+					"neck": "-18, -28",
+					"navel": "-9, -19"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stabT1/0/body"
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "-7, 6",
+					"hand": "13, 4"
+				},
+				"z" : "armBelowHead",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stabT1/0/arm"
+			},
+			"hand": {
+				"origin": "4, 4",
+				"map": {
+					"navel": "2, -3"
+				},
+				"z" : "handOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stabT1/0/hand"
+			},
+			"face" : 1,
+			"delay" : 300
+		},
+		"1": {
+			"body": {
+				"origin": "32, 29",
+				"map": {
+					"neck": "-31, -24",
+					"navel": "-24, -18"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stabT1/1/body"
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "-9, 6",
+					"hand": "8, 5"
+				},
+				"z" : "armBelowHead",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stabT1/1/arm"
+			},
+			"hand": {
+				"origin": "4, 4",
+				"map": {
+					"navel": "5, -4"
+				},
+				"z" : "handOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stabT1/1/hand"
+			},
+			"face" : 1,
+			"delay" : 100
+		},
+		"2": {
+			"body": {
+				"origin": "58, 25",
+				"map": {
+					"neck": "-35, -23",
+					"navel": "-29, -14"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stabT1/2/body"
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "0, 4",
+					"hand": "-3, 0"
+				},
+				"z" : "armBelowHead",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stabT1/2/arm"
+			},
+			"hand": {
+				"origin": "4, 4",
+				"map": {
+					"navel": "25, 4"
+				},
+				"z" : "handOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stabT1/2/hand"
+			},
+			"face" : 1,
+			"delay" : 350
+		}
+	},
+	"stabT2": {
+		"0": {
+			"body": {
+				"origin": "15, 32",
+				"map": {
+					"neck": "-9, -29",
+					"navel": "-2, -18"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stabT2/0/body"
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "-10, 8",
+					"hand": "3, 8"
+				},
+				"z" : "armBelowHead",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stabT2/0/arm"
+			},
+			"hand": {
+				"origin": "4, 4",
+				"map": {
+					"navel": "12, -3"
+				},
+				"z" : "handOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stabT2/0/hand"
+			},
+			"face" : 1,
+			"delay" : 300
+		},
+		"1": {
+			"body": {
+				"origin": "23, 29",
+				"map": {
+					"neck": "-25, -22",
+					"navel": "-10, -16"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stabT2/1/body"
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "-3, 9",
+					"hand": "9, 6"
+				},
+				"z" : "armBelowHead",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stabT2/1/arm"
+			},
+			"hand": {
+				"origin": "4, 4",
+				"map": {
+					"navel": "15, -2"
+				},
+				"z" : "handOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stabT2/1/hand"
+			},
+			"face" : 1,
+			"delay" : 100
+		},
+		"2": {
+			"body": {
+				"origin": "43, 26",
+				"map": {
+					"neck": "-28, -23",
+					"navel": "-19, -14"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stabT2/2/body"
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "-8, 5",
+					"hand": "-2, 9"
+				},
+				"z" : "armBelowHead",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stabT2/2/arm"
+			},
+			"hand": {
+				"origin": "4, 4",
+				"map": {
+					"navel": "26, 4"
+				},
+				"z" : "handOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stabT2/2/hand"
+			},
+			"face" : 1,
+			"delay" : 350
+		}
+	},
+	"stabTF": {
+		"0": {
+			"body": "../../swingPF/0/body",
+			"arm": "../../swingPF/0/arm",
+			"hand": "../../swingPF/0/hand",
+			"face" : 1,
+			"delay" : 100
+		},
+		"1": {
+			"body": "../../swingPF/1/body",
+			"arm": "../../swingPF/1/arm",
+			"hand": "../../swingPF/1/hand",
+			"face" : 1,
+			"delay" : 200
+		},
+		"2": {
+			"body": {
+				"origin": "30, 59",
+				"map": {
+					"neck": "-21, -58",
+					"navel": "-18, -46"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingPF/2/body"
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "-10, 9",
+					"hand": "4, -20"
+				},
+				"z" : "armBelowHead",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stabTF/2/arm"
+			},
+			"armverair": {
+				"origin": "9, 13",
+				"map": {
+					"navel": "-3, -4"
+				},
+				"z" : "arm",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/stabTF/2/armOverHair"
+			},
+			"face" : 1,
+			"delay" : 200
+		},
+		"3": {
+			"body": "../../stabT1/2/body",
+			"arm": "../../stabT1/2/arm",
+			"hand": "../../stabT1/2/hand",
+			"face" : 1,
+			"delay" : 200
+		}
+	},
+	"shoot1": {
+		"0": {
+			"body": {
+				"origin": "31, 31",
+				"map": {
+					"neck": "-4, -32",
+					"navel": "-4, -19"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/shoot1/0/body"
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "6, 9",
+					"hand": "-3, -3"
+				},
+				"z" : "armOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/shoot1/0/arm"
+			},
+			"face" : 1,
+			"delay" : 300
+		},
+		"1": {
+			"body": {
+				"origin": "31, 31",
+				"map": {
+					"neck": "-4, -32",
+					"navel": "-4, -19"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/shoot1/0/body"
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "-8, 9",
+					"hand": "-3, -3"
+				},
+				"z" : "armOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/shoot1/1/arm"
+			},
+			"face" : 1,
+			"delay" : 150
+		},
+		"2": {
+			"body": "../1/body",
+			"arm": "../1/arm",
+			"face" : 1,
+			"delay" : 350
+		}
+	},
+	"shoot2": {
+		"0": {
+			"body": {
+				"origin": "24, 30",
+				"map": {
+					"neck": "-5, -31",
+					"navel": "-6, -18"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/shoot2/0/body"
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "-6, 5",
+					"hand": "-2, 0"
+				},
+				"z" : "armOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/shoot2/0/arm"
+			},
+			"face" : 1,
+			"delay" : 160
+		},
+		"1": {
+			"body": {
+				"origin": "24, 30",
+				"map": {
+					"neck": "-5, -31",
+					"navel": "-6, -18"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/shoot2/1/body"
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "8, 10",
+					"hand": "11, 5"
+				},
+				"z" : "armOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/shoot2/1/arm"
+			},
+			"face" : 1,
+			"delay" : 160
+		},
+		"2": {
+			"body": {
+				"origin": "24, 30",
+				"map": {
+					"neck": "-5, -31",
+					"navel": "-6, -18"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/shoot2/0/body"
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "-5, 9",
+					"hand": "-17, -2"
+				},
+				"z" : "armOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/shoot2/2/arm"
+			},
+			"face" : 1,
+			"delay" : 250
+		},
+		"3": {
+			"body": {
+				"origin": "24, 30",
+				"map": {
+					"neck": "-5, -31",
+					"navel": "-6, -18"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/shoot2/0/body"
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "-6, 4",
+					"hand": "-5, -8"
+				},
+				"z" : "armOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/shoot2/3/arm"
+			},
+			"face" : 1,
+			"delay" : 100
+		},
+		"4": {
+			"body": {
+				"origin": "22, 30",
+				"map": {
+					"neck": "-4, -31",
+					"navel": "-6, -18"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/shoot2/4/body"
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "-8, 5",
+					"hand": "-8, -8"
+				},
+				"z" : "armOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/shoot2/4/arm"
+			},
+			"face" : 1,
+			"delay" : 150
+		}
+	},
+	"shootF": {
+		"0": {
+			"body": {
+				"origin": "32, 36",
+				"map": {
+					"neck": "-4, -32",
+					"navel": "-3, -19"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/shootF/0/body"
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 11",
+					"hand": "-3, -2"
+				},
+				"z" : "armOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/shootF/0/arm"
+			},
+			"face" : 1,
+			"delay" : 300
+		},
+		"1": {
+			"body": {
+				"origin": "34, 35",
+				"map": {
+					"neck": "-3, -31",
+					"navel": "-3, -18"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/shootF/1/body"
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "-9, 8",
+					"hand": "-2, -3"
+				},
+				"z" : "armOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/shootF/1/arm"
+			},
+			"face" : 1,
+			"delay" : 150
+		},
+		"2": {
+			"body": "../1/body",
+			"arm": "../1/arm",
+			"face" : 1,
+			"delay" : 250
+		}
+	},
+	"proneStab": {
+		"0": {
+			"body": {
+				"origin": "47, 15",
+				"map": {
+					"neck": "-23, -4",
+					"navel": "-7, -3"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/proneStab/0/body"
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "7, 0",
+					"hand": "-2, -2"
+				},
+				"z" : "armOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/proneStab/0/arm"
+			},
+			"face" : 1,
+			"delay" : 300
+		},
+		"1": {
+			"body": {
+				"origin": "47, 15",
+				"map": {
+					"neck": "-23, -4",
+					"navel": "-7, -3"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/proneStab/0/body"
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "22, -1",
+					"hand": "-3, -2"
+				},
+				"z" : "armOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/proneStab/1/arm"
+			},
+			"face" : 1,
+			"delay" : 400
+		}
+	},
+	"prone": {
+		"0": {
+			"body": "../../proneStab/0/body",
+			"arm": "../../proneStab/0/arm",
+			"face" : 1
+		}
+	},
+	"heal": {
+		"0": {
+			"body": "../../alert/1/body",
+			"arm": "../../alert/1/arm",
+			"lHand": "../../alert/1/lHand",
+			"rHand": "../../alert/1/rHand",
+			"face" : 1,
+			"delay" : 300
+		},
+		"1": {
+			"body": {
+				"origin": "19, 31",
+				"map": {
+					"neck": "-11, -30",
+					"navel": "-6, -18"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingO2/1/body"
+			},
+			"arm": {
+				"origin": "12, 6",
+				"map": {
+					"navel": "13, 9",
+					"hand": "-8, 8"
+				},
+				"z" : "armBelowHead",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/swingO2/1/arm"
+			},
+			"face" : 1,
+			"delay" : 150
+		},
+		"2": {
+			"body": "../../swingO2/0/body",
+			"arm": "../../swingO2/0/arm",
+			"face" : 1,
+			"delay" : 350
+		}
+	},
+	"fly": {
+		"0": {
+			"body": {
+				"origin": "12, 37",
+				"map": {
+					"neck": "-4, -37",
+					"navel": "-4, -24"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/fly/0/body"
+			},
+			"arm": {
+				"origin": "6, 8",
+				"map": {
+					"navel": "-5, 5",
+					"hand": "-2, -4"
+				},
+				"z" : "arm",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/fly/0/arm"
+			},
+			"land": {
+				"origin": "13, 24",
+				"map": {
+					"navel": "-1, -16"
+				},
+				"z" : "handBelowWeapon",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/alert/0/lHand"
+			},
+			"rand": {
+				"origin": "4, 4",
+				"map": {
+					"navel": "-3, 9"
+				},
+				"z" : "handOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/fly/0/rHand"
+			},
+			"face" : 1,
+			"delay" : 300
+		},
+		"1": {
+			"body": {
+				"origin": "12, 37",
+				"map": {
+					"neck": "-4, -37",
+					"navel": "-4, -24"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/fly/1/body"
+			},
+			"arm": {
+				"origin": "6, 8",
+				"map": {
+					"navel": "-5, 5",
+					"hand": "-3, -3"
+				},
+				"z" : "arm",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/fly/0/arm"
+			},
+			"land": {
+				"origin": "13, 24",
+				"map": {
+					"navel": "-1, -16"
+				},
+				"z" : "handBelowWeapon",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/alert/0/lHand"
+			},
+			"rand": {
+				"origin": "4, 4",
+				"map": {
+					"navel": "-3, 9"
+				},
+				"z" : "handOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/fly/0/rHand"
+			},
+			"face" : 1,
+			"delay" : 300
+		}
+	},
+	"jump": {
+		"0": {
+			"body": {
+				"origin": "22, 30",
+				"map": {
+					"neck": "-4, -30",
+					"navel": "-5, -18"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/jump/0/body"
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "-7, 5",
+					"hand": "-3, -3"
+				},
+				"z" : "armOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/fly/0/arm"
+			},
+			"land": {
+				"origin": "13, 24",
+				"map": {
+					"navel": "-2, -17"
+				},
+				"z" : "handBelowWeapon",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/alert/0/lHand"
+			},
+			"rand": {
+				"origin": "4, 4",
+				"map": {
+					"navel": "-4, 8"
+				},
+				"z" : "handOverHair",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/fly/0/rHand"
+			},
+			"face" : 1,
+			"delay" : 200
+		}
+	},
+	"sit": {
+		"0": {
+			"body": {
+				"origin": "19, 28",
+				"map": {
+					"neck": "-1, -28",
+					"navel": "-2, -17"
+				},
+				"z" : "body",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/sit/0/body"
+			},
+			"arm": {
+				"origin": "5, 7",
+				"map": {
+					"navel": "-4, 2",
+					"hand": "-1, -7"
+				},
+				"z" : "arm",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/sit/0/arm"
+			},
+			"face" : 1
+		}
+	},
+	"ladder": {
+		"0": {
+			"body": {
+				"origin": "11, 43",
+				"map": {
+					"neck": "-1, -30",
+					"navel": "0, -21",
+					"hand": "-4, -39"
+				},
+				"z" : "backBody",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/ladder/0/body"
+			},
+			"face" : 0,
+			"delay" : 250
+		},
+		"1": {
+			"body": {
+				"origin": "10, 41",
+				"map": {
+					"neck": "2, -28",
+					"navel": "2, -19",
+					"hand": "7, -38"
+				},
+				"z" : "backBody",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/ladder/1/body"
+			},
+			"face" : 0,
+			"delay" : 250
+		}
+	},
+	"rope": {
+		"0": {
+			"body": {
+				"origin": "8, 43",
+				"map": {
+					"neck": "1, -33",
+					"navel": "2, -24",
+					"hand": "1, -39"
+				},
+				"z" : "backBody",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/rope/0/body"
+			},
+			"face" : 0,
+			"delay" : 250
+		},
+		"1": {
+			"body": {
+				"origin": "8, 30",
+				"map": {
+					"neck": "1, -28",
+					"navel": "1, -18",
+					"hand": "1, -29"
+				},
+				"z" : "backBody",
+				"group" : "skin",
+				"_outlink" : "Character/_Canvas/00002000.img/rope/1/body"
+			},
+			"face" : 0,
+			"delay" : 250
+		}
+	},
+	"dead": {
+		"0": {
+			"body": {
+				"origin": "13, 27",
+				"map": {
+					"neck": "1, -28"
+				},
+				"z" : "body",
+				"_outlink" : "Character/_Canvas/00002000.img/dead/0/body"
+			},
+			"face" : 1
+		}
+	},
+	"blink": {
+		"0": {
+			"body": {
+				"origin": "16, 29",
+				"delay" : 30,
+				"map": {
+					"neck": "-4, -29",
+					"navel": "-3, -18"
+				},
+				"z" : "body",
+				"group" : "skin"
+			},
+			"face" : 0,
+			"delay" : 120
+		}
+	},
+	"swingT2PoleArm": {
+		"0": {
+			"action" : "swingT2",
+			"frame" : 0,
+			"delay" : -90
+		},
+		"1": {
+			"action" : "swingT2",
+			"frame" : 1,
+			"delay" : -60
+		},
+		"2": {
+			"action" : "swingT2",
+			"frame" : 2,
+			"delay" : 90
+		},
+		"3": {
+			"action" : "swingT2",
+			"frame" : 2,
+			"delay" : 150
+		}
+	},
+	"EVhome": {
+		"0": {
+			"action" : "alert",
+			"frame" : 2,
+			"delay" : -360
+		},
+		"1": {
+			"action" : "blink",
+			"frame" : 0,
+			"delay" : -500
+		},
+		"2": {
+			"action" : "blink",
+			"frame" : 0,
+			"delay" : 1000
+		}
+	},
+	"EVcircleMana": {
+		"0": {
+			"action" : "stand1",
+			"frame" : 1,
+			"delay" : -120
+		},
+		"1": {
+			"action" : "walk1",
+			"frame" : 1,
+			"delay" : -120
+		},
+		"2": {
+			"action" : "swingO3",
+			"frame" : 1,
+			"delay" : 150
+		},
+		"3": {
+			"action" : "swingO3",
+			"frame" : 2,
+			"delay" : 150
+		}
+	},
+	"smashSwing": {
+		"0": {
+			"action" : "swingP1",
+			"frame" : 0,
+			"delay" : -60
+		},
+		"1": {
+			"action" : "swingP1",
+			"frame" : 1,
+			"delay" : -60
+		},
+		"2": {
+			"action" : "swingP1",
+			"frame" : 2,
+			"delay" : 270
+		},
+		"3": {
+			"action" : "swingPF",
+			"frame" : 3,
+			"delay" : 60
+		}
+	},
+	"smashSwing1": {
+		"0": {
+			"action" : "stabT1",
+			"frame" : 2,
+			"delay" : -90,
+			"flip" : 1
+		},
+		"1": {
+			"action" : "stabT1",
+			"frame" : 2,
+			"delay" : 90,
+			"flip" : 1
+		},
+		"2": {
+			"action" : "stabT2",
+			"frame" : 1,
+			"delay" : 180
+		}
+	},
+	"smashSwing2": {
+		"0": {
+			"action" : "stabT2",
+			"frame" : 2,
+			"delay" : -60
+		},
+		"1": {
+			"action" : "swingPF",
+			"frame" : 2,
+			"delay" : -60,
+			"move": "-2, -12"
+		},
+		"2": {
+			"action" : "swingPF",
+			"frame" : 2,
+			"delay" : -90,
+			"move": "-2, -33"
+		},
+		"3": {
+			"action" : "swingPF",
+			"frame" : 2,
+			"delay" : -60,
+			"move": "-2, -40"
+		},
+		"4": {
+			"action" : "swingPF",
+			"frame" : 2,
+			"delay" : -90,
+			"move": "-2, -41"
+		},
+		"5": {
+			"action" : "swingPF",
+			"frame" : 3,
+			"delay" : 180,
+			"move": "23, 6"
+		},
+		"6": {
+			"action" : "swingPF",
+			"frame" : 3,
+			"delay" : 270,
+			"move": "23, 7"
+		}
+	},
+	"TJRwalk1": {
+		"0": {
+			"body": {
+				"origin": "47, 74",
+				"z" : "body",
+				"map": {
+					"neck": "-4, -32",
+					"navel": "-6, -20"
+				}
+			},
+			"face" : 0,
+			"delay" : 180,
+			"arm": {
+				"origin": "0, -5",
+				"map": {
+					"navel": "-12, 2",
+					"hand": "7, -11"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		},
+		"1": {
+			"body": {
+				"origin": "54, 73",
+				"z" : "body",
+				"map": {
+					"neck": "-4, -31",
+					"navel": "-6, -20"
+				}
+			},
+			"arm": "../0/arm",
+			"face" : 0,
+			"delay" : 180
+		},
+		"2": {
+			"body": {
+				"origin": "58, 74",
+				"z" : "body",
+				"map": {
+					"neck": "-4, -32",
+					"navel": "-6, -20"
+				}
+			},
+			"arm": "../0/arm",
+			"face" : 0,
+			"delay" : 180
+		},
+		"3": {
+			"body": {
+				"origin": "30, 73",
+				"z" : "body",
+				"map": {
+					"neck": "-4, -31",
+					"navel": "-6, -18"
+				}
+			},
+			"arm": "../0/arm",
+			"face" : 0,
+			"delay" : 180
+		}
+	},
+	"TJRstand1": {
+		"0": {
+			"body": {
+				"origin": "52, 74",
+				"z" : "body",
+				"map": {
+					"neck": "-4, -32",
+					"navel": "-8, -21"
+				}
+			},
+			"face" : 0,
+			"delay" : 500,
+			"arm": {
+				"origin": "5, 9",
+				"map": {
+					"navel": "-12, 2",
+					"hand": "26, -28"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		},
+		"1": {
+			"body": {
+				"origin": "51, 74",
+				"z" : "body",
+				"map": {
+					"neck": "-4, -32",
+					"navel": "-7, -20"
+				}
+			},
+			"arm": "../0/arm",
+			"face" : 0,
+			"delay" : 500
+		},
+		"2": {
+			"body": {
+				"origin": "50, 74",
+				"z" : "body",
+				"map": {
+					"neck": "-4, -32",
+					"navel": "-6, -21"
+				}
+			},
+			"arm": "../0/arm",
+			"face" : 0,
+			"delay" : 500
+		},
+		"3": {
+			"body": {
+				"origin": "51, 74",
+				"z" : "body",
+				"map": {
+					"neck": "-4, -32",
+					"navel": "-7, -20"
+				}
+			},
+			"arm": "../0/arm",
+			"face" : 0,
+			"delay" : 500
+		}
+	},
+	"TJRalert": {
+		"0": {
+			"body": {
+				"origin": "41, 71",
+				"z" : "body",
+				"map": {
+					"neck": "-4, -29",
+					"navel": "-3, -18"
+				}
+			},
+			"arm": {
+				"origin": "6, 8",
+				"map": {
+					"navel": "-11, 1",
+					"hand": "-5, 5"
+				},
+				"z" : "armOverHair",
+				"group" : "skin"
+			},
+			"lHand": {
+				"origin": "15, 24",
+				"map": {
+					"handMove": "-11, -20"
+				},
+				"z" : "handBelowWeapon",
+				"group" : "skin"
+			},
+			"rHand": {
+				"origin": "4, 4",
+				"map": {
+					"navel": "-4, -2"
+				},
+				"z" : "handOverHair",
+				"group" : "skin"
+			},
+			"face" : 0,
+			"delay" : 500
+		},
+		"1": {
+			"body": {
+				"origin": "41, 72",
+				"z" : "body",
+				"map": {
+					"neck": "-4, -30",
+					"navel": "-3, -19"
+				}
+			},
+			"arm": "../0/arm",
+			"lHand": "../0/lHand",
+			"rHand": "../0/rHand",
+			"face" : 0,
+			"delay" : 500
+		},
+		"2": {
+			"body": {
+				"origin": "41, 73",
+				"z" : "body",
+				"map": {
+					"neck": "-4, -31",
+					"navel": "-3, -20"
+				}
+			},
+			"arm": "../0/arm",
+			"lHand": "../0/lHand",
+			"rHand": "../0/rHand",
+			"face" : 0,
+			"delay" : 500
+		},
+		"3": {
+			"body": {
+				"origin": "41, 72",
+				"z" : "body",
+				"map": {
+					"neck": "-4, -30",
+					"navel": "-3, -19"
+				}
+			},
+			"arm": "../0/arm",
+			"lHand": "../0/lHand",
+			"rHand": "../0/rHand",
+			"face" : 0,
+			"delay" : 500
+		}
+	},
+	"TJRswing": {
+		"0": {
+			"body": {
+				"origin": "23, 72",
+				"z" : "body",
+				"map": {
+					"neck": "-4, -32",
+					"navel": "-8, -21"
+				}
+			},
+			"face" : 0,
+			"delay" : 300,
+			"arm": {
+				"origin": "5, 9",
+				"map": {
+					"navel": "-3, 18",
+					"hand": "6, -5"
+				},
+				"z" : "armOverHairBelowWeapon",
+				"group" : "skin"
+			}
+		},
+		"1": {
+			"body": {
+				"origin": "60, 72",
+				"z" : "body",
+				"map": {
+					"neck": "-19, -30",
+					"navel": "-13, -18"
+				}
+			},
+			"arm": {
+				"origin": "10, 10",
+				"map": {
+					"navel": "13, 6",
+					"hand": "-6, -6"
+				},
+				"z" : "armOverHairBelowWeapon",
+				"group" : "skin"
+			},
+			"face" : 0,
+			"delay" : 150
+		},
+		"2": {
+			"body": {
+				"origin": "53, 66",
+				"z" : "body",
+				"map": {
+					"neck": "-33, -25",
+					"navel": "-23, -17"
+				}
+			},
+			"arm": {
+				"origin": "10, 8",
+				"map": {
+					"navel": "10, -2",
+					"hand": "-6, 10"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			},
+			"face" : 0,
+			"delay" : 350
+		}
+	},
+	"TJRstab": {
+		"0": {
+			"body": {
+				"origin": "46, 70",
+				"z" : "body",
+				"map": {
+					"neck": "-18, -28",
+					"navel": "-9, -19"
+				}
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "-7, 6",
+					"hand": "13, 4"
+				},
+				"z" : "armBelowHead",
+				"group" : "skin"
+			},
+			"face" : 0,
+			"delay" : 300
+		},
+		"1": {
+			"body": {
+				"origin": "62, 66",
+				"z" : "body",
+				"map": {
+					"neck": "-31, -24",
+					"navel": "-24, -18"
+				}
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "-9, 6",
+					"hand": "8, 5"
+				},
+				"z" : "armBelowHead",
+				"group" : "skin"
+			},
+			"face" : 0,
+			"delay" : 100
+		},
+		"2": {
+			"body": {
+				"origin": "78, 65",
+				"z" : "body",
+				"map": {
+					"neck": "-35, -23",
+					"navel": "-29, -14"
+				}
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "0, 4",
+					"hand": "-3, 0"
+				},
+				"z" : "armBelowHead",
+				"group" : "skin"
+			},
+			"face" : 0,
+			"delay" : 350
+		}
+	},
+	"TJRproneStab": {
+		"0": {
+			"body": {
+				"origin": "72, 45",
+				"z" : "body",
+				"map": {
+					"neck": "-23, -4",
+					"navel": "-7, -3"
+				}
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "7, 0",
+					"hand": "-2, -2"
+				},
+				"z" : "armOverHair"
+			},
+			"face" : 0,
+			"delay" : 300
+		},
+		"1": {
+			"body": {
+				"origin": "72, 45",
+				"z" : "body",
+				"map": {
+					"neck": "-23, -4",
+					"navel": "-7, -3"
+				}
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "22, -1",
+					"hand": "-3, -2"
+				},
+				"z" : "armOverHair"
+			},
+			"face" : 0,
+			"delay" : 400
+		}
+	},
+	"TJRprone": {
+		"0": {
+			"body": {
+				"origin": "72, 45",
+				"z" : "body",
+				"map": {
+					"neck": "-23, -4",
+					"navel": "-7, -3"
+				}
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "7, 0",
+					"hand": "-2, -2"
+				},
+				"z" : "armOverHair"
+			},
+			"face" : 0
+		}
+	},
+	"TJRfly": {
+		"0": {
+			"body": {
+				"origin": "52, 83",
+				"z" : "body",
+				"map": {
+					"neck": "-4, -37",
+					"navel": "-4, -24"
+				}
+			},
+			"arm": {
+				"origin": "6, 8",
+				"map": {
+					"navel": "-5, 5",
+					"hand": "-2, -4"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			},
+			"lHand": {
+				"origin": "13, 24",
+				"map": {
+					"navel": "-1, -16"
+				},
+				"z" : "handBelowWeapon",
+				"group" : "skin"
+			},
+			"rHand": {
+				"origin": "4, 4",
+				"map": {
+					"navel": "-3, 9"
+				},
+				"z" : "handOverHair",
+				"group" : "skin"
+			},
+			"face" : 0,
+			"delay" : 300
+		},
+		"1": {
+			"body": {
+				"origin": "50, 83",
+				"z" : "body",
+				"map": {
+					"neck": "-4, -37",
+					"navel": "-4, -24"
+				}
+			},
+			"arm": {
+				"origin": "6, 8",
+				"map": {
+					"navel": "-5, 5",
+					"hand": "-3, -3"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			},
+			"lHand": {
+				"origin": "13, 24",
+				"map": {
+					"navel": "-1, -16"
+				},
+				"z" : "handBelowWeapon",
+				"group" : "skin"
+			},
+			"rHand": {
+				"origin": "4, 4",
+				"map": {
+					"navel": "-3, 9"
+				},
+				"z" : "handOverHair",
+				"group" : "skin"
+			},
+			"face" : 0,
+			"delay" : 300
+		}
+	},
+	"TJRjump": {
+		"0": {
+			"body": {
+				"origin": "43, 73",
+				"z" : "body",
+				"map": {
+					"neck": "-4, -30",
+					"navel": "-5, -18"
+				}
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "-7, 5",
+					"hand": "-3, -3"
+				},
+				"z" : "armOverHair"
+			},
+			"lHand": {
+				"origin": "13, 24",
+				"map": {
+					"navel": "-2, -17"
+				},
+				"z" : "handBelowWeapon"
+			},
+			"rHand": {
+				"origin": "4, 4",
+				"map": {
+					"navel": "-4, 8"
+				},
+				"z" : "handOverHair"
+			},
+			"face" : 0,
+			"delay" : 200
+		}
+	},
+	"TJRsit": {
+		"0": {
+			"body": {
+				"origin": "25, 67",
+				"z" : "body",
+				"map": {
+					"neck": "-1, -28",
+					"navel": "-2, -17"
+				}
+			},
+			"arm": {
+				"origin": "5, 7",
+				"map": {
+					"navel": "-4, 2",
+					"hand": "-1, -7"
+				},
+				"z" : "arm"
+			},
+			"face" : 0
+		}
+	},
+	"TJRladder": {
+		"0": {
+			"body": {
+				"origin": "25, 74",
+				"z" : "backBody",
+				"map": {
+					"neck": "-1, -30",
+					"navel": "0, -21",
+					"hand": "-4, -39"
+				}
+			},
+			"face" : 0,
+			"delay" : 250
+		},
+		"1": {
+			"body": {
+				"origin": "25, 74",
+				"z" : "backBody",
+				"map": {
+					"neck": "2, -28",
+					"navel": "2, -19",
+					"hand": "7, -38"
+				}
+			},
+			"face" : 0,
+			"delay" : 250
+		}
+	},
+	"TJRrope": {
+		"0": {
+			"body": {
+				"origin": "25, 76",
+				"z" : "backBody",
+				"map": {
+					"neck": "1, -33",
+					"navel": "2, -24",
+					"hand": "1, -39"
+				}
+			},
+			"face" : 0,
+			"delay" : 250
+		},
+		"1": {
+			"body": {
+				"origin": "25, 71",
+				"z" : "backBody",
+				"map": {
+					"neck": "1, -28",
+					"navel": "1, -18",
+					"hand": "1, -29"
+				}
+			},
+			"face" : 0,
+			"delay" : 250
+		}
+	},
+	"TJRdead": {
+		"0": {
+			"body": {
+				"origin": "24, 73",
+				"z" : 0
+			},
+			"face" : 0
+		}
+	},
+	"TJRblink": {
+		"0": {
+			"body": {
+				"origin": "16, 29",
+				"map": {
+					"neck": "-4, -29",
+					"navel": "-3, -18"
+				},
+				"z" : "body"
+			},
+			"face" : 0
+		}
+	},
+	"TJRAttack1": {
+		"0": {
+			"body": {
+				"origin": "24, 71",
+				"z" : 0,
+				"delay" : 60
+			},
+			"face" : 0,
+			"delay" : -60,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 2",
+					"hand": "19, -29"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		},
+		"1": {
+			"body": {
+				"origin": "60, 70",
+				"z" : 0,
+				"delay" : 60
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": "../0/arm"
+		},
+		"2": {
+			"body": {
+				"origin": "58, 65",
+				"z" : 0,
+				"delay" : 60
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": "../0/arm"
+		},
+		"3": {
+			"body": {
+				"origin": "59, 65",
+				"z" : 0,
+				"delay" : 60
+			},
+			"face" : 0,
+			"delay" : 240,
+			"arm": "../0/arm"
+		}
+	},
+	"TJRAttack2": {
+		"0": {
+			"body": {
+				"origin": "60, 70",
+				"z" : 0,
+				"delay" : 60
+			},
+			"face" : 0,
+			"delay" : -60,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 2",
+					"hand": "19, -29"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		},
+		"1": {
+			"body": {
+				"origin": "45, 67",
+				"z" : 0,
+				"delay" : 60
+			},
+			"face" : 0,
+			"delay" : -60,
+			"arm": "../0/arm"
+		},
+		"2": {
+			"body": {
+				"origin": "104, 64",
+				"z" : 0,
+				"delay" : 60
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": "../0/arm"
+		},
+		"3": {
+			"body": {
+				"origin": "104, 64",
+				"z" : 0,
+				"delay" : 60
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": "../0/arm"
+		},
+		"4": {
+			"body": {
+				"origin": "104, 64",
+				"z" : 0,
+				"delay" : 60
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": "../0/arm"
+		},
+		"5": {
+			"body": {
+				"origin": "104, 64",
+				"z" : 0,
+				"delay" : 60
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": "../0/arm"
+		},
+		"6": {
+			"body": {
+				"origin": "104, 64",
+				"z" : 0,
+				"delay" : 60
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": "../0/arm"
+		},
+		"7": {
+			"body": {
+				"origin": "104, 64",
+				"z" : 0,
+				"delay" : 60
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": "../0/arm"
+		}
+	},
+	"TJRAttack3": {
+		"0": {
+			"body": {
+				"origin": "61, 65",
+				"z" : 0,
+				"delay" : 60
+			},
+			"face" : 0,
+			"delay" : -60,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 2",
+					"hand": "19, -29"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		},
+		"1": {
+			"body": {
+				"origin": "23, 79",
+				"z" : 0,
+				"delay" : 60
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 2",
+					"hand": "19, -29"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		},
+		"2": {
+			"body": {
+				"origin": "66, 71",
+				"z" : 0,
+				"delay" : 60
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": "../0/arm"
+		},
+		"3": {
+			"body": {
+				"origin": "58, 65",
+				"z" : 0,
+				"delay" : 60
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": "../0/arm"
+		},
+		"4": {
+			"body": {
+				"origin": "59, 65",
+				"z" : 0,
+				"delay" : 60
+			},
+			"face" : 0,
+			"delay" : 180,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 2",
+					"hand": "19, -29"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		}
+	},
+	"TJRAttack4": {
+		"0": {
+			"body": {
+				"origin": "38, 71",
+				"z" : 0,
+				"delay" : 60
+			},
+			"face" : 0,
+			"delay" : -60,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 2",
+					"hand": "19, -29"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		},
+		"1": {
+			"body": {
+				"origin": "50, 65",
+				"z" : 0,
+				"delay" : 60
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": "../0/arm"
+		},
+		"2": {
+			"body": {
+				"origin": "68, 74",
+				"z" : 0,
+				"delay" : 60
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": "../0/arm"
+		},
+		"3": {
+			"body": {
+				"origin": "69, 74",
+				"z" : 0,
+				"delay" : 60
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": "../0/arm"
+		},
+		"4": {
+			"body": {
+				"origin": "70, 74",
+				"z" : 0,
+				"delay" : 60
+			},
+			"face" : 0,
+			"delay" : 180,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 2",
+					"hand": "19, -29"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		}
+	},
+	"TJRDash": {
+		"0": {
+			"body": {
+				"origin": "27, 71",
+				"z" : 0
+			},
+			"face" : 0,
+			"delay" : -60,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 2",
+					"hand": "19, -29"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		},
+		"1": {
+			"body": {
+				"origin": "27, 71",
+				"z" : 0
+			},
+			"face" : 0,
+			"delay" : 360,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 2",
+					"hand": "19, -29"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		}
+	},
+	"TJRWaterWheel": {
+		"0": {
+			"body": {
+				"origin": "42, 71",
+				"z" : 0
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 2",
+					"hand": "19, -29"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		},
+		"1": {
+			"body": {
+				"origin": "24, 123",
+				"z" : 0
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 2",
+					"hand": "19, -29"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		},
+		"2": {
+			"body": {
+				"origin": "54, 126",
+				"z" : 0
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 2",
+					"hand": "19, -29"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		},
+		"3": {
+			"body": {
+				"origin": "18, 125",
+				"z" : 0
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 2",
+					"hand": "19, -29"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		},
+		"4": {
+			"body": {
+				"origin": "56, 137",
+				"z" : 0
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 2",
+					"hand": "19, -29"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		},
+		"5": {
+			"body": {
+				"origin": "41, 141",
+				"z" : 0
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 2",
+					"hand": "19, -29"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		},
+		"6": {
+			"body": {
+				"origin": "41, 140",
+				"z" : 0
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 2",
+					"hand": "19, -29"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		},
+		"7": {
+			"body": {
+				"origin": "41, 128",
+				"z" : 0
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 2",
+					"hand": "19, -29"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		},
+		"8": {
+			"body": {
+				"origin": "41, 100",
+				"z" : 0
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 2",
+					"hand": "19, -29"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		},
+		"9": {
+			"body": {
+				"origin": "42, 70",
+				"z" : 0
+			},
+			"face" : 0,
+			"delay" : 120,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 2",
+					"hand": "19, -29"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		},
+		"10": {
+			"body": {
+				"origin": "42, 71",
+				"z" : 0
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 2",
+					"hand": "19, -29"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		}
+	},
+	"TJRStrikingTide": {
+		"0": {
+			"body": {
+				"origin": "42, 71",
+				"z" : 0
+			},
+			"face" : 0,
+			"delay" : -60,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 2",
+					"hand": "19, -29"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		},
+		"1": {
+			"body": {
+				"origin": "46, 65",
+				"z" : 0
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 2",
+					"hand": "19, -29"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		},
+		"2": {
+			"body": {
+				"origin": "59, 91",
+				"z" : 0
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 2",
+					"hand": "19, -29"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		},
+		"3": {
+			"body": {
+				"origin": "36, 105",
+				"z" : 0
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 2",
+					"hand": "19, -29"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		},
+		"4": {
+			"body": {
+				"origin": "40, 107",
+				"z" : 0
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "-12, 4",
+					"hand": "36, -30"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		},
+		"5": {
+			"body": {
+				"origin": "40, 108",
+				"z" : 0
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 2",
+					"hand": "19, -29"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		},
+		"6": {
+			"body": {
+				"origin": "40, 107",
+				"z" : 0
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 2",
+					"hand": "19, -29"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		},
+		"7": {
+			"body": {
+				"origin": "40, 105",
+				"z" : 0
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "-12, 4",
+					"hand": "36, -30"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		},
+		"8": {
+			"body": {
+				"origin": "40, 100",
+				"z" : 0
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 2",
+					"hand": "19, -29"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		},
+		"9": {
+			"body": {
+				"origin": "45, 78",
+				"z" : 0
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 2",
+					"hand": "19, -29"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		},
+		"10": {
+			"body": {
+				"origin": "45, 70",
+				"z" : 0
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "-12, 4",
+					"hand": "36, -30"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		},
+		"11": {
+			"body": {
+				"origin": "45, 71",
+				"z" : 0
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 2",
+					"hand": "19, -29"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		}
+	},
+	"TJRWhirlpool": {
+		"0": {
+			"body": {
+				"origin": "42, 71",
+				"z" : 0
+			},
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "-12, 4",
+					"hand": "36, -30"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			},
+			"face" : 0,
+			"delay" : -60
+		},
+		"1": {
+			"body": {
+				"origin": "34, 67",
+				"z" : 0
+			},
+			"arm": "../0/arm",
+			"face" : 0,
+			"delay" : -60
+		},
+		"2": {
+			"body": {
+				"origin": "30, 90",
+				"z" : 0
+			},
+			"arm": {
+				"origin": "5, 9",
+				"map": {
+					"navel": "-13, -1",
+					"hand": "15, -30"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			},
+			"face" : 0,
+			"delay" : 60
+		},
+		"3": {
+			"body": {
+				"origin": "58, 85",
+				"z" : 0
+			},
+			"arm": {
+				"origin": "5, 9",
+				"map": {
+					"navel": "-13, -1",
+					"hand": "15, -30"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			},
+			"face" : 0,
+			"delay" : 60
+		},
+		"4": {
+			"body": {
+				"origin": "57, 88",
+				"z" : 0
+			},
+			"arm": {
+				"origin": "5, 9",
+				"map": {
+					"navel": "-13, -1",
+					"hand": "15, -30"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			},
+			"face" : 0,
+			"delay" : 60
+		},
+		"5": {
+			"body": {
+				"origin": "61, 86",
+				"z" : 0
+			},
+			"arm": "../0/arm",
+			"face" : 0,
+			"delay" : 60
+		},
+		"6": {
+			"body": {
+				"origin": "71, 72",
+				"z" : 0
+			},
+			"arm": {
+				"origin": "5, 9",
+				"map": {
+					"navel": "-13, -1",
+					"hand": "15, -30"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			},
+			"face" : 0,
+			"delay" : 60
+		},
+		"7": {
+			"body": {
+				"origin": "71, 71",
+				"z" : 0
+			},
+			"arm": {
+				"origin": "5, 9",
+				"map": {
+					"navel": "-13, -1",
+					"hand": "15, -30"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			},
+			"face" : 0,
+			"delay" : 60
+		},
+		"8": {
+			"body": {
+				"origin": "72, 71",
+				"z" : 0
+			},
+			"arm": {
+				"origin": "5, 9",
+				"map": {
+					"navel": "-13, -1",
+					"hand": "15, -30"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			},
+			"face" : 0,
+			"delay" : 60
+		},
+		"9": {
+			"body": {
+				"origin": "73, 70",
+				"z" : 0
+			},
+			"arm": "../0/arm",
+			"face" : 0,
+			"delay" : 60
+		},
+		"10": {
+			"body": {
+				"origin": "73, 69",
+				"z" : 0
+			},
+			"arm": {
+				"origin": "5, 9",
+				"map": {
+					"navel": "-13, -1",
+					"hand": "15, -30"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			},
+			"face" : 0,
+			"delay" : 60
+		},
+		"11": {
+			"body": {
+				"origin": "73, 68",
+				"z" : 0
+			},
+			"arm": {
+				"origin": "5, 9",
+				"map": {
+					"navel": "-13, -1",
+					"hand": "15, -30"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			},
+			"face" : 0,
+			"delay" : 60
+		},
+		"12": {
+			"body": {
+				"origin": "73, 68",
+				"z" : 0
+			},
+			"arm": {
+				"origin": "5, 9",
+				"map": {
+					"navel": "-13, -1",
+					"hand": "15, -30"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			},
+			"face" : 0,
+			"delay" : 60
+		},
+		"13": {
+			"body": {
+				"origin": "71, 70",
+				"z" : 0
+			},
+			"arm": {
+				"origin": "5, 9",
+				"map": {
+					"navel": "-13, -1",
+					"hand": "15, -30"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			},
+			"face" : 0,
+			"delay" : 60
+		},
+		"14": {
+			"body": {
+				"origin": "67, 72",
+				"z" : 0
+			},
+			"arm": {
+				"origin": "5, 9",
+				"map": {
+					"navel": "-13, -1",
+					"hand": "15, -30"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			},
+			"face" : 0,
+			"delay" : 60
+		}
+	},
+	"TJRWaterfallBasin": {
+		"0": {
+			"body": {
+				"origin": "42, 71",
+				"z" : 0
+			},
+			"face" : 0,
+			"delay" : -60,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 2",
+					"hand": "19, -29"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		},
+		"1": {
+			"body": {
+				"origin": "50, 163",
+				"z" : 0
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": "../0/arm"
+		},
+		"2": {
+			"body": {
+				"origin": "86, 222",
+				"z" : 0
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": "../0/arm"
+		},
+		"3": {
+			"body": {
+				"origin": "98, 241",
+				"z" : 0
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": "../0/arm"
+		},
+		"4": {
+			"body": {
+				"origin": "138, 184",
+				"z" : 0
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 2",
+					"hand": "19, -29"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		},
+		"5": {
+			"body": {
+				"origin": "151, 65",
+				"z" : 0
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 2",
+					"hand": "19, -29"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		},
+		"6": {
+			"body": {
+				"origin": "151, 65",
+				"z" : 0
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 2",
+					"hand": "19, -29"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		},
+		"7": {
+			"body": {
+				"origin": "151, 65",
+				"z" : 0
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 2",
+					"hand": "19, -29"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		},
+		"8": {
+			"body": {
+				"origin": "151, 65",
+				"z" : 0
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 2",
+					"hand": "19, -29"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		},
+		"9": {
+			"body": {
+				"origin": "137, 66",
+				"z" : 0
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 2",
+					"hand": "19, -29"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		},
+		"10": {
+			"body": {
+				"origin": "119, 72",
+				"z" : 0
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 2",
+					"hand": "19, -29"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		},
+		"11": {
+			"body": {
+				"origin": "119, 71",
+				"z" : 0
+			},
+			"face" : 0,
+			"delay" : 60,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 2",
+					"hand": "19, -29"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		}
+	},
+	"TJRDancingFlash": {
+		"0": {
+			"body": {
+				"origin": "44, 70",
+				"z" : 0
+			},
+			"face" : 0,
+			"delay" : 360,
+			"arm": {
+				"origin": "7, 7",
+				"map": {
+					"navel": "5, 2",
+					"hand": "19, -29"
+				},
+				"z" : "arm",
+				"group" : "skin"
+			}
+		}
+	}
+}
