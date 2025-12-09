@@ -1,0 +1,7 @@
+root:
+  bg: 'ui/_canvas/uiwindow6/missiontospace_timer_backgrnd.png'
+  children:
+    - type: 'Image'
+      name: '-'
+      pos: [ 220, 16 ]
+      imagePath: 'effect/_canvas/eventeffect/flymo_border_mobpoint_minus_effect.png'
