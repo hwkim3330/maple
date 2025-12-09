@@ -1,0 +1,71 @@
+{
+	"info": {
+		"hideName" : 1,
+		"forceMove" : 1
+	},
+	"stand": {
+		"0": {
+			"origin": "22, 76",
+			"z" : 0,
+			"_outlink" : "Npc/_Canvas/9401962.img/stand/0"
+		}
+	},
+	"eye": {
+		"0": {
+			"origin": "22, 76",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Npc/_Canvas/9401962.img/eye/0"
+		},
+		"1": {
+			"origin": "22, 76",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Npc/_Canvas/9401962.img/eye/1"
+		},
+		"2": {
+			"origin": "22, 76",
+			"z" : 0,
+			"delay" : 120,
+			"_outlink" : "Npc/_Canvas/9401962.img/eye/2"
+		},
+		"3": {
+			"origin": "22, 76",
+			"z" : 0,
+			"delay" : 90,
+			"_outlink" : "Npc/_Canvas/9401962.img/eye/3"
+		},
+		"4": {
+			"origin": "22, 76",
+			"z" : 0,
+			"delay" : 900,
+			"_outlink" : "Npc/_Canvas/9401962.img/eye/4"
+		}
+	},
+	"move": {
+		"0": {
+			"origin": "22, 76",
+			"z" : 0,
+			"delay" : 500,
+			"_outlink" : "Npc/_Canvas/9401962.img/Kanao_00"
+		},
+		"1": {
+			"origin": "22, 76",
+			"z" : 0,
+			"delay" : 500,
+			"_outlink" : "Npc/_Canvas/9401962.img/Kanao_01"
+		},
+		"2": {
+			"origin": "22, 76",
+			"z" : 0,
+			"delay" : 500,
+			"_outlink" : "Npc/_Canvas/9401962.img/Kanao_02"
+		},
+		"3": {
+			"origin": "22, 76",
+			"z" : 0,
+			"delay" : 500,
+			"_outlink" : "Npc/_Canvas/9401962.img/Kanao_03"
+		}
+	}
+}
