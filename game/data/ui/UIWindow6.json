@@ -1,0 +1,201 @@
+{
+	"dreambreaker": {
+		"effect": {
+			"start": {
+				"0": {
+					"origin": "193, 18",
+					"z" : 0,
+					"_outlink" : "UI/_Canvas/UIWindow6.img/dreambreaker/effect/start/0"
+				},
+				"1": {
+					"origin": "200, 24",
+					"z" : 0,
+					"_outlink" : "UI/_Canvas/UIWindow6.img/dreambreaker/effect/start/1"
+				},
+				"2": {
+					"origin": "200, 24",
+					"z" : 0,
+					"_outlink" : "UI/_Canvas/UIWindow6.img/dreambreaker/effect/start/2"
+				},
+				"3": {
+					"origin": "200, 24",
+					"z" : 0,
+					"_outlink" : "UI/_Canvas/UIWindow6.img/dreambreaker/effect/start/3"
+				},
+				"4": {
+					"origin": "200, 24",
+					"z" : 0,
+					"_outlink" : "UI/_Canvas/UIWindow6.img/dreambreaker/effect/start/4"
+				},
+				"5": {
+					"origin": "200, 24",
+					"z" : 0,
+					"_outlink" : "UI/_Canvas/UIWindow6.img/dreambreaker/effect/start/5"
+				},
+				"6": {
+					"origin": "200, 24",
+					"z" : 0,
+					"_outlink" : "UI/_Canvas/UIWindow6.img/dreambreaker/effect/start/6"
+				},
+				"7": {
+					"origin": "200, 24",
+					"z" : 0,
+					"_outlink" : "UI/_Canvas/UIWindow6.img/dreambreaker/effect/start/7"
+				},
+				"8": {
+					"origin": "200, 24",
+					"z" : 0,
+					"_outlink" : "UI/_Canvas/UIWindow6.img/dreambreaker/effect/start/8"
+				},
+				"9": {
+					"origin": "200, 24",
+					"z" : 0,
+					"_outlink" : "UI/_Canvas/UIWindow6.img/dreambreaker/effect/start/9"
+				},
+				"10": {
+					"origin": "200, 24",
+					"z" : 0,
+					"_outlink" : "UI/_Canvas/UIWindow6.img/dreambreaker/effect/start/10"
+				},
+				"11": {
+					"origin": "200, 24",
+					"z" : 0,
+					"_outlink" : "UI/_Canvas/UIWindow6.img/dreambreaker/effect/start/11"
+				},
+				"12": {
+					"origin": "200, 24",
+					"z" : 0,
+					"_outlink" : "UI/_Canvas/UIWindow6.img/dreambreaker/effect/start/12"
+				},
+				"13": {
+					"origin": "200, 24",
+					"z" : 0,
+					"_outlink" : "UI/_Canvas/UIWindow6.img/dreambreaker/effect/start/13"
+				},
+				"14": {
+					"origin": "200, 24",
+					"z" : 0,
+					"_outlink" : "UI/_Canvas/UIWindow6.img/dreambreaker/effect/start/14"
+				},
+				"15": {
+					"origin": "200, 24",
+					"z" : 0,
+					"_outlink" : "UI/_Canvas/UIWindow6.img/dreambreaker/effect/start/15"
+				},
+				"16": {
+					"origin": "200, 24",
+					"z" : 0,
+					"_outlink" : "UI/_Canvas/UIWindow6.img/dreambreaker/effect/start/16"
+				},
+				"17": {
+					"origin": "286, 24",
+					"z" : 0,
+					"_outlink" : "UI/_Canvas/UIWindow6.img/dreambreaker/effect/start/17"
+				},
+				"18": {
+					"origin": "210, 24",
+					"z" : 0,
+					"_outlink" : "UI/_Canvas/UIWindow6.img/dreambreaker/effect/start/18"
+				},
+				"19": {
+					"origin": "247, 24",
+					"z" : 0,
+					"_outlink" : "UI/_Canvas/UIWindow6.img/dreambreaker/effect/start/19"
+				},
+				"20": {
+					"origin": "274, 24",
+					"z" : 0,
+					"_outlink" : "UI/_Canvas/UIWindow6.img/dreambreaker/effect/start/20"
+				},
+				"21": {
+					"origin": "275, 24",
+					"z" : 0,
+					"_outlink" : "UI/_Canvas/UIWindow6.img/dreambreaker/effect/start/21"
+				},
+				"22": {
+					"origin": "213, 24",
+					"z" : 0,
+					"_outlink" : "UI/_Canvas/UIWindow6.img/dreambreaker/effect/start/22"
+				},
+				"23": {
+					"origin": "302, 24",
+					"z" : 0,
+					"_outlink" : "UI/_Canvas/UIWindow6.img/dreambreaker/effect/start/23"
+				},
+				"24": {
+					"origin": "308, 18",
+					"z" : 0,
+					"_outlink" : "UI/_Canvas/UIWindow6.img/dreambreaker/effect/start/24"
+				}
+			},
+			"clear": {
+				"0": {
+					"origin": "193, 18",
+					"z" : 0,
+					"delay" : 90,
+					"_outlink" : "UI/_Canvas/UIWindow6.img/dreambreaker/effect/clear/0"
+				},
+				"1": {
+					"origin": "200, 24",
+					"z" : 0,
+					"delay" : 90,
+					"_outlink" : "UI/_Canvas/UIWindow6.img/dreambreaker/effect/start/1"
+				},
+				"2": {
+					"origin": "296, 24",
+					"z" : 0,
+					"delay" : 90,
+					"_outlink" : "UI/_Canvas/UIWindow6.img/dreambreaker/effect/clear/2"
+				},
+				"3": {
+					"origin": "229, 24",
+					"z" : 0,
+					"delay" : 90,
+					"_outlink" : "UI/_Canvas/UIWindow6.img/dreambreaker/effect/clear/3"
+				},
+				"4": {
+					"origin": "254, 24",
+					"z" : 0,
+					"delay" : 90,
+					"_outlink" : "UI/_Canvas/UIWindow6.img/dreambreaker/effect/clear/4"
+				},
+				"5": {
+					"origin": "263, 24",
+					"z" : 0,
+					"delay" : 90,
+					"_outlink" : "UI/_Canvas/UIWindow6.img/dreambreaker/effect/clear/5"
+				},
+				"6": {
+					"origin": "262, 24",
+					"z" : 0,
+					"delay" : 90,
+					"_outlink" : "UI/_Canvas/UIWindow6.img/dreambreaker/effect/clear/6"
+				},
+				"7": {
+					"origin": "200, 24",
+					"z" : 0,
+					"delay" : 1500,
+					"_outlink" : "UI/_Canvas/UIWindow6.img/dreambreaker/effect/clear/7"
+				},
+				"8": {
+					"origin": "207, 24",
+					"z" : 0,
+					"delay" : 90,
+					"_outlink" : "UI/_Canvas/UIWindow6.img/dreambreaker/effect/clear/8"
+				},
+				"9": {
+					"origin": "302, 24",
+					"z" : 0,
+					"delay" : 90,
+					"_outlink" : "UI/_Canvas/UIWindow6.img/dreambreaker/effect/clear/9"
+				},
+				"10": {
+					"origin": "308, 18",
+					"z" : 0,
+					"delay" : 90,
+					"_outlink" : "UI/_Canvas/UIWindow6.img/dreambreaker/effect/clear/10"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,50 @@
+{
+	"02990000": {
+		"info": {
+			"icon": {
+				"origin": "-1, 27",
+				"_outlink" : "Item/Consume/_Canvas/0299.img/02990000/info/icon"
+			},
+			"iconRaw": {
+				"origin": "-1, 27",
+				"_outlink" : "Item/Consume/_Canvas/0299.img/02990000/info/iconRaw"
+			},
+			"price" : 1,
+			"tradeBlock" : 1,
+			"notSale" : 1,
+			"notConsume" : 1
+		}
+	},
+	"02990001": {
+		"info": {
+			"icon": {
+				"origin": "-1, 27",
+				"_outlink" : "Item/Consume/_Canvas/0299.img/02990001/info/icon"
+			},
+			"iconRaw": {
+				"origin": "-1, 27",
+				"_outlink" : "Item/Consume/_Canvas/0299.img/02990001/info/iconRaw"
+			},
+			"price" : 1,
+			"tradeBlock" : 1,
+			"notSale" : 1,
+			"notConsume" : 1
+		}
+	},
+	"02990002": {
+		"info": {
+			"icon": {
+				"origin": "-1, 27",
+				"_outlink" : "Item/Consume/_Canvas/0299.img/02990002/info/icon"
+			},
+			"iconRaw": {
+				"origin": "-1, 27",
+				"_outlink" : "Item/Consume/_Canvas/0299.img/02990002/info/iconRaw"
+			},
+			"price" : 1,
+			"tradeBlock" : 1,
+			"notSale" : 1,
+			"notConsume" : 1
+		}
+	}
+}

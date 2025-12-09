@@ -1,0 +1,26 @@
+{
+	"03010097": {
+		"info": {
+			"icon": {
+				"origin": "-1, 27",
+				"_outlink" : "Item/Install/_Canvas/03010.img/03010097/info/icon"
+			},
+			"iconRaw": {
+				"origin": "-1, 27",
+				"_outlink" : "Item/Install/_Canvas/03010.img/03010097/info/iconRaw"
+			},
+			"price" : 100,
+			"slotMax" : 1,
+			"recoveryHP" : 50,
+			"notSale" : 1,
+			"accountSharable" : 1
+		},
+		"effect": {
+			"0": {
+				"origin": "21, 28",
+				"_outlink" : "Item/Install/_Canvas/03010.img/03010097/effect/0"
+			},
+			"z" : -1
+		}
+	}
+}

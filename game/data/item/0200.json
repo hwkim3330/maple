@@ -1,0 +1,38 @@
+{
+	"02000016": {
+		"info": {
+			"icon": {
+				"origin": "-3, 30",
+				"_outlink" : "Item/Consume/_Canvas/0200.img/02000002/info/icon"
+			},
+			"iconRaw": {
+				"origin": "-3, 30",
+				"_outlink" : "Item/Consume/_Canvas/0200.img/02000002/info/iconRaw"
+			},
+			"price" : 0,
+			"tradeBlock" : 1,
+			"slotMax" : 3000
+		},
+		"spec": {
+			"hp" : 300
+		}
+	},
+	"02000018": {
+		"info": {
+			"icon": {
+				"origin": "0, 32",
+				"_outlink" : "Item/Consume/_Canvas/0200.img/02000006/info/icon"
+			},
+			"iconRaw": {
+				"origin": "0, 32",
+				"_outlink" : "Item/Consume/_Canvas/0200.img/02000006/info/iconRaw"
+			},
+			"tradeBlock" : 1,
+			"price" : 0,
+			"slotMax" : 3000
+		},
+		"spec": {
+			"mp" : 300
+		}
+	}
+}

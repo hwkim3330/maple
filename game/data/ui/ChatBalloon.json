@@ -1,0 +1,41 @@
+{
+	"0": {
+		"nw": {
+			"origin": "6, 6"
+		},
+		"ne": {
+			"origin": "0, 6"
+		},
+		"sw": {
+			"origin": "6, 0"
+		},
+		"se": {
+			"origin": "0, 0"
+		},
+		"n": {
+			"origin": "0, 6",
+			"_outlink" : "UI/_Canvas/ChatBalloon.img/0/n"
+		},
+		"s": {
+			"origin": "0, 0",
+			"_outlink" : "UI/_Canvas/ChatBalloon.img/0/s"
+		},
+		"w": {
+			"origin": "6, 0",
+			"_outlink" : "UI/_Canvas/ChatBalloon.img/0/w"
+		},
+		"e": {
+			"origin": "0, 0",
+			"_outlink" : "UI/_Canvas/ChatBalloon.img/0/e"
+		},
+		"c": {
+			"origin": "0, 0",
+			"_outlink" : "UI/_Canvas/ChatBalloon.img/0/c"
+		},
+		"arrow": {
+			"origin": "1, 0",
+			"_outlink" : "UI/_Canvas/ChatBalloon.img/0/arrow"
+		},
+		"clr" : -16777216
+	}
+}

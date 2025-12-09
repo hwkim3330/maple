@@ -67,6 +67,9 @@ flutter:
     - assets/mob/
     - assets/mob/5120504/
     - assets/back/
+    - assets/map/
+    - assets/map/2024Collabo/
+    - assets/ui/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

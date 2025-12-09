@@ -1,0 +1,220 @@
+{
+	"04032309": {
+		"info": {
+			"icon": {
+				"origin": "0, 32",
+				"_outlink" : "Item/Etc/_Canvas/0403.img/04032309/info/icon"
+			},
+			"iconRaw": {
+				"origin": "0, 32",
+				"_outlink" : "Item/Etc/_Canvas/0403.img/04032309/info/iconRaw"
+			},
+			"price" : 1,
+			"quest" : 1
+		}
+	},
+	"04032310": {
+		"info": {
+			"icon": {
+				"origin": "-1, 29",
+				"_outlink" : "Item/Etc/_Canvas/0403.img/04032310/info/icon"
+			},
+			"iconRaw": {
+				"origin": "-1, 29",
+				"_outlink" : "Item/Etc/_Canvas/0403.img/04032310/info/iconRaw"
+			},
+			"price" : 1,
+			"quest" : 1
+		}
+	},
+	"04032447": {
+		"info": {
+			"icon": {
+				"origin": "-3, 31",
+				"_outlink" : "Item/Etc/_Canvas/0403.img/04032447/info/icon"
+			},
+			"iconRaw": {
+				"origin": "-3, 31",
+				"_outlink" : "Item/Etc/_Canvas/0403.img/04032447/info/iconRaw"
+			},
+			"price" : 1,
+			"quest" : 1
+		}
+	},
+	"04032448": {
+		"info": {
+			"icon": {
+				"origin": "-1, 27",
+				"_outlink" : "Item/Etc/_Canvas/0403.img/04032448/info/icon"
+			},
+			"iconRaw": {
+				"origin": "-1, 27",
+				"_outlink" : "Item/Etc/_Canvas/0403.img/04032448/info/iconRaw"
+			},
+			"price" : 1,
+			"quest" : 1
+		}
+	},
+	"04032449": {
+		"info": {
+			"icon": {
+				"origin": "0, 25",
+				"_outlink" : "Item/Etc/_Canvas/0403.img/04032449/info/icon"
+			},
+			"iconRaw": {
+				"origin": "0, 25",
+				"_outlink" : "Item/Etc/_Canvas/0403.img/04032449/info/iconRaw"
+			},
+			"price" : 1,
+			"quest" : 1
+		}
+	},
+	"04032450": {
+		"info": {
+			"icon": {
+				"origin": "0, 24",
+				"_outlink" : "Item/Etc/_Canvas/0403.img/04032450/info/icon"
+			},
+			"iconRaw": {
+				"origin": "0, 24",
+				"_outlink" : "Item/Etc/_Canvas/0403.img/04032450/info/iconRaw"
+			},
+			"price" : 1,
+			"quest" : 1
+		}
+	},
+	"04032451": {
+		"info": {
+			"icon": {
+				"origin": "-4, 28",
+				"z" : 0,
+				"_outlink" : "Item/Etc/_Canvas/0403.img/04032451/info/icon"
+			},
+			"iconRaw": {
+				"origin": "-5, 28",
+				"z" : 0,
+				"_outlink" : "Item/Etc/_Canvas/0403.img/04032451/info/iconRaw"
+			},
+			"price" : 1,
+			"quest" : 1
+		}
+	},
+	"04032452": {
+		"info": {
+			"icon": {
+				"origin": "0, 30",
+				"_outlink" : "Item/Etc/_Canvas/0403.img/04032452/info/icon"
+			},
+			"iconRaw": {
+				"origin": "0, 30",
+				"_outlink" : "Item/Etc/_Canvas/0403.img/04032452/info/iconRaw"
+			},
+			"price" : 1,
+			"quest" : 1
+		}
+	},
+	"04032453": {
+		"info": {
+			"icon": {
+				"origin": "1, 26",
+				"_outlink" : "Item/Etc/_Canvas/0403.img/04032453/info/icon"
+			},
+			"iconRaw": {
+				"origin": "1, 26",
+				"_outlink" : "Item/Etc/_Canvas/0403.img/04032453/info/iconRaw"
+			},
+			"price" : 1,
+			"quest" : 1
+		}
+	},
+	"04032454": {
+		"info": {
+			"icon": {
+				"origin": "-4, 30",
+				"_outlink" : "Item/Etc/_Canvas/0403.img/04032454/info/icon"
+			},
+			"iconRaw": {
+				"origin": "-8, 30",
+				"_outlink" : "Item/Etc/_Canvas/0403.img/04032454/info/iconRaw"
+			},
+			"price" : 1,
+			"quest" : 1
+		}
+	},
+	"04032455": {
+		"info": {
+			"icon": {
+				"origin": "-2, 31",
+				"_outlink" : "Item/Etc/_Canvas/0403.img/04032455/info/icon"
+			},
+			"iconRaw": {
+				"origin": "-2, 31",
+				"_outlink" : "Item/Etc/_Canvas/0400.img/04032455/info/iconRaw"
+			},
+			"price" : 1,
+			"quest" : 1
+		}
+	},
+	"04032498": {
+		"info": {
+			"icon": {
+				"origin": "-3, 26",
+				"_outlink" : "Item/Etc/_Canvas/0403.img/04032498/info/icon"
+			},
+			"iconRaw": {
+				"origin": "-3, 26",
+				"_outlink" : "Item/Etc/_Canvas/0403.img/04032498/info/iconRaw"
+			},
+			"price" : 1,
+			"quest" : 1,
+			"iconReward": {
+				"0": {
+					"origin": "16, 99",
+					"z" : 0,
+					"_outlink" : "Item/Etc/_Canvas/0403.img/04032498/info/iconReward/0"
+				},
+				"1": {
+					"origin": "15, 98",
+					"z" : 0,
+					"_outlink" : "Item/Etc/_Canvas/0403.img/04032498/info/iconReward/1"
+				},
+				"2": {
+					"origin": "14, 97",
+					"z" : 0,
+					"_outlink" : "Item/Etc/_Canvas/0403.img/04032498/info/iconReward/2"
+				},
+				"3": {
+					"origin": "17, 98",
+					"z" : 0,
+					"_outlink" : "Item/Etc/_Canvas/0403.img/04032498/info/iconReward/3"
+				},
+				"4": {
+					"origin": "16, 97",
+					"z" : 0,
+					"_outlink" : "Item/Etc/_Canvas/0403.img/04032498/info/iconReward/4"
+				},
+				"5": {
+					"origin": "17, 99",
+					"z" : 0,
+					"_outlink" : "Item/Etc/_Canvas/0403.img/04032498/info/iconReward/5"
+				}
+			}
+		}
+	},
+	"04032527": {
+		"info": {
+			"icon": {
+				"origin": "0, 55",
+				"z" : 0,
+				"_outlink" : "Item/Etc/_Canvas/0403.img/04032527/info/icon"
+			},
+			"iconRaw": {
+				"origin": "0, 55",
+				"z" : 0,
+				"_outlink" : "Item/Etc/_Canvas/0403.img/04032527/info/icon"
+			},
+			"price" : 1,
+			"quest" : 1
+		}
+	}
+}

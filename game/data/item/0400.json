@@ -1,0 +1,63 @@
+{
+	"04000001": {
+		"info": {
+			"icon": {
+				"origin": "-1, 28",
+				"_outlink" : "Item/Etc/_Canvas/0400.img/04000001/info/icon"
+			},
+			"iconRaw": {
+				"origin": "-1, 28",
+				"_outlink" : "Item/Etc/_Canvas/0400.img/04000001/info/iconRaw"
+			},
+			"slotMax" : 200,
+			"lv" : 10,
+			"autoPrice" : 1
+		}
+	},
+	"04000002": {
+		"info": {
+			"icon": {
+				"origin": "-1, 31",
+				"_outlink" : "Item/Etc/_Canvas/0400.img/04000002/info/icon"
+			},
+			"iconRaw": {
+				"origin": "-1, 31",
+				"_outlink" : "Item/Etc/_Canvas/0400.img/04000002/info/iconRaw"
+			},
+			"slotMax" : 200,
+			"lv" : 10,
+			"autoPrice" : 1
+		}
+	},
+	"04000021": {
+		"info": {
+			"icon": {
+				"origin": "-1, 31",
+				"z" : 0,
+				"_outlink" : "Item/Etc/_Canvas/0400.img/04000021/info/icon"
+			},
+			"iconRaw": {
+				"origin": "-1, 31",
+				"z" : 0,
+				"_outlink" : "Item/Etc/_Canvas/0400.img/04000021/info/iconRaw"
+			},
+			"slotMax" : 200,
+			"lv" : 7,
+			"autoPrice" : 1
+		}
+	},
+	"04001339": {
+		"info": {
+			"icon": {
+				"origin": "-2, 25",
+				"_outlink" : "Item/Etc/_Canvas/0400.img/04001339/info/icon"
+			},
+			"iconRaw": {
+				"origin": "-2, 25",
+				"_outlink" : "Item/Etc/_Canvas/0400.img/04001339/info/iconRaw"
+			},
+			"price" : 5,
+			"slotMax" : 200
+		}
+	}
+}

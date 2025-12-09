@@ -1,0 +1,41 @@
+{
+	"TemporaryStatView": {
+		"1": {
+			"origin": "0, 0",
+			"_outlink" : "UI/_Canvas/UIWindow.img/TemporaryStatView/1"
+		},
+		"2": {
+			"origin": "0, 0",
+			"z" : 0,
+			"delay" : 150,
+			"_outlink" : "UI/_Canvas/UIWindow.img/TemporaryStatView/2"
+		},
+		"3": {
+			"origin": "0, 0",
+			"_outlink" : "UI/_Canvas/UIWindow.img/TemporaryStatView/3"
+		},
+		"10": {
+			"origin": "0, 0",
+			"_outlink" : "UI/_Canvas/UIWindow.img/TemporaryStatView/10"
+		},
+		"11": {
+			"origin": "0, 0",
+			"z" : 0,
+			"_outlink" : "UI/_Canvas/UIWindow.img/TemporaryStatView/11"
+		},
+		"13": {
+			"origin": "0, 0",
+			"z" : 0,
+			"_outlink" : "UI/_Canvas/UIWindow.img/TemporaryStatView/13"
+		},
+		"14": {
+			"origin": "0, 0",
+			"_outlink" : "UI/_Canvas/UIWindow.img/TemporaryStatView/14"
+		},
+		"practiceMode": {
+			"origin": "0, 0",
+			"z" : 0,
+			"_outlink" : "UI/_Canvas/UIWindow.img/TemporaryStatView/practiceMode"
+		}
+	}
+}

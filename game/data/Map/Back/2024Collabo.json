@@ -1,0 +1,164 @@
+{
+	"back": {
+		"0": {
+			"origin": "901, 701",
+			"z" : 0,
+			"_outlink" : "Map/Back/_Canvas/2024Collabo.img/back/0"
+		},
+		"1": {
+			"origin": "62, 701",
+			"z" : 0,
+			"_outlink" : "Map/Back/_Canvas/2024Collabo.img/back/1"
+		},
+		"2": {
+			"origin": "855, 656",
+			"z" : 0,
+			"_outlink" : "Map/Back/_Canvas/2024Collabo.img/back/2"
+		},
+		"3": {
+			"origin": "581, 701",
+			"z" : 0,
+			"_outlink" : "Map/Back/_Canvas/2024Collabo.img/back/3"
+		},
+		"4": {
+			"origin": "54, 665",
+			"z" : 0,
+			"_outlink" : "Map/Back/_Canvas/2024Collabo.img/back/4"
+		},
+		"5": {
+			"origin": "-147, 701",
+			"z" : 0,
+			"_outlink" : "Map/Back/_Canvas/2024Collabo.img/back/5"
+		},
+		"6": {
+			"origin": "921, 609",
+			"z" : 0,
+			"_outlink" : "Map/Back/_Canvas/2024Collabo.img/back/6"
+		},
+		"7": {
+			"origin": "493, 541",
+			"z" : 0,
+			"_outlink" : "Map/Back/_Canvas/2024Collabo.img/back/7"
+		},
+		"8": {
+			"origin": "-90, 608",
+			"z" : 0,
+			"_outlink" : "Map/Back/_Canvas/2024Collabo.img/back/8"
+		},
+		"9": {
+			"origin": "-448, 649",
+			"z" : 0,
+			"_outlink" : "Map/Back/_Canvas/2024Collabo.img/back/9"
+		},
+		"10": {
+			"origin": "920, 587",
+			"z" : 0,
+			"_outlink" : "Map/Back/_Canvas/2024Collabo.img/back/10"
+		},
+		"11": {
+			"origin": "33, 669",
+			"z" : 0,
+			"_outlink" : "Map/Back/_Canvas/2024Collabo.img/back/11"
+		},
+		"12": {
+			"origin": "621, 513",
+			"z" : 0,
+			"_outlink" : "Map/Back/_Canvas/2024Collabo.img/back/12"
+		},
+		"13": {
+			"origin": "531, 411",
+			"z" : 0,
+			"_outlink" : "Map/Back/_Canvas/2024Collabo.img/back/13"
+		},
+		"14": {
+			"origin": "-50, 472",
+			"z" : 0,
+			"_outlink" : "Map/Back/_Canvas/2024Collabo.img/back/14"
+		},
+		"15": {
+			"origin": "895, 472",
+			"z" : 0,
+			"_outlink" : "Map/Back/_Canvas/2024Collabo.img/back/15"
+		},
+		"16": {
+			"origin": "-275, 372",
+			"z" : 0,
+			"_outlink" : "Map/Back/_Canvas/2024Collabo.img/back/16"
+		},
+		"17": {
+			"origin": "821, -25",
+			"z" : 0,
+			"_outlink" : "Map/Back/_Canvas/2024Collabo.img/back/17"
+		},
+		"18": {
+			"origin": "333, -73",
+			"z" : 0,
+			"_outlink" : "Map/Back/_Canvas/2024Collabo.img/back/18"
+		},
+		"19": {
+			"origin": "-284, 57",
+			"z" : 0,
+			"_outlink" : "Map/Back/_Canvas/2024Collabo.img/back/19"
+		},
+		"20": {
+			"origin": "821, -21",
+			"z" : 0,
+			"_outlink" : "Map/Back/_Canvas/2024Collabo.img/back/20"
+		},
+		"21": {
+			"origin": "213, -22",
+			"z" : 0,
+			"_outlink" : "Map/Back/_Canvas/2024Collabo.img/back/21"
+		},
+		"22": {
+			"origin": "-553, 701",
+			"z" : 0,
+			"_outlink" : "Map/Back/_Canvas/2024Collabo.img/back/22"
+		},
+		"23": {
+			"origin": "0, 0",
+			"z" : 0,
+			"_outlink" : "Map/Back/_Canvas/2024Collabo.img/back/23"
+		},
+		"24": {
+			"origin": "186, 103",
+			"z" : 0,
+			"_outlink" : "Map/Back/_Canvas/2024Collabo.img/back/24"
+		},
+		"25": {
+			"origin": "703, -11",
+			"z" : 0,
+			"_outlink" : "Map/Back/_Canvas/2024Collabo.img/back/25"
+		},
+		"26": {
+			"origin": "703, -11",
+			"z" : 0,
+			"_outlink" : "Map/Back/_Canvas/2024Collabo.img/back/26"
+		},
+		"27": {
+			"origin": "0, 196",
+			"z" : 0,
+			"_outlink" : "Map/Back/_Canvas/2024Collabo.img/back/27"
+		},
+		"28": {
+			"origin": "0, 117",
+			"z" : 0,
+			"_outlink" : "Map/Back/_Canvas/2024Collabo.img/back/28"
+		},
+		"29": {
+			"origin": "0, 257",
+			"z" : 0,
+			"_outlink" : "Map/Back/_Canvas/2024Collabo.img/back/29"
+		},
+		"30": {
+			"origin": "0, 120",
+			"z" : 0,
+			"_outlink" : "Map/Back/_Canvas/2024Collabo.img/back/30"
+		},
+		"31": {
+			"origin": "0, 0",
+			"z" : 0,
+			"_outlink" : "Map/Back/_Canvas/2024Collabo.img/back/31"
+		}
+	}
+}
