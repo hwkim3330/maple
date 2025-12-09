@@ -2,14 +2,10 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MapleStory Mini - HTML5 Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>MapleStory Mini RPG</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
             min-height: 100vh;
@@ -28,7 +24,8 @@
         }
         #gameCanvas {
             display: block;
-            background: linear-gradient(180deg, #87CEEB 0%, #98D8C8 60%, #7CB342 60%, #558B2F 100%);
+            image-rendering: pixelated;
+            image-rendering: crisp-edges;
         }
         #ui {
             position: absolute;
@@ -40,83 +37,64 @@
             z-index: 100;
         }
         .stat-bar {
-            width: 200px;
-            height: 20px;
-            background: rgba(0,0,0,0.5);
-            border: 2px solid #333;
-            border-radius: 10px;
-            margin: 5px 0;
+            width: 180px;
+            height: 18px;
+            background: rgba(0,0,0,0.6);
+            border: 2px solid #555;
+            border-radius: 9px;
+            margin: 4px 0;
             overflow: hidden;
+            position: relative;
         }
         .stat-bar-fill {
             height: 100%;
-            transition: width 0.3s ease;
+            transition: width 0.2s ease;
         }
-        .hp-fill { background: linear-gradient(90deg, #e74c3c, #c0392b); }
-        .mp-fill { background: linear-gradient(90deg, #3498db, #2980b9); }
-        .exp-fill { background: linear-gradient(90deg, #f1c40f, #f39c12); }
+        .hp-fill { background: linear-gradient(90deg, #ff6b6b, #ee5a5a); }
+        .mp-fill { background: linear-gradient(90deg, #4dabf7, #339af0); }
+        .exp-fill { background: linear-gradient(90deg, #ffd43b, #fab005); }
         .stat-label {
             position: absolute;
-            width: 200px;
-            text-align: center;
-            line-height: 20px;
-            font-size: 12px;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 11px;
             font-weight: bold;
+            text-shadow: 1px 1px 2px #000;
         }
         #levelDisplay {
-            font-size: 24px;
-            color: #f1c40f;
-            margin-bottom: 10px;
+            font-size: 20px;
+            color: #ffd43b;
+            margin-bottom: 8px;
+            text-shadow: 2px 2px 4px #000;
+        }
+        #killCount {
+            margin-top: 8px;
+            font-size: 13px;
         }
         #controls {
-            margin-top: 20px;
+            margin-top: 15px;
             color: #aaa;
             text-align: center;
-            font-size: 14px;
+            font-size: 13px;
         }
         #controls span {
             display: inline-block;
-            background: rgba(255,255,255,0.1);
-            padding: 5px 10px;
+            background: rgba(255,255,255,0.15);
+            padding: 4px 10px;
             margin: 2px;
             border-radius: 4px;
-        }
-        #damageNumbers {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            pointer-events: none;
-            z-index: 50;
-        }
-        .damage-number {
-            position: absolute;
-            font-size: 20px;
             font-weight: bold;
-            color: #ff6b6b;
-            text-shadow: 2px 2px 0 #000, -1px -1px 0 #000;
-            animation: floatUp 1s ease-out forwards;
-        }
-        .damage-number.crit {
-            font-size: 28px;
-            color: #ffd700;
-        }
-        .damage-number.exp {
-            color: #2ecc71;
-            font-size: 16px;
-        }
-        @keyframes floatUp {
-            0% { opacity: 1; transform: translateY(0); }
-            100% { opacity: 0; transform: translateY(-50px); }
         }
         #startScreen, #gameOverScreen {
             position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0,0,0,0.8);
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: rgba(0,0,0,0.85);
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -124,65 +102,73 @@
             z-index: 200;
         }
         #startScreen h1, #gameOverScreen h1 {
-            color: #f39c12;
-            font-size: 48px;
-            margin-bottom: 20px;
+            color: #ffd43b;
+            font-size: 42px;
+            margin-bottom: 15px;
             text-shadow: 3px 3px 6px rgba(0,0,0,0.5);
         }
         #startScreen p, #gameOverScreen p {
             color: #fff;
-            font-size: 18px;
-            margin-bottom: 30px;
+            font-size: 16px;
+            margin-bottom: 25px;
         }
         .btn {
-            background: linear-gradient(135deg, #f39c12, #e67e22);
-            color: white;
+            background: linear-gradient(135deg, #ffd43b, #fab005);
+            color: #333;
             border: none;
-            padding: 15px 40px;
-            font-size: 20px;
+            padding: 12px 35px;
+            font-size: 18px;
+            font-weight: bold;
             border-radius: 8px;
             cursor: pointer;
             transition: transform 0.2s, box-shadow 0.2s;
         }
         .btn:hover {
             transform: scale(1.05);
-            box-shadow: 0 5px 20px rgba(243, 156, 18, 0.5);
+            box-shadow: 0 5px 20px rgba(255, 212, 59, 0.5);
         }
-        #scoreDisplay {
-            color: #f1c40f;
-            font-size: 24px;
-            margin: 20px 0;
-        }
+        #scoreDisplay { color: #ffd43b; font-size: 22px; margin: 15px 0; }
         #mobileControls {
             display: none;
             position: fixed;
-            bottom: 20px;
-            left: 0;
-            right: 0;
+            bottom: 10px;
+            left: 0; right: 0;
             z-index: 300;
+            padding: 0 15px;
         }
-        @media (max-width: 800px) {
-            #mobileControls { display: flex; justify-content: space-between; padding: 0 20px; }
+        @media (max-width: 900px) {
+            #mobileControls { display: flex; justify-content: space-between; }
             #controls { display: none; }
+            #gameCanvas { max-width: 100vw; height: auto; }
         }
         .mobile-btn {
-            width: 60px;
-            height: 60px;
-            background: rgba(255,255,255,0.2);
-            border: 2px solid rgba(255,255,255,0.4);
+            width: 55px; height: 55px;
+            background: rgba(255,255,255,0.25);
+            border: 2px solid rgba(255,255,255,0.5);
             border-radius: 50%;
             color: white;
-            font-size: 24px;
+            font-size: 20px;
+            font-weight: bold;
             display: flex;
             align-items: center;
             justify-content: center;
+            user-select: none;
+            -webkit-user-select: none;
         }
-        .mobile-btn:active {
-            background: rgba(255,255,255,0.4);
+        .mobile-btn:active { background: rgba(255,255,255,0.5); }
+        #leftButtons, #rightButtons { display: flex; gap: 8px; }
+        .damage-popup {
+            position: absolute;
+            font-weight: bold;
+            text-shadow: 2px 2px 0 #000, -1px -1px 0 #000;
+            pointer-events: none;
+            animation: floatUp 0.8s ease-out forwards;
+            z-index: 150;
         }
-        #leftButtons, #rightButtons {
-            display: flex;
-            gap: 10px;
+        @keyframes floatUp {
+            0% { opacity: 1; transform: translateY(0) scale(1); }
+            50% { transform: translateY(-20px) scale(1.1); }
+            100% { opacity: 0; transform: translateY(-40px) scale(0.8); }
         }
     </style>
 </head>
@@ -191,47 +177,46 @@
         <canvas id="gameCanvas" width="960" height="540"></canvas>
         <div id="ui">
             <div id="levelDisplay">Lv. 1</div>
-            <div style="position: relative;">
-                <div class="stat-bar"><div class="stat-bar-fill hp-fill" id="hpBar" style="width: 100%;"></div></div>
+            <div class="stat-bar">
+                <div class="stat-bar-fill hp-fill" id="hpBar" style="width: 100%;"></div>
                 <div class="stat-label" id="hpText">HP: 100/100</div>
             </div>
-            <div style="position: relative;">
-                <div class="stat-bar"><div class="stat-bar-fill mp-fill" id="mpBar" style="width: 100%;"></div></div>
+            <div class="stat-bar">
+                <div class="stat-bar-fill mp-fill" id="mpBar" style="width: 100%;"></div>
                 <div class="stat-label" id="mpText">MP: 50/50</div>
             </div>
-            <div style="position: relative;">
-                <div class="stat-bar"><div class="stat-bar-fill exp-fill" id="expBar" style="width: 0%;"></div></div>
+            <div class="stat-bar">
+                <div class="stat-bar-fill exp-fill" id="expBar" style="width: 0%;"></div>
                 <div class="stat-label" id="expText">EXP: 0/100</div>
             </div>
-            <div id="killCount" style="margin-top: 10px;">Kills: 0</div>
+            <div id="killCount">Kills: 0</div>
         </div>
-        <div id="damageNumbers"></div>
 
         <div id="startScreen">
             <h1>MapleStory Mini</h1>
-            <p>Hunt monsters, level up, become stronger!</p>
-            <button class="btn" onclick="startGame()">Start Game</button>
+            <p>Hunt monsters, gain EXP, level up!</p>
+            <button class="btn" onclick="startGame()">Game Start</button>
         </div>
 
         <div id="gameOverScreen" style="display: none;">
             <h1>Game Over</h1>
             <div id="scoreDisplay"></div>
             <p id="finalStats"></p>
-            <button class="btn" onclick="restartGame()">Play Again</button>
+            <button class="btn" onclick="restartGame()">Retry</button>
         </div>
     </div>
 
     <div id="controls">
-        <span>Arrow Keys</span> Move &nbsp;
-        <span>Z</span> Attack &nbsp;
-        <span>X</span> Jump &nbsp;
-        <span>C</span> Skill (10 MP)
+        <span>←→</span> Move
+        <span>X</span> Jump
+        <span>Z</span> Attack
+        <span>C</span> Skill
     </div>
 
     <div id="mobileControls">
         <div id="leftButtons">
-            <button class="mobile-btn" id="btnLeft">←</button>
-            <button class="mobile-btn" id="btnRight">→</button>
+            <button class="mobile-btn" id="btnLeft">◀</button>
+            <button class="mobile-btn" id="btnRight">▶</button>
         </div>
         <div id="rightButtons">
             <button class="mobile-btn" id="btnJump">X</button>
@@ -243,38 +228,121 @@
     <script>
         const canvas = document.getElementById('gameCanvas');
         const ctx = canvas.getContext('2d');
+        ctx.imageSmoothingEnabled = false;
+
+        // Sprite loader
+        const sprites = {
+            character: { stand: [], walk: [], jump: [], attack: [] },
+            mobs: {}
+        };
+        let spritesLoaded = false;
+
+        function loadImage(src) {
+            return new Promise((resolve, reject) => {
+                const img = new Image();
+                img.onload = () => resolve(img);
+                img.onerror = () => resolve(null); // Don't fail on missing images
+                img.src = src;
+            });
+        }
+
+        async function loadSprites() {
+            const basePath = 'sprites/';
+
+            // Load character sprites
+            for (let i = 0; i < 3; i++) {
+                const stand = await loadImage(`${basePath}character/stand1_${i}_body.png`);
+                if (stand) sprites.character.stand.push(stand);
+            }
+            for (let i = 0; i < 4; i++) {
+                const walk = await loadImage(`${basePath}character/walk1_${i}_body.png`);
+                if (walk) sprites.character.walk.push(walk);
+            }
+            const jump = await loadImage(`${basePath}character/jump_0_body.png`);
+            if (jump) sprites.character.jump.push(jump);
+
+            for (let i = 0; i < 3; i++) {
+                const attack = await loadImage(`${basePath}character/swingo1_${i}_body.png`);
+                if (attack) sprites.character.attack.push(attack);
+            }
+
+            // Load mob sprites - 9300027 (main mob)
+            sprites.mobs['9300027'] = { stand: [], move: [], hit: [], die: [] };
+            for (let i = 0; i < 4; i++) {
+                const stand = await loadImage(`${basePath}mobs/9300027/stand_${i}.png`);
+                if (stand) sprites.mobs['9300027'].stand.push(stand);
+            }
+            for (let i = 0; i < 7; i++) {
+                const move = await loadImage(`${basePath}mobs/9300027/move_${i}.png`);
+                if (move) sprites.mobs['9300027'].move.push(move);
+            }
+            const hit9300027 = await loadImage(`${basePath}mobs/9300027/hit1_0.png`);
+            if (hit9300027) sprites.mobs['9300027'].hit.push(hit9300027);
+            for (let i = 0; i < 4; i++) {
+                const die = await loadImage(`${basePath}mobs/9300027/die1_${i}.png`);
+                if (die) sprites.mobs['9300027'].die.push(die);
+            }
+
+            // Load mob sprites - 5120503
+            sprites.mobs['5120503'] = { stand: [], move: [], hit: [], die: [] };
+            for (let i = 0; i < 6; i++) {
+                const stand = await loadImage(`${basePath}mobs/5120503/stand_${i}.png`);
+                if (stand) sprites.mobs['5120503'].stand.push(stand);
+            }
+            for (let i = 0; i < 6; i++) {
+                const move = await loadImage(`${basePath}mobs/5120503/move_${i}.png`);
+                if (move) sprites.mobs['5120503'].move.push(move);
+            }
+            const hit5120503 = await loadImage(`${basePath}mobs/5120503/hit1_0.png`);
+            if (hit5120503) sprites.mobs['5120503'].hit.push(hit5120503);
+            for (let i = 0; i < 6; i++) {
+                const die = await loadImage(`${basePath}mobs/5120503/die1_${i}.png`);
+                if (die) sprites.mobs['5120503'].die.push(die);
+            }
+
+            // Load mob sprites - 1541175
+            sprites.mobs['1541175'] = { stand: [], move: [], hit: [], die: [] };
+            for (let i = 0; i < 6; i++) {
+                const stand = await loadImage(`${basePath}mobs/1541175/stand_${i}.png`);
+                if (stand) sprites.mobs['1541175'].stand.push(stand);
+            }
+            sprites.mobs['1541175'].move = sprites.mobs['1541175'].stand; // Use stand for move
+            const hit1541175 = await loadImage(`${basePath}mobs/1541175/hit1_0.png`);
+            if (hit1541175) sprites.mobs['1541175'].hit.push(hit1541175);
+            for (let i = 0; i < 6; i++) {
+                const die = await loadImage(`${basePath}mobs/1541175/die1_${i}.png`);
+                if (die) sprites.mobs['1541175'].die.push(die);
+            }
+
+            spritesLoaded = true;
+            console.log('Sprites loaded:', sprites);
+        }
 
         // Game state
         let gameRunning = false;
         let gameTime = 0;
 
-        // Player stats
+        // Player
         const player = {
-            x: 100,
-            y: 400,
-            width: 50,
-            height: 70,
-            vx: 0,
-            vy: 0,
+            x: 100, y: 400,
+            width: 60, height: 72,
+            vx: 0, vy: 0,
             speed: 5,
-            jumpPower: -15,
+            jumpPower: -14,
             grounded: false,
-            facing: 1, // 1 = right, -1 = left
+            facing: 1,
             state: 'stand',
             frame: 0,
             frameTimer: 0,
             attacking: false,
             attackTimer: 0,
-
-            // RPG Stats
+            attackFrame: 0,
+            // Stats
             level: 1,
-            hp: 100,
-            maxHp: 100,
-            mp: 50,
-            maxMp: 50,
-            exp: 0,
-            expToLevel: 100,
-            attack: 15,
+            hp: 100, maxHp: 100,
+            mp: 50, maxMp: 50,
+            exp: 0, expToLevel: 100,
+            attack: 20,
             defense: 5,
             kills: 0,
             invincible: 0
@@ -283,308 +351,229 @@
         // Platforms
         const platforms = [
             { x: 0, y: 480, width: 960, height: 60 },
-            { x: 100, y: 380, width: 200, height: 20 },
-            { x: 400, y: 320, width: 200, height: 20 },
-            { x: 700, y: 380, width: 200, height: 20 },
-            { x: 250, y: 220, width: 150, height: 20 },
-            { x: 550, y: 220, width: 150, height: 20 },
+            { x: 80, y: 380, width: 220, height: 20 },
+            { x: 380, y: 320, width: 200, height: 20 },
+            { x: 660, y: 380, width: 220, height: 20 },
+            { x: 200, y: 220, width: 180, height: 20 },
+            { x: 580, y: 220, width: 180, height: 20 },
         ];
 
         // Monster types
-        const monsterTypes = {
-            slime: {
-                width: 40,
-                height: 35,
-                hp: 30,
-                attack: 8,
-                exp: 20,
-                speed: 1.5,
-                color: '#2ecc71',
-                name: 'Green Slime'
-            },
-            mushroom: {
-                width: 45,
-                height: 50,
-                hp: 50,
-                attack: 12,
-                exp: 35,
-                speed: 2,
-                color: '#e74c3c',
-                name: 'Red Mushroom'
-            },
-            snail: {
-                width: 50,
-                height: 40,
-                hp: 80,
-                attack: 15,
-                exp: 50,
-                speed: 1,
-                color: '#9b59b6',
-                name: 'Purple Snail'
-            }
-        };
+        const monsterTypes = [
+            { id: '9300027', name: 'Slime', hp: 40, attack: 10, exp: 25, speed: 1.2, scale: 1.5 },
+            { id: '5120503', name: 'Mushroom', hp: 60, attack: 15, exp: 40, speed: 1.8, scale: 1.3 },
+            { id: '1541175', name: 'Snail', hp: 90, attack: 20, exp: 60, speed: 0.8, scale: 1.4 }
+        ];
 
         let monsters = [];
         let particles = [];
-        let damageNumbers = [];
+        let damagePopups = [];
 
-        // Input handling
+        // Input
         const keys = {};
-
-        document.addEventListener('keydown', (e) => {
+        document.addEventListener('keydown', e => {
             keys[e.key.toLowerCase()] = true;
-            if (['arrowup', 'arrowdown', 'arrowleft', 'arrowright', ' ', 'z', 'x', 'c'].includes(e.key.toLowerCase())) {
+            if (['arrowup','arrowdown','arrowleft','arrowright',' ','x','z','c'].includes(e.key.toLowerCase())) {
                 e.preventDefault();
             }
         });
-
-        document.addEventListener('keyup', (e) => {
-            keys[e.key.toLowerCase()] = false;
-        });
+        document.addEventListener('keyup', e => { keys[e.key.toLowerCase()] = false; });
 
         // Mobile controls
-        ['btnLeft', 'btnRight', 'btnJump', 'btnAttack', 'btnSkill'].forEach(id => {
+        ['btnLeft','btnRight','btnJump','btnAttack','btnSkill'].forEach(id => {
             const btn = document.getElementById(id);
-            if (btn) {
-                btn.addEventListener('touchstart', (e) => {
-                    e.preventDefault();
-                    if (id === 'btnLeft') keys['arrowleft'] = true;
-                    if (id === 'btnRight') keys['arrowright'] = true;
-                    if (id === 'btnJump') keys['x'] = true;
-                    if (id === 'btnAttack') keys['z'] = true;
-                    if (id === 'btnSkill') keys['c'] = true;
-                });
-                btn.addEventListener('touchend', (e) => {
-                    e.preventDefault();
-                    if (id === 'btnLeft') keys['arrowleft'] = false;
-                    if (id === 'btnRight') keys['arrowright'] = false;
-                    if (id === 'btnJump') keys['x'] = false;
-                    if (id === 'btnAttack') keys['z'] = false;
-                    if (id === 'btnSkill') keys['c'] = false;
-                });
-            }
+            if (!btn) return;
+            const keyMap = { btnLeft:'arrowleft', btnRight:'arrowright', btnJump:'x', btnAttack:'z', btnSkill:'c' };
+            btn.addEventListener('touchstart', e => { e.preventDefault(); keys[keyMap[id]] = true; });
+            btn.addEventListener('touchend', e => { e.preventDefault(); keys[keyMap[id]] = false; });
         });
 
         function spawnMonster() {
-            const types = Object.keys(monsterTypes);
-            // Spawn harder monsters as player levels up
-            let typeIndex = Math.min(Math.floor(Math.random() * (1 + player.level / 3)), types.length - 1);
-            const type = types[typeIndex];
-            const template = monsterTypes[type];
-
-            // Find a random platform to spawn on
+            const typeIdx = Math.min(Math.floor(Math.random() * (1 + player.level / 4)), monsterTypes.length - 1);
+            const type = monsterTypes[typeIdx];
             const platform = platforms[Math.floor(Math.random() * platforms.length)];
 
-            const monster = {
-                ...template,
-                type: type,
-                x: platform.x + Math.random() * (platform.width - template.width),
-                y: platform.y - template.height,
-                maxHp: template.hp + player.level * 5,
-                hp: template.hp + player.level * 5,
-                attack: template.attack + player.level * 2,
-                exp: template.exp + player.level * 5,
-                vx: (Math.random() > 0.5 ? 1 : -1) * template.speed,
+            const mobSprite = sprites.mobs[type.id];
+            const baseWidth = mobSprite?.stand[0]?.width || 60;
+            const baseHeight = mobSprite?.stand[0]?.height || 50;
+
+            monsters.push({
+                ...type,
+                x: platform.x + Math.random() * (platform.width - baseWidth * type.scale),
+                y: platform.y - baseHeight * type.scale,
+                width: baseWidth * type.scale,
+                height: baseHeight * type.scale,
+                maxHp: type.hp + player.level * 8,
+                hp: type.hp + player.level * 8,
+                attack: type.attack + player.level * 3,
+                exp: type.exp + player.level * 8,
+                vx: (Math.random() > 0.5 ? 1 : -1) * type.speed,
                 facing: 1,
                 frame: 0,
                 frameTimer: 0,
-                hitTimer: 0
-            };
+                hitTimer: 0,
+                state: 'stand',
+                dying: false,
+                dieFrame: 0
+            });
+        }
 
-            monsters.push(monster);
+        function showDamage(x, y, amount, isCrit = false, isExp = false) {
+            const popup = document.createElement('div');
+            popup.className = 'damage-popup';
+            popup.style.left = (x / canvas.width * canvas.offsetWidth) + 'px';
+            popup.style.top = (y / canvas.height * canvas.offsetHeight) + 'px';
+            popup.style.fontSize = isCrit ? '24px' : isExp ? '14px' : '18px';
+            popup.style.color = isExp ? '#2ecc71' : isCrit ? '#ffd700' : '#ff6b6b';
+            popup.textContent = isExp ? `+${amount} EXP` : amount;
+            document.getElementById('gameContainer').appendChild(popup);
+            setTimeout(() => popup.remove(), 800);
         }
 
         function attack(isSkill = false) {
             if (player.attacking) return;
-
-            if (isSkill && player.mp < 10) return;
+            if (isSkill && player.mp < 15) return;
 
             player.attacking = true;
-            player.attackTimer = isSkill ? 30 : 20;
+            player.attackTimer = isSkill ? 25 : 18;
+            player.attackFrame = 0;
             player.state = 'attack';
-            player.frame = 0;
 
-            if (isSkill) {
-                player.mp -= 10;
-            }
+            if (isSkill) player.mp -= 15;
 
-            // Calculate attack range
-            const attackRange = isSkill ? 150 : 80;
-            const damage = isSkill ? player.attack * 2 : player.attack;
-
+            const range = isSkill ? 160 : 90;
+            const damage = isSkill ? player.attack * 2.5 : player.attack;
             const attackBox = {
-                x: player.facing === 1 ? player.x + player.width : player.x - attackRange,
+                x: player.facing === 1 ? player.x + player.width/2 : player.x - range + player.width/2,
                 y: player.y,
-                width: attackRange,
+                width: range,
                 height: player.height
             };
 
-            // Hit monsters
             monsters.forEach(monster => {
+                if (monster.dying) return;
                 if (checkCollision(attackBox, monster)) {
-                    const isCrit = Math.random() < 0.15;
-                    const finalDamage = Math.floor(damage * (0.9 + Math.random() * 0.2) * (isCrit ? 1.5 : 1));
-
+                    const isCrit = Math.random() < 0.2;
+                    const finalDamage = Math.floor(damage * (0.85 + Math.random() * 0.3) * (isCrit ? 1.5 : 1));
                     monster.hp -= finalDamage;
-                    monster.hitTimer = 10;
+                    monster.hitTimer = 15;
+                    monster.vx = player.facing * 6;
+                    monster.state = 'hit';
 
-                    // Knockback
-                    monster.vx = player.facing * 5;
-
-                    // Damage number
                     showDamage(monster.x + monster.width/2, monster.y, finalDamage, isCrit);
 
-                    // Particles
-                    for (let i = 0; i < 5; i++) {
+                    // Hit particles
+                    for (let i = 0; i < 8; i++) {
                         particles.push({
                             x: monster.x + monster.width/2,
                             y: monster.y + monster.height/2,
-                            vx: (Math.random() - 0.5) * 10,
-                            vy: (Math.random() - 0.5) * 10,
-                            life: 20,
-                            color: monster.color
+                            vx: (Math.random() - 0.5) * 12,
+                            vy: (Math.random() - 0.5) * 12,
+                            life: 25,
+                            color: isCrit ? '#ffd700' : '#ff6b6b',
+                            size: isCrit ? 6 : 4
                         });
                     }
 
-                    // Monster dies
                     if (monster.hp <= 0) {
+                        monster.dying = true;
+                        monster.dieFrame = 0;
                         gainExp(monster.exp);
                         player.kills++;
-
-                        // Death particles
-                        for (let i = 0; i < 15; i++) {
-                            particles.push({
-                                x: monster.x + monster.width/2,
-                                y: monster.y + monster.height/2,
-                                vx: (Math.random() - 0.5) * 15,
-                                vy: (Math.random() - 0.5) * 15,
-                                life: 30,
-                                color: monster.color
-                            });
-                        }
                     }
                 }
             });
-
-            // Remove dead monsters
-            monsters = monsters.filter(m => m.hp > 0);
-        }
-
-        function showDamage(x, y, amount, isCrit = false, isExp = false) {
-            const div = document.createElement('div');
-            div.className = 'damage-number' + (isCrit ? ' crit' : '') + (isExp ? ' exp' : '');
-            div.textContent = isExp ? '+' + amount + ' EXP' : amount;
-            div.style.left = (x / canvas.width * 100) + '%';
-            div.style.top = (y / canvas.height * 100) + '%';
-            document.getElementById('damageNumbers').appendChild(div);
-
-            setTimeout(() => div.remove(), 1000);
         }
 
         function gainExp(amount) {
             player.exp += amount;
-            showDamage(player.x + player.width/2, player.y - 20, amount, false, true);
+            showDamage(player.x + player.width/2, player.y - 30, amount, false, true);
 
-            // Level up
             while (player.exp >= player.expToLevel) {
                 player.exp -= player.expToLevel;
                 player.level++;
-                player.expToLevel = Math.floor(player.expToLevel * 1.5);
-
-                // Stat increases
-                player.maxHp += 20;
+                player.expToLevel = Math.floor(player.expToLevel * 1.4);
+                player.maxHp += 25;
                 player.hp = player.maxHp;
-                player.maxMp += 10;
+                player.maxMp += 12;
                 player.mp = player.maxMp;
-                player.attack += 5;
-                player.defense += 2;
+                player.attack += 6;
+                player.defense += 3;
 
-                // Level up effect
-                for (let i = 0; i < 30; i++) {
+                // Level up particles
+                for (let i = 0; i < 40; i++) {
                     particles.push({
                         x: player.x + player.width/2,
                         y: player.y + player.height/2,
                         vx: (Math.random() - 0.5) * 20,
-                        vy: -Math.random() * 15,
-                        life: 40,
-                        color: '#f1c40f'
+                        vy: -Math.random() * 18,
+                        life: 50,
+                        color: '#ffd700',
+                        size: 5
                     });
                 }
             }
         }
 
         function checkCollision(a, b) {
-            return a.x < b.x + b.width &&
-                   a.x + a.width > b.x &&
-                   a.y < b.y + b.height &&
-                   a.y + a.height > b.y;
+            return a.x < b.x + b.width && a.x + a.width > b.x &&
+                   a.y < b.y + b.height && a.y + a.height > b.y;
         }
 
         function update() {
             if (!gameRunning) return;
-
             gameTime++;
 
             // Spawn monsters
-            if (gameTime % 120 === 0 && monsters.length < 5 + player.level) {
+            if (gameTime % 100 === 0 && monsters.filter(m => !m.dying).length < 4 + Math.floor(player.level / 2)) {
                 spawnMonster();
             }
 
-            // MP regeneration
-            if (gameTime % 60 === 0 && player.mp < player.maxMp) {
-                player.mp = Math.min(player.mp + 2, player.maxMp);
+            // MP regen
+            if (gameTime % 45 === 0 && player.mp < player.maxMp) {
+                player.mp = Math.min(player.mp + 3, player.maxMp);
             }
 
-            // Player input
+            // Input
             player.vx = 0;
-            if (keys['arrowleft'] || keys['a']) {
-                player.vx = -player.speed;
-                player.facing = -1;
-            }
-            if (keys['arrowright'] || keys['d']) {
-                player.vx = player.speed;
-                player.facing = 1;
-            }
+            if (keys['arrowleft'] || keys['a']) { player.vx = -player.speed; player.facing = -1; }
+            if (keys['arrowright'] || keys['d']) { player.vx = player.speed; player.facing = 1; }
             if ((keys['x'] || keys['arrowup'] || keys[' ']) && player.grounded) {
                 player.vy = player.jumpPower;
                 player.grounded = false;
             }
-            if (keys['z'] && !player.attacking) {
-                attack(false);
-            }
-            if (keys['c'] && !player.attacking) {
-                attack(true);
-            }
+            if (keys['z'] && !player.attacking) attack(false);
+            if (keys['c'] && !player.attacking) attack(true);
 
-            // Gravity
-            player.vy += 0.8;
+            // Physics
+            player.vy += 0.7;
             player.y += player.vy;
             player.x += player.vx;
 
             // Platform collision
             player.grounded = false;
-            platforms.forEach(platform => {
+            platforms.forEach(p => {
                 if (player.vy > 0 &&
-                    player.x + player.width > platform.x &&
-                    player.x < platform.x + platform.width &&
-                    player.y + player.height > platform.y &&
-                    player.y + player.height < platform.y + platform.height + player.vy) {
-                    player.y = platform.y - player.height;
+                    player.x + player.width > p.x && player.x < p.x + p.width &&
+                    player.y + player.height > p.y && player.y + player.height < p.y + p.height + player.vy) {
+                    player.y = p.y - player.height;
                     player.vy = 0;
                     player.grounded = true;
                 }
             });
 
-            // World bounds
-            if (player.x < 0) player.x = 0;
-            if (player.x + player.width > canvas.width) player.x = canvas.width - player.width;
+            // Bounds
+            player.x = Math.max(0, Math.min(canvas.width - player.width, player.x));
 
-            // Update player state
+            // State
             if (player.attacking) {
                 player.attackTimer--;
-                if (player.attackTimer <= 0) {
-                    player.attacking = false;
+                player.frameTimer++;
+                if (player.frameTimer > 5) {
+                    player.frameTimer = 0;
+                    player.attackFrame = Math.min(player.attackFrame + 1, 2);
                 }
+                if (player.attackTimer <= 0) player.attacking = false;
             } else if (!player.grounded) {
                 player.state = 'jump';
             } else if (player.vx !== 0) {
@@ -594,80 +583,94 @@
             }
 
             // Animation
-            player.frameTimer++;
-            if (player.frameTimer > 8) {
-                player.frameTimer = 0;
-                player.frame = (player.frame + 1) % 4;
+            if (!player.attacking) {
+                player.frameTimer++;
+                if (player.frameTimer > 8) {
+                    player.frameTimer = 0;
+                    const maxFrames = sprites.character[player.state]?.length || 3;
+                    player.frame = (player.frame + 1) % maxFrames;
+                }
             }
 
-            // Invincibility timer
             if (player.invincible > 0) player.invincible--;
 
             // Update monsters
             monsters.forEach(monster => {
-                // Movement
+                if (monster.dying) {
+                    monster.frameTimer++;
+                    if (monster.frameTimer > 6) {
+                        monster.frameTimer = 0;
+                        monster.dieFrame++;
+                    }
+                    return;
+                }
+
                 monster.x += monster.vx;
 
-                // Check platform bounds
-                let onPlatform = false;
-                platforms.forEach(platform => {
-                    if (monster.y + monster.height === platform.y &&
-                        monster.x + monster.width > platform.x &&
-                        monster.x < platform.x + platform.width) {
-                        onPlatform = true;
-                        if (monster.x <= platform.x || monster.x + monster.width >= platform.x + platform.width) {
+                // Platform bounds
+                platforms.forEach(p => {
+                    if (monster.y + monster.height >= p.y - 5 &&
+                        monster.y + monster.height <= p.y + 25 &&
+                        monster.x + monster.width > p.x && monster.x < p.x + p.width) {
+                        if (monster.x <= p.x + 10 || monster.x + monster.width >= p.x + p.width - 10) {
                             monster.vx *= -1;
                             monster.facing *= -1;
                         }
                     }
                 });
 
-                // Random direction change
-                if (Math.random() < 0.01) {
+                if (Math.random() < 0.008) {
                     monster.vx *= -1;
                     monster.facing *= -1;
                 }
 
-                // Hit timer
                 if (monster.hitTimer > 0) {
                     monster.hitTimer--;
-                    monster.vx *= 0.9;
+                    monster.vx *= 0.85;
+                    if (monster.hitTimer === 0) monster.state = 'stand';
+                } else {
+                    monster.state = Math.abs(monster.vx) > 0.5 ? 'move' : 'stand';
                 }
 
-                // Animation
                 monster.frameTimer++;
                 if (monster.frameTimer > 10) {
                     monster.frameTimer = 0;
-                    monster.frame = (monster.frame + 1) % 4;
+                    const mobSprites = sprites.mobs[monster.id];
+                    const stateSprites = mobSprites?.[monster.state] || mobSprites?.stand || [];
+                    monster.frame = (monster.frame + 1) % Math.max(stateSprites.length, 1);
                 }
 
                 // Damage player
                 if (player.invincible === 0 && checkCollision(player, monster)) {
-                    const damage = Math.max(1, monster.attack - player.defense);
-                    player.hp -= damage;
+                    const dmg = Math.max(1, monster.attack - player.defense);
+                    player.hp -= dmg;
                     player.invincible = 60;
-                    showDamage(player.x + player.width/2, player.y, damage);
+                    showDamage(player.x + player.width/2, player.y, dmg);
+                    player.vx = (player.x < monster.x ? -1 : 1) * 8;
+                    player.vy = -10;
 
-                    // Knockback
-                    player.vx = (player.x < monster.x ? -1 : 1) * 10;
-                    player.vy = -8;
-
-                    if (player.hp <= 0) {
-                        gameOver();
-                    }
+                    if (player.hp <= 0) gameOver();
                 }
             });
 
-            // Update particles
+            // Remove dead monsters after death animation
+            monsters = monsters.filter(m => {
+                if (m.dying) {
+                    const dieSprites = sprites.mobs[m.id]?.die || [];
+                    return m.dieFrame < dieSprites.length;
+                }
+                return true;
+            });
+
+            // Particles
             particles.forEach(p => {
                 p.x += p.vx;
                 p.y += p.vy;
-                p.vy += 0.3;
+                p.vy += 0.4;
                 p.life--;
             });
             particles = particles.filter(p => p.life > 0);
 
-            // Update UI
             updateUI();
         }
 
@@ -683,212 +686,116 @@
         }
 
         function draw() {
-            // Clear
-            ctx.fillStyle = '#87CEEB';
+            // Sky gradient
+            const skyGrad = ctx.createLinearGradient(0, 0, 0, canvas.height);
+            skyGrad.addColorStop(0, '#87CEEB');
+            skyGrad.addColorStop(0.5, '#B0E0E6');
+            skyGrad.addColorStop(0.85, '#90EE90');
+            skyGrad.addColorStop(1, '#228B22');
+            ctx.fillStyle = skyGrad;
             ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-            // Background gradient
-            const gradient = ctx.createLinearGradient(0, 0, 0, canvas.height);
-            gradient.addColorStop(0, '#87CEEB');
-            gradient.addColorStop(0.6, '#98D8C8');
-            gradient.addColorStop(0.6, '#7CB342');
-            gradient.addColorStop(1, '#558B2F');
-            ctx.fillStyle = gradient;
-            ctx.fillRect(0, 0, canvas.width, canvas.height);
-
-            // Draw platforms
-            platforms.forEach(platform => {
-                // Platform top (grass)
+            // Platforms
+            platforms.forEach(p => {
+                // Grass top
                 ctx.fillStyle = '#4CAF50';
-                ctx.fillRect(platform.x, platform.y, platform.width, 10);
-
-                // Platform body (dirt)
+                ctx.fillRect(p.x, p.y, p.width, 8);
+                // Dirt
                 ctx.fillStyle = '#8B4513';
-                ctx.fillRect(platform.x, platform.y + 10, platform.width, platform.height - 10);
-
-                // Platform border
+                ctx.fillRect(p.x, p.y + 8, p.width, p.height - 8);
+                // Border
                 ctx.strokeStyle = '#5D4037';
                 ctx.lineWidth = 2;
-                ctx.strokeRect(platform.x, platform.y, platform.width, platform.height);
+                ctx.strokeRect(p.x, p.y, p.width, p.height);
             });
 
             // Draw monsters
             monsters.forEach(monster => {
                 ctx.save();
 
-                // Flash when hit
                 if (monster.hitTimer > 0 && monster.hitTimer % 4 < 2) {
-                    ctx.globalAlpha = 0.5;
+                    ctx.globalAlpha = 0.6;
+                }
+                if (monster.dying) {
+                    ctx.globalAlpha = 1 - (monster.dieFrame / 6);
                 }
 
-                // Draw monster body
-                ctx.fillStyle = monster.color;
-                const wobble = Math.sin(monster.frame * 0.5) * 3;
+                const mobSprites = sprites.mobs[monster.id];
+                let sprite;
 
-                if (monster.type === 'slime') {
-                    // Slime shape
-                    ctx.beginPath();
-                    ctx.ellipse(
-                        monster.x + monster.width/2,
-                        monster.y + monster.height - 10 + wobble,
-                        monster.width/2,
-                        monster.height/2 - wobble,
-                        0, 0, Math.PI * 2
-                    );
-                    ctx.fill();
-
-                    // Eyes
-                    ctx.fillStyle = '#fff';
-                    ctx.beginPath();
-                    ctx.arc(monster.x + monster.width/3, monster.y + monster.height/2, 5, 0, Math.PI * 2);
-                    ctx.arc(monster.x + monster.width*2/3, monster.y + monster.height/2, 5, 0, Math.PI * 2);
-                    ctx.fill();
-                    ctx.fillStyle = '#000';
-                    ctx.beginPath();
-                    ctx.arc(monster.x + monster.width/3, monster.y + monster.height/2, 2, 0, Math.PI * 2);
-                    ctx.arc(monster.x + monster.width*2/3, monster.y + monster.height/2, 2, 0, Math.PI * 2);
-                    ctx.fill();
-                } else if (monster.type === 'mushroom') {
-                    // Mushroom cap
-                    ctx.beginPath();
-                    ctx.ellipse(
-                        monster.x + monster.width/2,
-                        monster.y + 15,
-                        monster.width/2 + wobble,
-                        20,
-                        0, Math.PI, 0
-                    );
-                    ctx.fill();
-
-                    // Spots
-                    ctx.fillStyle = '#fff';
-                    ctx.beginPath();
-                    ctx.arc(monster.x + monster.width/3, monster.y + 10, 5, 0, Math.PI * 2);
-                    ctx.arc(monster.x + monster.width*2/3, monster.y + 8, 4, 0, Math.PI * 2);
-                    ctx.fill();
-
-                    // Stem
-                    ctx.fillStyle = '#f5deb3';
-                    ctx.fillRect(monster.x + monster.width/3, monster.y + 15, monster.width/3, monster.height - 15);
-
-                    // Face
-                    ctx.fillStyle = '#000';
-                    ctx.beginPath();
-                    ctx.arc(monster.x + monster.width/3 + 5, monster.y + 30, 3, 0, Math.PI * 2);
-                    ctx.arc(monster.x + monster.width*2/3 - 5, monster.y + 30, 3, 0, Math.PI * 2);
-                    ctx.fill();
+                if (monster.dying) {
+                    sprite = mobSprites?.die?.[Math.min(monster.dieFrame, (mobSprites?.die?.length || 1) - 1)];
+                } else if (monster.hitTimer > 0) {
+                    sprite = mobSprites?.hit?.[0];
                 } else {
-                    // Snail shell
-                    ctx.beginPath();
-                    ctx.arc(monster.x + monster.width/2, monster.y + monster.height/2, monster.width/2 - 5, 0, Math.PI * 2);
-                    ctx.fill();
-
-                    // Shell spiral
-                    ctx.strokeStyle = '#7b4397';
-                    ctx.lineWidth = 3;
-                    ctx.beginPath();
-                    ctx.arc(monster.x + monster.width/2, monster.y + monster.height/2, monster.width/4, 0, Math.PI * 1.5);
-                    ctx.stroke();
-
-                    // Body
-                    ctx.fillStyle = '#d4a574';
-                    ctx.fillRect(monster.x - 10, monster.y + monster.height - 15, 25, 15);
-
-                    // Eye stalks
-                    ctx.strokeStyle = '#d4a574';
-                    ctx.lineWidth = 3;
-                    ctx.beginPath();
-                    ctx.moveTo(monster.x, monster.y + monster.height - 15);
-                    ctx.lineTo(monster.x - 5, monster.y + monster.height - 25);
-                    ctx.moveTo(monster.x + 10, monster.y + monster.height - 15);
-                    ctx.lineTo(monster.x + 5, monster.y + monster.height - 25);
-                    ctx.stroke();
-
-                    ctx.fillStyle = '#000';
-                    ctx.beginPath();
-                    ctx.arc(monster.x - 5, monster.y + monster.height - 25, 2, 0, Math.PI * 2);
-                    ctx.arc(monster.x + 5, monster.y + monster.height - 25, 2, 0, Math.PI * 2);
-                    ctx.fill();
+                    const stateSprites = mobSprites?.[monster.state] || mobSprites?.stand || [];
+                    sprite = stateSprites[monster.frame % stateSprites.length];
                 }
 
-                // HP bar
-                const hpPercent = monster.hp / monster.maxHp;
-                ctx.fillStyle = '#333';
-                ctx.fillRect(monster.x, monster.y - 10, monster.width, 5);
-                ctx.fillStyle = hpPercent > 0.5 ? '#2ecc71' : hpPercent > 0.25 ? '#f1c40f' : '#e74c3c';
-                ctx.fillRect(monster.x, monster.y - 10, monster.width * hpPercent, 5);
+                if (sprite) {
+                    ctx.translate(monster.x + monster.width/2, monster.y);
+                    ctx.scale(monster.vx < 0 ? -1 : 1, 1);
+                    ctx.drawImage(sprite, -monster.width/2, 0, monster.width, monster.height);
+                } else {
+                    // Fallback rectangle
+                    ctx.fillStyle = '#e74c3c';
+                    ctx.fillRect(monster.x, monster.y, monster.width, monster.height);
+                }
 
                 ctx.restore();
+
+                // HP bar
+                if (!monster.dying) {
+                    const hpPct = monster.hp / monster.maxHp;
+                    ctx.fillStyle = '#333';
+                    ctx.fillRect(monster.x, monster.y - 12, monster.width, 8);
+                    ctx.fillStyle = hpPct > 0.5 ? '#2ecc71' : hpPct > 0.25 ? '#f1c40f' : '#e74c3c';
+                    ctx.fillRect(monster.x + 1, monster.y - 11, (monster.width - 2) * hpPct, 6);
+                }
             });
 
             // Draw player
             ctx.save();
-
-            // Flash when invincible
             if (player.invincible > 0 && player.invincible % 6 < 3) {
                 ctx.globalAlpha = 0.5;
             }
 
             ctx.translate(player.x + player.width/2, player.y);
             ctx.scale(player.facing, 1);
-            ctx.translate(-player.width/2, 0);
 
-            // Body
-            ctx.fillStyle = '#3498db';
-            ctx.fillRect(10, 25, 30, 30);
-
-            // Head
-            ctx.fillStyle = '#fdbf6f';
-            ctx.beginPath();
-            ctx.arc(25, 15, 15, 0, Math.PI * 2);
-            ctx.fill();
-
-            // Hair
-            ctx.fillStyle = '#8B4513';
-            ctx.beginPath();
-            ctx.arc(25, 10, 12, Math.PI, 0);
-            ctx.fill();
-
-            // Eyes
-            ctx.fillStyle = '#000';
-            ctx.beginPath();
-            ctx.arc(20, 15, 2, 0, Math.PI * 2);
-            ctx.arc(30, 15, 2, 0, Math.PI * 2);
-            ctx.fill();
-
-            // Legs
-            ctx.fillStyle = '#2c3e50';
-            const legOffset = player.state === 'walk' ? Math.sin(player.frame * 0.8) * 5 : 0;
-            ctx.fillRect(12, 55, 10, 15);
-            ctx.fillRect(28, 55, 10, 15);
-
-            // Arms
-            ctx.fillStyle = '#fdbf6f';
+            let playerSprite;
             if (player.attacking) {
-                // Attack pose
-                ctx.fillRect(35, 30, 20, 8);
-
-                // Weapon/Effect
-                ctx.fillStyle = '#f39c12';
-                ctx.beginPath();
-                ctx.moveTo(55, 25);
-                ctx.lineTo(75, 34);
-                ctx.lineTo(55, 43);
-                ctx.closePath();
-                ctx.fill();
+                playerSprite = sprites.character.attack?.[player.attackFrame];
             } else {
-                ctx.fillRect(5, 30, 8, 20);
-                ctx.fillRect(37, 30, 8, 20);
+                playerSprite = sprites.character[player.state]?.[player.frame % (sprites.character[player.state]?.length || 1)];
+            }
+
+            if (playerSprite) {
+                // Draw sprite scaled up
+                const scale = 3;
+                ctx.drawImage(playerSprite, -playerSprite.width * scale / 2, 0, playerSprite.width * scale, playerSprite.height * scale);
+            } else {
+                // Fallback character
+                ctx.fillStyle = '#3498db';
+                ctx.fillRect(-player.width/2, 0, player.width, player.height);
+            }
+
+            // Attack effect
+            if (player.attacking) {
+                ctx.fillStyle = 'rgba(255, 200, 100, 0.6)';
+                ctx.beginPath();
+                ctx.arc(35, player.height/2, 30 + player.attackFrame * 10, 0, Math.PI * 2);
+                ctx.fill();
             }
 
             ctx.restore();
 
-            // Draw particles
+            // Particles
             particles.forEach(p => {
                 ctx.fillStyle = p.color;
-                ctx.globalAlpha = p.life / 40;
+                ctx.globalAlpha = p.life / 50;
                 ctx.beginPath();
-                ctx.arc(p.x, p.y, 4, 0, Math.PI * 2);
+                ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
                 ctx.fill();
             });
             ctx.globalAlpha = 1;
@@ -903,56 +810,36 @@
         function startGame() {
             document.getElementById('startScreen').style.display = 'none';
             gameRunning = true;
-
-            // Spawn initial monsters
-            for (let i = 0; i < 3; i++) {
-                spawnMonster();
-            }
+            for (let i = 0; i < 3; i++) spawnMonster();
         }
 
         function gameOver() {
             gameRunning = false;
             document.getElementById('gameOverScreen').style.display = 'flex';
             document.getElementById('scoreDisplay').textContent = `Level ${player.level} - ${player.kills} Kills`;
-            document.getElementById('finalStats').textContent =
-                `Total EXP: ${player.expToLevel * (player.level - 1) + player.exp} | Attack: ${player.attack} | Defense: ${player.defense}`;
+            document.getElementById('finalStats').textContent = `ATK: ${player.attack} | DEF: ${player.defense}`;
         }
 
         function restartGame() {
-            // Reset player
-            player.x = 100;
-            player.y = 400;
-            player.vx = 0;
-            player.vy = 0;
-            player.level = 1;
-            player.hp = 100;
-            player.maxHp = 100;
-            player.mp = 50;
-            player.maxMp = 50;
-            player.exp = 0;
-            player.expToLevel = 100;
-            player.attack = 15;
-            player.defense = 5;
-            player.kills = 0;
-            player.invincible = 0;
-            player.attacking = false;
-
-            // Clear
+            Object.assign(player, {
+                x: 100, y: 400, vx: 0, vy: 0,
+                level: 1, hp: 100, maxHp: 100, mp: 50, maxMp: 50,
+                exp: 0, expToLevel: 100, attack: 20, defense: 5,
+                kills: 0, invincible: 0, attacking: false
+            });
             monsters = [];
             particles = [];
             gameTime = 0;
-
             document.getElementById('gameOverScreen').style.display = 'none';
             gameRunning = true;
-
-            // Spawn initial monsters
-            for (let i = 0; i < 3; i++) {
-                spawnMonster();
-            }
+            for (let i = 0; i < 3; i++) spawnMonster();
         }
 
-        // Start game loop
-        gameLoop();
+        // Initialize
+        loadSprites().then(() => {
+            console.log('Game ready!');
+            gameLoop();
+        });
     </script>
 </body>
 </html>
